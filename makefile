@@ -1,9 +1,9 @@
 all:
 	pdflatex main.tex
-	bibtex main.aux
+	biber main
 	pdflatex main.tex
-	pdflatex main.tex
-	mv main.pdf Tesis_Multiobjetivo.pdf
+#	pdflatex main.tex
+#	mv main.pdf Tesis_Multiobjetivo.pdf
 #	latex boockchapter.tex
 #	bibtex boockchapter
 #	latex boockchapter.tex
@@ -16,4 +16,4 @@ clean:
 	rm -f *.log *.dvi *.aux *.bbl *.blg *~
 	
 cleanall:
-	rm -f *.log *.dvi *.aux *.bbl *.blg *~ Tesis_Multiobjetivo.pdf *.ps *.out
+	rm -f *.log *.dvi *.aux *.bbl *.blg *~ main.pdf *.ps *.out

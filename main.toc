@@ -1,0 +1,14 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n y antecedentes}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Conceptos}{12}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Paradigmas de algoritmos multi-objetivo}{18}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Problemas de prueba}{38}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Convergencia en algoritmos evolutivos}{45}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Algoritmo de diversidad basado en dominancia}{53}{0}{6}

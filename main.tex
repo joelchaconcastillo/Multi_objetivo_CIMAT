@@ -12,7 +12,7 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{booktabs} % For formal tables
 \usepackage{times}
@@ -263,7 +263,6 @@ sujeto\quad a \quad  &g_j(x) \geq 0 \quad j = 1,2, ... J\\
 \end{split}
 \label{eqn:MOOP}
 \end{equation}
-%donde $x_i^{(L)}, x_i^{(U)}$ son el límite inferior y superior de la $i$-ésima variable respectivamente.
 \end{frame}
 
 
@@ -275,8 +274,7 @@ sujeto\quad a \quad  &g_j(x) \geq 0 \quad j = 1,2, ... J\\
     \item A diferencia del caso mono-objetivo, en el ámbito multi-objetivo no es posible comparar de forma directa dos soluciones $x, y \in \Omega$.
     \item Una alternativa para comparar soluciones es considerando la relación de dominancia.
 \end{itemize}
-
-\begin{mydef}{Dominancia}{theoexample}
+\begin{mydef}{Dominancia}{}
 \scriptsize
 Se dice que una solución $x$ domina a otra solución $y$ ($x \prec y$), si se cumplen las siguientes dos condiciones:
     \begin{itemize}
@@ -299,15 +297,15 @@ $\exists m \in \{ 1, 2, ..., M \}: f_m(x) < f_m(y)$
 
 \begin{frame}{Conceptos multi-objetivo}
 
-\begin{mydef}{ \scriptsize Conjunto no dominado}{theoexample}
+\begin{mydef}{ \scriptsize Conjunto no dominado}{}
 \scriptsize
-    \item Es la colección de todas la soluciones incomparables y no dominadas relacionadas al conjunto $S \subseteq \Omega$ .
+    Es la colección de todas la soluciones incomparables y no dominadas relacionadas al conjunto $S \subseteq \Omega$ .
     \begin{equation*}
         NDS(S) = \{ s \in S: \nexists s\prime \in S, s\prime \prec s \}
     \end{equation*}
 \end{mydef}
 
-\begin{mydef}{\scriptsize Conjunto Óptimo de Pareto}{theoexample}
+\begin{mydef}{\scriptsize Conjunto Óptimo de Pareto}{}
 \scriptsize
 %\begin{itemize}
 %    \item 
@@ -318,7 +316,7 @@ Es un conjunto de vectores de decisión óptimos no dominados en $\Omega$.
 %\end{itemize}{}
 \end{mydef}
 
-\begin{mydef}{\scriptsize Frente de Pareto}{theoexample}
+\begin{mydef}{\scriptsize Frente de Pareto}{}
 \scriptsize
 %\begin{itemize}
     %\item 
@@ -398,14 +396,19 @@ Algunos de los clásicos algoritmos multi-objetivo basados en dominancia son:
 \begin{itemize}
 \scriptsize
 \item Es uno de los primeros algoritmos multi-objetivo que introducen elitismo.
-\item Realiza una clasificación por frentes de baja complejidad $O(MN^2)$, estrategia ampliamente utilizada en multi-objetivo conocida como \textit{fast-non-dominated-sortig}.
-\item Considera un operador de amontonamiento o \textit{crowding}. 
+\item Realiza una clasificación por frentes de baja complejidad $O(MN^2)$, estrategia ampliamente utilizada en multi-objetivo conocida como \textit{fast-non-dominated-sortig} (convergencia al frente de Pareto).
+\item Considera un operador de amontonamiento o \textit{crowding} (diversidad en el frente de Pareto).
+\begin{equation*}
+   d_i = \sum_{j=1}^m \frac{f_j^{i+1} - f_j^{i-1}   }{f_j^{max} - f_j^{min}}
+\end{equation*}
 \end{itemize}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{crowding_nsgaii.png}
-\caption{\scriptsize Procedimiento principal del NSGA-II\footcite{Joel:NSGAII}.}
+\begin{tabular}{c c}
+\includegraphics[width=0.3\textwidth]{fronts.png} & \includegraphics[width=0.3\textwidth]{crowding_nsgaii.jpg} 
+\end{tabular}
+\caption{\scriptsize Clasificación por frentes (izquierda) y distancia de crowding (derecha)\footcite{kadlec2016multi}.}
 \end{figure}
 \end{frame}
 
@@ -420,7 +423,7 @@ Algunos de los clásicos algoritmos multi-objetivo basados en dominancia son:
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{crowding_nsgaii.png}
+\includegraphics[width=0.7\textwidth]{nsgaii_main.png}
 \caption{\scriptsize Procedimiento principal del NSGA-II\footcite{Joel:NSGAII}.}
 \end{figure}
 \end{frame}
@@ -438,50 +441,44 @@ Algunos de los clásicos algoritmos multi-objetivo basados en descomposición so
     \item \citeyear{zhou2015all}, \textit{MOEA/D - Generalized Resource Allocation} (MOEA/D-GRA) \\ \citeauthor{zhou2015all}.
 \end{itemize}
 \end{frame}
-\begin{frame}{Clasificación por frentes}
-    Poner la figura de rankeo.
-\end{frame}
 
 \begin{frame}{Multi-objective Evolutionary Algorithm based in Decomposition (MOEA/D)}
 \scriptsize
 %\item Realiza la descomposición de un problema de optimización multi-objetivo en un conjunto de subproblemas de optimización mono-objetivo de forma simultánea.
-MOEA/D\footcite{ishibuchi1998multi}:
+La versión original del MOEA/D\footcite{ishibuchi1998multi} tiene las siguientes particularidades:
 \begin{itemize}
 \scriptsize
     \item Cada subproblema está definido por un vector de pesos.
-    \item Define vecindades de cada subproblema en relación su ubicación en el espacio de los objetivos.
+    \item Define vecindades de cada subproblema en relación a su ubicación en el espacio objetivo.
     \item Sólo se hacen emparejamientos y reemplazamientos en los vecindarios.
     \item Considera el operador de cruza SBX y el operador de mutación polinomial.
 \end{itemize}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.35\textwidth]{moead_diagrama.png}
+\caption{\scriptsize Vectores de pesos y su punto óptimo con el enfoque de Tchebysheff\footcite{Joel:MOEAD_Adaptative}}
+\end{figure}
+
 \end{frame}
 
 \begin{frame}{Multi-objective Evolutionary Algorithm based in Decomposition (MOEA/D)}
-\begin{itemize}
+%\begin{itemize}
 \scriptsize
-\item MOEA/D-DE además considera\footcite{li2009multiobjective}: 
+Una versión bastante popular y que tomó el primer lugar en la competancia del CEC 2009 (\textit{Congress on Evolutionary Computation}) es el  MOEA/D-DE que además considera las siguientes características\footcite{li2009multiobjective}: 
 \begin{itemize}
 \scriptsize
     \item Reestricciones de emparejamiento y de reemplazamiento.
-    \item Para mantener diversidad se considera emparejamiento en toda la población con probabilidad $1 - \delta$ y en el vecindario con probabilidad $\delta$. 
+    \item Para mantener diversidad en el espacio de las variables se considera emparejamiento en toda la población con probabilidad $1 - \delta$ y en el vecindario con probabilidad $\delta$. 
     \item Implementa un mecanismo que administra las evaluaciones de cada subproblema \textit{Dynamical Resource Allocation}.
     \item Utiliza operadores de evolución diferencial y el operador de mutación polinomial.
 \end{itemize}
-\end{itemize}
+%\end{itemize}
 \end{frame}
 
-
-
-\begin{frame}{Multi-objective Evolutionary Algorithm based in Decomposition (MOEA/D)}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.6\textwidth]{moead_diagrama.png}
-\caption{\scriptsize Vectores de pesos y su punto óptimo con el enfoque de Tchebysheff\footcite{Joel:MOEAD_Adaptative}}
-\end{figure}
-\end{frame}
 
 
 \begin{frame}{Funciones de utilidad}
+Existen una gran variedad de funciones de utilidad para converir un problema multi-objetivo en un conjunto de problemas de un sólo objetivo, algunos de los más utilizados son\footcite{raquel_2018}:
 \begin{itemize}
 \scriptsize
 \item Suma ponderada (\textit{Weighted Sum})
@@ -513,14 +510,14 @@ MOEA/D\footcite{ishibuchi1998multi}:
 \includegraphics[width=0.4\textwidth]{asf.png}     &  \includegraphics[width=0.4\textwidth]{pbi.png} \\
 \end{tabular}
 \centering
-\caption{\scriptsize Mapa de contorno de las funciones de utilidad.}
+\caption{\scriptsize Mapa de contorno de las funciones de utilidad\footcite{raquel_2018}.}
 \end{figure}
 \end{frame}
 
 
 
 \begin{frame}{Algoritmos basados en indicadores}
-Algunos de los clásicos algoritmos multi-objetivo basados en indicadores son:
+Algunos de los algoritmos clásicos multi-objetivo basados en indicadores son:
 \begin{itemize}
 \scriptsize
    \item \citeyear{Joel:IBEA}, \textit{Indicator Based-Selection Evolutionary Algorithm } (IBEA), \\ \citeauthor{Joel:IBEA}.
@@ -568,51 +565,86 @@ Existen distintas herramientas para verificar la calidad de las soluciones de un
 Poner diagrama de las pruebas estadísticas.
 \end{frame}
 
+\begin{frame}{Métricas de desempeño}
+   \begin{itemize}
+	\scriptsize
+        \item En optimización multi-objetivo se han propuesto varios indicadores o métricas para evaluar la calidad de un conjunto de soluciones.
+	\item En general los indicadores son métricas que determinan el grado de convergencia al frente de Pareto y/o diversidad de las soluciones.
+	\item El indicador más frecuente es el hipervolumen debido a que es el único del tipo \textit{Pareto compliant}\footcite
+{Joel:ComparativeCaseStudy}.
+	\item Ser \textit{Pareto compliant}\footcite{Joel:ComparacionMetricas} quiere decir que el indicador no contradice el orden inducido por la relación de dominancia.
+	\begin{equation*}
+	   A \succeq B \wedge  B \not \succeq A \rightarrow I(A) > I(B)
+	\end{equation*}
+   \end{itemize} 
+\end{frame}
 
 
 \begin{frame}{Hipervolumen}
 \begin{itemize}
+\scriptsize
 \justifying
 \item Es un indicador unario conocido como ``Pareto Compliant''\footcite{zitzler1999evolutionary}.
-\item Este indicador determina la porción del espacio objetivo que es dominado por las soluciones de un conjunto $A$, el cual es limitado por un punto de referencia $r \in \Re^n$:
+\item Este indicador determina la porción del espacio objetivo que es dominado por las soluciones de un conjunto $A$, el cual es limitado por un punto de referencia $r \in \Re^n$ indicado en la ecuación (\ref{eqn:HV}), donde $\Lambda$ denota la medición de Lebesgue y $r$ debería ser dominado por todos los elementos en $A$.
 \end{itemize}
-\begin{equation}
+\begin{equation}\label{eqn:HV}
 \scriptsize
     HV(A;r) = \Lambda \left (  \bigcup_{a \in A} \{ x | a \prec x \prec r \} \right )
 \end{equation}
-donde $\Lambda$ denota la medición de Lebesgue y $r$ debería ser dominado por todos los elementos en $A$.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.55\textwidth]{HV.jpg}
 %\caption{\scriptsize Mapeo del espacio de las variables (a) en el espacio objetivo (b)\footcite{alam2012diversity}.}
 \end{figure}
 \end{frame}
-\begin{frame}{Pareto compliant}
-    
-\end{frame}
 
 \begin{frame}{Distancia generacional}
 \begin{itemize}
 \justifying
 \scriptsize
-\item Propociona una noción de distanca entre el frente de Pareto discretizado $R$ y un conjunto aproximado $A$.
-\item Consiste en el promedio de las distancias de cada punto de referencia a su solución más cercana $A$:
+\item En el \citeyear{Joel:GD} \citeauthor{Joel:GD} propuso la distancia generacional (GD), el cual es un indicador unario del tipo Pareto \textit{non-compliant}.
+\item \textcolor{red}{Requiere de un conjunto de referencia}, el cual es una discretización del frente de Pareto.
+\item El GD calcula la distancia promedio de cada solución obtenido al punto de referencia más cercano.
 \end{itemize}
-% Please add the following required packages to your document preamble:
-% \usepackage{graphicx}
-\begin{table}[]
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{cc}
-$IGD(a; R) = \left (  \frac{1}{|R|} \sum_{r \in R} d(r, A)^p \right)^{1/p}$ & $IGD^+(a; R)= \left (  \frac{1}{|R|} \sum_{r \in R} d^+(r, A)^p \right)^{1/p}$ \\ \\
-$d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \sqrt{\sum_{i=1}^m (max\{ a_i - z_i, 0\})^2}$
-\end{tabular}%
-}
-\end{table}
+\begin{equation*}
+\scriptsize
+\begin{split}
+GD(A; R) = \frac{1}{|A|} \left (   \sum_{a \in A} d(a, R)^p \right)^{1/p}, \quad d(a, R) = \min_{r \in R} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}
+\end{split}
+\end{equation*}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.55\textwidth]{igd.png}
-\caption{\scriptsize Ejemplo de las métricas IGD (izquierda) e IGD+ (derecha).\footcite{ishibuchi2016sensitivity}.}
+\input{GD.tex}
+%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
 \end{figure}
+\end{frame}
+
+
+\begin{frame}{Desventajas de la distancia generacional}
+\begin{itemize}
+\justifying
+\scriptsize
+\item El conjunto aproximado puede no converger a todo el frente de Pareto y aún así se tendría una medición ``buena'' (ver figura \ref{fig:igd}).
+
+\item Existe un sesgo al incrementar el número de puntos aproximados, es decir genera valores menores de GD al aumentar la cantidad de soluciones pero sin mejorar la calidad de las aproximaciones\footcite{Joel:HausdorffDistance}.
+%\begin{equation*}
+%\begin{split}
+%& GD(a, R) = \frac{1}{|A|} \left (   \sum_{a \in A} d(a, R)^p \right)^{1/p} = \frac{||(1,...,1)^T ||_p}{|A|} = \frac{(|A|)^{1/p}}{|A|} \\
+%& lim_{|A| \rightarrow \inf} GD(a, R) = 0 \\
+%\end{split}
+%\end{equation*}
+\item ¿Cómo se puede mejorar?
+\end{itemize}
+\begin{figure}[H]
+\centering
+\input{GD_fail.tex}
+%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+\caption{\scriptsize Ejemplo de una desventaja de la distancia generacional.} \label{fig:igd}
+\end{figure}
+
+
 \end{frame}
 
 
@@ -620,83 +652,198 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{itemize}
 \justifying
 \scriptsize
-\item Propociona una noción de distanca entre el frente de Pareto discretizado $R$ y un conjunto aproximado $A$.
-\item Consiste en el promedio de las distancias de cada punto de referencia a su solución más cercana $A$:
+\item A diferencia de GD, la Distancia Generacional Invertida (IGD) es la distancia promedio de cada punto de referencia a su solución más cercana del conjunto aproximado.
+%\item La métrica sigue siendo Pareto \textit{non-compliant}.
 \end{itemize}
-% Please add the following required packages to your document preamble:
-% \usepackage{graphicx}
-\begin{table}[]
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{cc}
-$IGD(a; R) = \left (  \frac{1}{|R|} \sum_{r \in R} d(r, A)^p \right)^{1/p}$ & $IGD^+(a; R)= \left (  \frac{1}{|R|} \sum_{r \in R} d^+(r, A)^p \right)^{1/p}$ \\ \\
-$d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \sqrt{\sum_{i=1}^m (max\{ a_i - z_i, 0\})^2}$
-\end{tabular}%
-}
-\end{table}
+\begin{equation*}
+\scriptsize
+\begin{split}
+IGD(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d(r, A)^p \right)^{1/p}, \quad d(r, A) = \min_{a \in A} \sqrt{\sum_{i=1}^m (r_i - a_i)^2}
+\end{split}
+\end{equation*}
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.55\textwidth]{igd.png}
-\caption{\scriptsize Ejemplo de las métricas IGD (izquierda) e IGD+ (derecha).\footcite{ishibuchi2016sensitivity}.}
+\includegraphics[width=0.4\textwidth]{igd_1.png}
+\caption{\scriptsize Ejemplo de la distancia generacional invertida.\footcite{ishibuchi2016sensitivity}.}
 \end{figure}
 \end{frame}
 
 
+\begin{frame}{Desventajas de la distancia generacional invertida}
+\begin{itemize}
+\justifying
+\scriptsize
+\item La métrica sigue siendo Pareto \textit{non-compliant}, por lo tanto existen situaciones en que un conjunto de soluciones alejado del frente de mejores valores que un conjunto más cercano del frente.
+\item Se puede observar en la figura \ref{fig:igd_fail} que a pesar de que la solución $\boldsymbol{b}$ es dominada por la solución $\boldsymbol{a}$, la distancia de un punto de referencia $\boldsymbol{z}$ a $\boldsymbol{b}$ puede ser menor que la distancia de $\boldsymbol{z}$ a $\boldsymbol{a}$.
+\item ¿Cómo se puede mejorar?
+\end{itemize}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.3\textwidth]{igd_2.png}
+\caption{\scriptsize Desventaja de la métrica IGD.\footcite{ishibuchi2016sensitivity}.} \label{fig:igd_fail}
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}{Distancias}
+\begin{itemize}
+\justifying
+\scriptsize
+\item Propuesta por \citeauthor{Joel:IGDPlus_And_GDPlus} en el \citeyear{Joel:IGDPlus_And_GDPlus}, es considerada como débilmente \textit{Pareto Compliant}.
+\item Si una solución es dominada por un punto de referencia se utiliza la distancia euclideana.
+\item Si la solución y el punto de referencia son no dominados entre sí, entonce se calcula la distancia mínima desde el punto de referencia a la región no dominada.
+\end{itemize}
+\begin{equation*}
+\scriptsize
+\begin{split}
+IGD(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d^+(r, A)^p \right)^{1/p}, \quad d^+ = \min_{a \in A} \sqrt{\sum_{i=1}^m (max\{ a_i - z_i, 0\})^2}
+\end{split}
+\end{equation*}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.25\textwidth]{igd_3.png}
+\caption{\scriptsize Distancia generacional invertida modificada (IGD+).\footcite{ishibuchi2016sensitivity}.}
+\end{figure}
+\end{frame}
 
 \begin{frame}{Distancia generacional invertida modificada}
 \begin{itemize}
 \justifying
 \scriptsize
-\item Propociona una noción de distanca entre el frente de Pareto discretizado $R$ y un conjunto aproximado $A$.
-\item Consiste en el promedio de las distancias de cada punto de referencia a su solución más cercana $A$:
+\item Propuesta por \citeauthor{Joel:IGDPlus_And_GDPlus} en el \citeyear{Joel:IGDPlus_And_GDPlus}, es considerada como débilmente \textit{Pareto Compliant}.
+\item Si una solución es dominada por un punto de referencia se utiliza la distancia euclideana, pero si la solución y el punto de referencia son no dominados entre sí, entonce se calcula la distancia mínima desde el punto de referencia a la región no dominada.
 \end{itemize}
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
 \begin{table}[]
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{cc}
-$IGD(a; R) = \left (  \frac{1}{|R|} \sum_{r \in R} d(r, A)^p \right)^{1/p}$ & $IGD^+(a; R)= \left (  \frac{1}{|R|} \sum_{r \in R} d^+(r, A)^p \right)^{1/p}$ \\ \\
+$IGD(A; R) =  \frac{1}{|R|} \left (  \sum_{r \in R} d(r, A)^p \right)^{1/p}$ & $IGD^+(A; R)= \frac{1}{|R|}\left (   \sum_{r \in R} d^+(r, A)^p \right)^{1/p}$ \\ \\
 $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \sqrt{\sum_{i=1}^m (max\{ a_i - z_i, 0\})^2}$
 \end{tabular}%
 }
 \end{table}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.55\textwidth]{igd.png}
+\includegraphics[width=0.5\textwidth]{igd.png}
 \caption{\scriptsize Ejemplo de las métricas IGD (izquierda) e IGD+ (derecha).\footcite{ishibuchi2016sensitivity}.}
 \end{figure}
 \end{frame}
 
 
+
 \section{Problemas de prueba}
 \begin{frame}{Problemas de prueba en el ámbito multi-objetivo}
 \begin{itemize}
-   \item ZDT, \citeauthor{Joel:ZDT}, \citeyear{Joel:ZDT}, únicamente de dos objetivos, escalables en las variables.
-   \item DTLZ, \citeauthor{Joel:DTLZ_1}, (versión 1 \citeyear{Joel:DTLZ_1}, versión 2 \citeyear{Joel:DTLZ_2}), escalables en los objetivos y las variables.
-   \item WFG, \citeauthor{Joel:WFG_Main}, \citeyear{Joel:WFG_Main}, escalables en los objetivos y las variables.
-   \item UF, \citeauthor{Joel:CEC2009}, \citeyear{Joel:CEC2009}, únicamente de dos objetivos (UF1-UF7) y tres objetivos (UF8-UF10), escalables en las variables.
+   \item ZDT, \citeauthor{Joel:ZDT}, \citeyear{Joel:ZDT}.%, únicamente de dos objetivos, escalables en las variables.
+   \item DTLZ, \citeauthor{Joel:DTLZ_1}, (versión 1 \citeyear{Joel:DTLZ_1}, versión 2 \citeyear{Joel:DTLZ_2}).%, escalables en los objetivos y las variables.
+   \item WFG, \citeauthor{Joel:WFG_Main}, \citeyear{Joel:WFG_Main}.%, escalables en los objetivos y las variables.
+   \item UF, \citeauthor{Joel:CEC2009}, \citeyear{Joel:CEC2009}.%, únicamente de dos objetivos (UF1-UF7) y tres objetivos (UF8-UF10), escalables en las variables.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{WFG}
-poner imagenes
+
+\begin{frame}{Problemas de prueba DTLZ}
 \begin{itemize}
-   \item WFG, \citeauthor{Joel:WFG_Main}, \citeyear{Joel:WFG_Main}, escalables en los objetivos y las variables.
+   \scriptsize
+   \item Estos problemas son escalables en los objetivos y las variables.
+   \item Existen dos versiones diseñadas por los mismos autores, en el \citeyear{Joel:DTLZ_1} y en el \citeyear{Joel:DTLZ_2}.
+   \item Los óptimos globales están ubicados en el centro del espacio de búsqueda o en los límites.
+   \item Para todos los problemas, el óptimo global tiene los mismos valores de parámetros para distintas variables.
 \end{itemize}
+\begin{figure}[H]
+\begin{tabular}{c c}
+\includegraphics[width=0.3\textwidth]{DTLZ1.jpg}     &  \includegraphics[width=0.3\textwidth]{DTLZ3.jpg} \\
+\includegraphics[width=0.3\textwidth]{DTLZ5.jpg}     &  \includegraphics[width=0.3\textwidth]{DTLZ7.jpg} \\
+\end{tabular}
+\centering
+\caption{\scriptsize Frente de Pareto discretizado.}
+\end{figure}
+
 \end{frame}
 
 
-\begin{frame}{UF}
-poner imagenes
+\begin{frame}{Problemas de prueba \textit{Walking Fish Group} WFG}
 \begin{itemize}
-   \item UF, \citeauthor{Joel:CEC2009}, \citeyear{Joel:CEC2009}, únicamente de dos objetivos (UF1-UF7) y tres objetivos (UF8-UF10), escalables en las variables.
+\scriptsize
+   \item Estos problemas son escalables en los objetivos y las variables.
+   \item El generador de problemas de prueba WFG fue propuesto por \citeauthor{Joel:WFG} en el \citeyear{Joel:WFG}.
+   \item A pesar de que es un generador de problemas, popularmente se utilizan nueve problemas de prueba.
+   \item Los problemas WFG dividen el espaco de las variables de decisión en dos subconjuntos: los parámetros de distancia y los parámetros de posición.
 \end{itemize}
+\begin{figure}[H]
+\includegraphics[width=0.45\textwidth]{pos_dist.png}
+\centering
+\caption{\scriptsize Parámetros de posición y distancia WFG.}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Unconstrained Functions UF}
+\begin{itemize}
+\scriptsize
+   \item Estos son únicamente de dos objetivos (UF1-UF7) y tres objetivos (UF8-UF10), además son escalables en las variables.
+   \item Este conjunto de prueba fue propuesto en el Congreso de Cómputo Evolutivo (CEC 2009) en el \citeyear{Joel:CEC2009} por \citeauthor{Joel:CEC2009}.
+   \item Este tipo de problemas aún se consideran un reto para los optimizadores multi-objetivo.
+\end{itemize}
+\begin{figure}[H]
+\begin{tabular}{c c}
+\includegraphics[width=0.4\textwidth]{UF1.eps}     &  \includegraphics[width=0.4\textwidth]{UF6.eps} \\
+\includegraphics[width=0.4\textwidth]{UF9.eps}     &  \includegraphics[width=0.4\textwidth]{UF10.eps} \\
+\end{tabular}
+\centering
+\caption{\scriptsize Frente de Pareto y conjunto de Pareto.}
+\end{figure}
+
 \end{frame}
 
 
 
-\begin{frame}{Superficie de cubrimiento}
-Superficie de cubrimiento.
+\begin{frame}{Superficie de alcance}
+\begin{itemize}
+\item Una superficie de alcance o superficie de cubrimiento es una descripción de la distribución alcanzada en base a un conjunto de soluciones.
+\item Es un gráfico que muestra un resumen de una cantidad de solucione en varias medidas descriptivas considerando la relación de dominancia.
+\end{itemize}
+\begin{figure}[H]
+\includegraphics[width=0.4\textwidth]{superficie_alcance_WFG8.eps}
+\centering
+\caption{\scriptsize Superficie de alcance de cinco algoritmos considerando 35 ejecuciones y el problema WFG8.}
+\end{figure}
 \end{frame}
+
+
+\begin{frame}{Diferencia de la superficie de alcance}
+\begin{itemize}
+\item Proporciona una diferencia estadística entre los resultados generados por dos algoritmos.
+\end{itemize}
+\begin{figure}[H]
+ \includegraphics[width=0.8\textwidth]{diff_plot.png} 
+\centering
+\caption{\scriptsize Diferencia estadística de dos algoritmos considerando 35 ejecuciones y el problema WFG8.}
+\end{figure}
+
+\end{frame}
+
+
+
+\begin{frame}{Pruebas estadísticas}
+\begin{itemize}
+\item Las pruebas estadísticas se realizan comparando resultados de los algoritmos por pares.
+\end{itemize}
+\begin{figure}[H]
+\begin{tabular}{c}
+\includegraphics[width=0.8\textwidth]{Tests.png}
+\end{tabular}
+\centering
+\caption{\scriptsize Esquema de las pruebas estadísticas\footcite{Joel:StatisticalTest}.}
+\end{figure}
+
+\end{frame}
+
 
 \section{Convergencia en algoritmos evolutivos}
 
@@ -848,7 +995,7 @@ poner hipótesis....
 	   \STATE \textbf{Variation}: Apply SBX crossover and Polynomial mutation to the mating pool to create a child population $Q_t$.
 		 \STATE \textbf{Evaluation}: Evaluate all individuals in $Q_t$.
 	   \STATE \textbf{Survivor selecction}: Generate $P_{t+1}$ by applying the replacement scheme 
-		 described in Algorithm \ref{alg:Replacement_Phase}, using $P_t$ and $Q_t$ as input.
+		 described in Algorithm , using $P_t$ and $Q_t$ as input.
 	   \STATE $t=t+1$
 	\ENDWHILE
 	\end{algorithmic}
@@ -860,7 +1007,7 @@ poner hipótesis....
 
 \begin{frame}{Fase de reemplazo}
 Principalmente, la fase de reemplazo se basa en un método de penalización que implementa la métrica de mejoría. \\
-($D^b(p_i, r_i) =& \sum_{i \in M} max\{0, p_i - r_i\}^2$).
+($D^b(p_i, r_i) = \sum_{i \in M} max\{0, p_i - r_i\}^2$).
 \begin{figure}[t]
 \centering
 \input{Diagram.tex}
