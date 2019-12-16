@@ -1,25 +1,25 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'main.blg'
-[27] biber:313> INFO - === Sun Dec 15, 2019, 23:45:23
-[53] Biber.pm:371> INFO - Reading 'main.bcf'
-[124] Biber.pm:857> INFO - Found 51 citekeys in bib section 0
-[142] Biber.pm:3981> INFO - Processing section 0
-[160] Biber.pm:4154> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[174] bibtex.pm:1468> INFO - LaTeX decoding ...
-[515] bibtex.pm:1294> INFO - Found BibTeX data source 'biblio.bib'
-[658] Utils.pm:169> WARN - month field 'Jun' in entry 'Joel:NPGA' is not an integer - this will probably not sort properly.
-[670] Utils.pm:169> WARN - month field 'Apr' in entry 'Joel:NSGAII' is not an integer - this will probably not sort properly.
-[674] Utils.pm:169> WARN - month field 'Sept' in entry 'Joel:GDE3' is not an integer - this will probably not sort properly.
-[693] Utils.pm:169> WARN - month field 'Dec' in entry 'Joel:MOEAD' is not an integer - this will probably not sort properly.
-[703] Utils.pm:169> WARN - month field 'June' in entry 'Joel:MOEAD_AMS' is not an integer - this will probably not sort properly.
-[716] Utils.pm:169> WARN - month field 'Feb' in entry 'Joel:MOEAD_Adaptative' is not an integer - this will probably not sort properly.
-[740] Utils.pm:169> WARN - month field 'Oct' in entry 'Joel:FV-MOEA' is not an integer - this will probably not sort properly.
-[771] Utils.pm:169> WARN - month field 'May' in entry 'Joel:ComparacionMetricas' is not an integer - this will probably not sort properly.
-[935] Utils.pm:169> WARN - month field 'Aug' in entry 'Joel:StatisticalTest' is not an integer - this will probably not sort properly.
-[1006] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1006] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1006] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[1006] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
-[1068] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1092] bbl.pm:720> INFO - Output to main.bbl
-[1092] Biber.pm:110> INFO - WARNINGS: 9
+[24] biber:313> INFO - === Mon Dec 16, 2019, 00:55:58
+[43] Biber.pm:371> INFO - Reading 'main.bcf'
+[98] Biber.pm:857> INFO - Found 51 citekeys in bib section 0
+[116] Biber.pm:3981> INFO - Processing section 0
+[125] Biber.pm:4154> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[135] bibtex.pm:1468> INFO - LaTeX decoding ...
+[415] bibtex.pm:1294> INFO - Found BibTeX data source 'biblio.bib'
+[545] Utils.pm:169> WARN - month field 'Jun' in entry 'Joel:NPGA' is not an integer - this will probably not sort properly.
+[556] Utils.pm:169> WARN - month field 'Apr' in entry 'Joel:NSGAII' is not an integer - this will probably not sort properly.
+[560] Utils.pm:169> WARN - month field 'Sept' in entry 'Joel:GDE3' is not an integer - this will probably not sort properly.
+[576] Utils.pm:169> WARN - month field 'Dec' in entry 'Joel:MOEAD' is not an integer - this will probably not sort properly.
+[584] Utils.pm:169> WARN - month field 'June' in entry 'Joel:MOEAD_AMS' is not an integer - this will probably not sort properly.
+[596] Utils.pm:169> WARN - month field 'Feb' in entry 'Joel:MOEAD_Adaptative' is not an integer - this will probably not sort properly.
+[619] Utils.pm:169> WARN - month field 'Oct' in entry 'Joel:FV-MOEA' is not an integer - this will probably not sort properly.
+[630] Utils.pm:169> WARN - month field 'May' in entry 'Joel:ComparacionMetricas' is not an integer - this will probably not sort properly.
+[709] Utils.pm:169> WARN - month field 'Aug' in entry 'Joel:StatisticalTest' is not an integer - this will probably not sort properly.
+[755] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[755] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[755] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[755] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[805] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[822] bbl.pm:720> INFO - Output to main.bbl
+[822] Biber.pm:110> INFO - WARNINGS: 9

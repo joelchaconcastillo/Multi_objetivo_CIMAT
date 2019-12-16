@@ -9,7 +9,6 @@
   \setbeamertemplate{caption}[numbered]
   \setbeamertemplate{footline}[frame number]
 } 
-\usepackage{graphicx}
 \usepackage{tikz}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
@@ -18,10 +17,11 @@
 \usepackage{times}
 \usepackage{textcomp}
 \usepackage{amsmath}
-\usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{algorithmic}
 \usepackage{algorithm}
+
+\usepackage{graphicx}
 \usepackage{ragged2e}
  \apptocmd{\frame}{}{\justifying}{} % Allow optional arguments after frame.0
 \renewcommand{\raggedright}{\justifying}
@@ -32,6 +32,7 @@
 \renewcommand{\footnotesize}{\tiny}
 %\renewcommand{\footnotesize}{\scriptsize}
 
+\usepackage{multirow}
 
 \usepackage[style=verbose]{biblatex}
 \bibliography{biblio}
@@ -39,6 +40,7 @@
 
 \renewcommand{\raggedright}{\justifying}
 
+\newcommand{\HV}{{\sc hv}}
 
 \usepackage{tcolorbox}
 \tcbuselibrary{theorems}
@@ -847,13 +849,106 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 
 \section{Convergencia en algoritmos evolutivos}
 
-\begin{frame}{Componentes de un algoritmo evolutivo}
-Poner los componentes de un algoritmo evolutivo    
+\begin{frame}{Operador de reemplazo \textit{Best-Non-Penalized} BNP}
+\begin{algorithm}[H]
+\algsetup{linenosize=\tiny}
+\caption{BNP Survivor Selection Technique} 
+\begin{scriptsize}
+\begin{algorithmic}
+\STATE Input: $P_t$ (Population of current generation), $Q_t$ (Offspring of current Generation)
+   	\STATE Output: $P_{t+1}$ 
+        \STATE $R_t = P_t \cup Q_t$ 
+        \STATE $P_{t+1} = \emptyset$ 
+        \STATE $Penalized = \emptyset$ 
+				\STATE $D_t = D_I - D_I * \frac{G_{Elapsed}}{0.5*G_{End}}$
+        \WHILE{ $|P_{t+1}|$ $\leq$ N } \label{alg:6}
+					\STATE Compute $DCS$ of individuals in $R_t$, using $P_{t+1}$ as a reference set
+					\STATE Move the individuals in $R_t$ with $DCS < D_t$ to $Penalized$
+        	\IF{$R_t$ is empty} \label{alg:9}
+						\STATE Compute $DCS$ of individuals in $Penalized$, using $P_{t+1}$ as a reference set
+						\STATE Move the individual in $Penalized$ with the largest $DCS$ to $R_t$
+        	\ENDIF
+					\STATE Select the new survivor from $R_t$ as the individual with the best fitness  and move it to $P_{t+1}$
+        \ENDWHILE
+    	\RETURN $P_{t+1}$ \label{alg:14}
+\end{algorithmic}
+\end{scriptsize}
+\end{algorithm}
 \end{frame}
 
-\begin{frame}{Esquema Best No Penalized}
-Poner esquema del BNP
+
+
+\begin{frame}{Ejemplo}
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{c c}
+   \includegraphics[scale=0.6]{1.eps} 
+  \end{tabular}
+  \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
+\end{figure}
 \end{frame}
+
+
+\begin{frame}{Ejemplo}
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{c c}
+   \includegraphics[scale=0.6]{2.eps} 
+  \end{tabular}
+  \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{c c}
+   \includegraphics[scale=0.6]{3.eps} 
+  \end{tabular}
+  \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{c c}
+   \includegraphics[scale=0.6]{4.eps} 
+  \end{tabular}
+  \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{c c}
+   \includegraphics[scale=0.6]{5.eps} 
+  \end{tabular}
+  \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ejemplo}
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{c c}
+   \includegraphics[scale=0.6]{6.eps} 
+  \end{tabular}
+  \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
+\end{figure}
+\end{frame}
+
+%\begin{frame}{Ejemplo}
+%\begin{figure}[H]
+%  \centering
+%  \begin{tabular}{c c}
+%   \includegraphics[scale=0.6]{7.eps} 
+%  \end{tabular}
+%  \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
+%\end{figure}
+%\end{frame}
+
 
 
 \begin{frame}{Análisis preliminar}
@@ -884,20 +979,12 @@ Poner esquema del BNP
 \item Se selecciona el problema de prueba WFG1 que aunque posee una definición simple, muchos MOEAs tienen dificultades de resolverlo.
 \justifying
 \item Específicamente, la instancia WFG1 es un problema uni-modal y separable.
-
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Análisis preliminar}
-\begin{itemize}
 \justifying
 \item La región óptima para el WFG1 esta indicada en la ecuación (\ref{optimo}), donde $k$ es el número de variables de posición y $k+1$ a $n$ son las variables de distancia.
 \end{itemize}
-
 \begin{equation} \label{optimo}
 	x_{i=k+1:n} = 2i \times 0.35
 \end{equation}
-
 \end{frame}
 
 \begin{frame}{Análisis preliminar}
@@ -906,21 +993,21 @@ Poner esquema del BNP
 \item Se realizaron $35$ ejecuciones con un criterio de paro de $50'000$ generaciones y el tamaño de población de $250$.
 \justifying
 \item Particularmente, el análisis de diversidad es considerando en las variables de distancia.
-\end{itemize} 
+\justifying
+\item Se calcula la distancia promedio entre los individuos (ADI \textit{Average Distance to all Individuals}).
+\end{itemize}
 \end{frame}
-
 
 
 
 \begin{frame}{Análisis preliminar}
 \begin{itemize}
 \justifying
-\item Se calcula la distancia promedio entre los individuos (ADI \textit{Average Distance to all Individuals}).
-\justifying
 \item En relativamente pocas generaciones (aproximadamente $5'000$), las variables de distancia convergen en todos los métodos.
 \justifying
 \item En algunas generaciones se recupera la diversidad por el efecto del operador de mutación polinomial.
 \end{itemize}
+
 \begin{figure}
 \centering
 \begin{tabular}{cc}
@@ -934,7 +1021,11 @@ Poner esquema del BNP
 
 
 \begin{frame}{Hipótesis}
-poner hipótesis....
+    \begin{itemize}
+        \item Los algoritmos evolutivos tienen un problema de convergencia acelerada en ejecuciones a largo plazo afectando la calidad de las soluciones.
+	\item Este problema podría ser tratado implementando mecanismos para administrar la diversidad considerando el tiempo de ejecución y el criterio de parada.
+%        \item Se ha demostrado que utlizar el criterio de parada ha mejorado el rendimiento en ejecuciones a largo plazo, principalmente esto se debe a que es relacionado el grado de diversidad con el criterio de paro con lo que se alcanza una balanceo entre exploración e intensificacion.
+    \end{itemize}
 \end{frame}
 
 
@@ -1075,16 +1166,16 @@ AWF_k (\vec{x}) = f_k(\vec{x}) + 10^{-4} \times  \sum_{j=1}^M f_j( \vec{x} )
 
 
 \begin{frame}{Comparación del estado-del-arte con ejecuciones a largo plazo}
+Pruebas estadísticas considerando al estado-del-arte
+\input{Tables/Tests_HV_2obj.tex}
+\input{Tables/Tests_HV_3obj.tex}
+\end{frame}
 
+\begin{frame}{Comparación del estado-del-arte con ejecuciones a largo plazo}
+\input{Tables/Table_HV_2obj.tex}
 \end{frame}
 
 
-\begin{frame}{Pruebas estadísticas}
-\end{frame}
-
-\begin{frame}{Estadísticas}
-
-\end{frame}
 
 
 \begin{frame}{Superficies de cubrimiento}
@@ -1092,13 +1183,61 @@ Poner superficie de diferencias.
 \end{frame}
 
 \begin{frame}{Análisis de escalabilidad en el espacio de las variables}
+\begin{figure}
+\centering
+\begin{tabular}{cc}
+\includegraphics[scale=0.6]{Images/Graphic-Scalability-2obj_tikz-figure0.eps} & \includegraphics[scale=0.6]{Images/Graphic-Scalability-3obj_tikz-figure0.eps}
+\end{tabular}
+\caption{Mean of the \HV{} ratio for 35 runs for the two-objective and three-objective problems considering different numbers of variables}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Análisis de diversidad en el espacio de la variables}
+\begin{figure}
+\centering
+\begin{tabular}{cc}
+\includegraphics[scale=0.6]{Images/Graphic-Diversity_2obj_tikz-figure1.eps} & \includegraphics[scale=0.6]{Images/Graphic-Diversity_3obj_tikz-figure1.eps} 
+\end{tabular}
+\caption{Evolution of ADI for problems WFG1-WFG7 with two objectives considering only the distance variables}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Análisis de rendimiento en función al criterio de paro}
+\begin{figure}[t]
+\centering
+\begin{tabular}{l}
+ \includegraphics[scale=0.6]{Images/Time_tikz-figure0.eps}\\[0cm]%[-0.14cm] 
+ \includegraphics[scale=0.6]{Images/Time_tikz-figure1.eps}\\[0cm]%[-0.18cm]
+ \includegraphics[scale=0.6]{Images/Time_tikz-figure2.eps}
+\end{tabular}
+\caption{\scriptsize Performance of MOEAs for the problems with two objectives considering three ranges for the stopping criterion: 
+short-term (first row), middle-term (second row) and long-term (third row).}
+\end{figure}
 \end{frame}
 
 \begin{frame}{Análisis de rendimiento en función al criterio de paro}
+\begin{figure}[t]
+\centering
+\begin{tabular}{l}
+ \includegraphics[scale=0.6]{Images/Time_tikz-figure3.eps}\\[0cm]%[-0.14cm] 
+ \includegraphics[scale=0.6]{Images/Time_tikz-figure4.eps}\\[0cm]%[-0.18cm]
+ \includegraphics[scale=0.6]{Images/Time_tikz-figure5.eps}
+\end{tabular}
+\caption{\scriptsize Performance of MOEAs for the problems with three objectives considering three ranges for the stopping 
+criterion: short-term (first row), middle-term (second row) and long-term (third row).}
+\end{figure}
 \end{frame}
 
 
+
+
 \begin{frame}{Análisis del umbral de diversidad inicial}
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.85]{Images/Graphic-Initial-Distance_tikz-figure0.eps} \\
+\caption{Mean of \HV{} values taking into account all the problems with several initial threshold values}\label{fig:Initial-distance-factor}
+\end{figure}
 \end{frame}
 
 
@@ -1110,8 +1249,11 @@ Poner superficie de diferencias.
 
 
 \begin{frame}{Conclusiones y trabajo futuro}
-
-
+    \begin{itemize}
+        \item Los algoritmos evolutivos que consideran la diversidad en el espacio de las variables de forma explícita y en función al criterio de parada ofrecen soluciones de calidad en esquemas de largo plazo. 
+        \item En el caso multi-objetivo, la cantidad de evaluaciones a función necesarias para mejorar al estado del arte es a partir de 2'500 generaciones.
+        \item Con el fin de obtener un rendimiento superior en los algoritmos de optimización es necesario considerar el criterio de parada para tomar decisiones.
+    \end{itemize}
 \end{frame}
 
 

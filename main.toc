@@ -11,4 +11,4 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {5}{Convergencia en algoritmos evolutivos}{45}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Algoritmo de diversidad basado en dominancia}{53}{0}{6}
+\beamer@sectionintoc {6}{Algoritmo de diversidad basado en dominancia}{57}{0}{6}
