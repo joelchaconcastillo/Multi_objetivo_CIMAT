@@ -862,11 +862,11 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
         \STATE $Penalized = \emptyset$ 
 				\STATE $D_t = D_I - D_I * \frac{G_{Elapsed}}{0.5*G_{End}}$
         \WHILE{ $|P_{t+1}|$ $\leq$ N } \label{alg:6}
-					\STATE Compute $DCS$ of individuals in $R_t$, using $P_{t+1}$ as a reference set
-					\STATE Move the individuals in $R_t$ with $DCS < D_t$ to $Penalized$
+					\STATE \textcolor{red}{Compute $DCS$ of individuals in $R_t$, using $P_{t+1}$ as a reference set}
+					\STATE \textcolor{red}{Move the individuals in $R_t$ with $DCS < D_t$ to $Penalized$}
         	\IF{$R_t$ is empty} \label{alg:9}
-						\STATE Compute $DCS$ of individuals in $Penalized$, using $P_{t+1}$ as a reference set
-						\STATE Move the individual in $Penalized$ with the largest $DCS$ to $R_t$
+						\STATE \textcolor{blue}{ Compute $DCS$ of individuals in $Penalized$, using $P_{t+1}$ as a reference set}
+						\STATE \textcolor{blue}{Move the individual in $Penalized$ with the largest $DCS$ to $R_t$}
         	\ENDIF
 					\STATE Select the new survivor from $R_t$ as the individual with the best fitness  and move it to $P_{t+1}$
         \ENDWHILE
@@ -1107,34 +1107,11 @@ Principalmente, la fase de reemplazo se basa en un método de penalización que 
 \end{figure}
 \end{frame}
 
-\begin{frame}{Procedimiento de selección}
-El estimador de densidad en el espacio objetivo considera el indicador ASF y la distancia de mejoría.
-\begin{equation}\label{eqn:extremes}
-\scriptsize
-AWF_k (\vec{x}) = f_k(\vec{x}) + 10^{-4} \times  \sum_{j=1}^M f_j( \vec{x} )
-\end{equation}
-
-%\begin{itemize}
-%\justifying
-%\item Seleccionar al individuo con la mayor distancia al vecino de re\-fe\-ren\-cia más cercano, puede causar selecciones no deseables, como se puede observar en la siguiente imágen.
-%\end{itemize}
-\begin{figure}[H]
-\centering
-\scriptsize
-\includegraphics[scale=0.35]
-{Atipico.pdf}
-%\caption{ Análisis del procedimiento de selección propuesto, las soluciones de referencia están representadas con bordes de color rojo, las soluciones candidatas con bordes de color verde, el frente de Pareto está representado por una línea roja punteada.}
-\label{fig:Atipico}
-\end{figure}
-\end{frame}
-
-
 \begin{frame}{Fase de reemplazo}
   \begin{algorithm}[H]
   \begin{scriptsize}
 %\algsetup{linenosize=\tiny}
 	\caption{Replacement Phase of VSD-MOEA} 
-
 \begin{algorithmic}[1]
 \STATE Input: $P_t$ (Population of current generation), $Q_t$ (Offspring of current Generation)
     	\STATE Output: $P_{t+1}$ 
@@ -1160,6 +1137,60 @@ AWF_k (\vec{x}) = f_k(\vec{x}) + 10^{-4} \times  \sum_{j=1}^M f_j( \vec{x} )
 	\end{algorithmic}
 
 \label{alg:Replacement_Phase}
+\end{scriptsize}
+\end{algorithm}
+\end{frame}
+
+
+
+
+\begin{frame}{Procedimiento de selección}
+El estimador de densidad en el espacio objetivo considera el indicador ASF y la distancia de mejoría.
+\begin{equation}\label{eqn:extremes}
+\scriptsize
+AWF_k (\vec{x}) = f_k(\vec{x}) + 10^{-4} \times  \sum_{j=1}^M f_j( \vec{x} )
+\end{equation}
+
+%\begin{itemize}
+%\justifying
+%\item Seleccionar al individuo con la mayor distancia al vecino de re\-fe\-ren\-cia más cercano, puede causar selecciones no deseables, como se puede observar en la siguiente imágen.
+%\end{itemize}
+\begin{figure}[H]
+\centering
+\scriptsize
+\includegraphics[scale=0.35]
+{Atipico.pdf}
+%\caption{ Análisis del procedimiento de selección propuesto, las soluciones de referencia están representadas con bordes de color rojo, las soluciones candidatas con bordes de color verde, el frente de Pareto está representado por una línea roja punteada.}
+\label{fig:Atipico}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Procedimiento de selección}
+\begin{algorithm}[H]
+\algsetup{linenosize=\tiny}
+	\caption{Density estimator} 
+\begin{scriptsize}
+\begin{algorithmic}
+\STATE Input: $P_{t+1}$ (Survivors), $R_t$ (Candidates), $F$ (Current front)
+    	\STATE Output: $I \in R_t$ 
+	\STATE $FP = P_{t+1} \cap F$ \label{alg:FP}
+	\STATE $FR = R_{t} \cap F$ \label{alg:FR}
+        \FOR{$k \in$ number of objectives}\label{alg:density_for}
+	      \STATE Select the best individual $I \in F$ of $k$ according to Eq.~\ref{eqn:extremes}.\label{alg:density_1}
+	  	\IF{ $I \in FR$}
+	  	 \RETURN $I$ \label{alg:density_2}
+	  	\ENDIF
+	\ENDFOR\label{alg:density_endfor}
+	\STATE $MaxID = 0$ \label{alg:density_for2}
+	\FOR{ $ Ic \in FR$}
+	\STATE $Improvement = \displaystyle{\min_{s \in FP}\ ID(Ic, s)}$ 
+	\IF{ $Improvement > MaxID$} \label{alg:density_if2}
+	   \STATE $MaxID = Improvement$
+	   \STATE $I = Ic$ 
+	\ENDIF \label{alg:density_endif2}
+	\ENDFOR	\label{alg:density_endfor2}
+    	\RETURN $I$ \label{alg:density_4}
+	\end{algorithmic}
 \end{scriptsize}
 \end{algorithm}
 \end{frame}
@@ -1240,6 +1271,13 @@ criterion: short-term (first row), middle-term (second row) and long-term (third
 \end{figure}
 \end{frame}
 
+\begin{frame}{Simulación}
+\begin{itemize}
+\item Se considera el problema WFG5 el que es deceptivo.
+\item El número de generaciones que se consideraron fue de 
+\end{itemize}
+\url{https://youtu.be/dbk5DaFJ8y0}
+\end{frame}
 
 \begin{frame}{Trabajo en progreso}
 \begin{itemize}
