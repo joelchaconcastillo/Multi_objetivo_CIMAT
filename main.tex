@@ -1130,17 +1130,6 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \end{frame}
 
 \begin{frame}{Fase de reemplazo}
-Principalmente, la fase de reemplazo se basa en un método de penalización que implementa la métrica de mejoría. \\
-($D^b(p_i, r_i) = \sum_{i \in M} max\{0, p_i - r_i\}^2$).
-\begin{figure}[t]
-\centering
-\input{Diagram.tex}
-%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
-\caption{Método de penalización de la fase de reemplazo.} \label{fig:Hypersphere}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Fase de reemplazo}
   \begin{algorithm}[H]
   \begin{scriptsize}
 %\algsetup{linenosize=\tiny}
@@ -1176,9 +1165,121 @@ Principalmente, la fase de reemplazo se basa en un método de penalización que 
 
 
 
+\begin{frame}{Fase de reemplazo}
+Principalmente, la fase de reemplazo se basa en un método de penalización que implementa la métrica de mejoría. \\
+($D^b(p_i, r_i) = \sum_{i \in M} max\{0, p_i - r_i\}^2$).
+\begin{figure}[t]
+\centering
+\input{Diagram.tex}
+%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+\caption{Método de penalización de la fase de reemplazo.} \label{fig:Hypersphere}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
+\begin{itemize}
+\scriptsize
+\item Seleccionar a los $m$-individuos ``extremos''.
+\end{itemize}
+\begin{figure}[H]
+\centering
+\input{reemplazo_1.tex}
+%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+%\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
+\begin{itemize}
+\scriptsize
+\item Seleccionar a los $m$-individuos ``extremos''.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\input{reemplazo_2.tex}
+%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+%\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
+\begin{itemize}
+\scriptsize
+\item Seleccionar a los $m$-individuos ``extremos''.
+\end{itemize}
+\begin{figure}[H]
+\centering
+\input{reemplazo_3.tex}
+%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+%\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
+\begin{itemize}
+\scriptsize
+\item Penalizar a los individuos candidatos más cercanos de los individuos ya seleccionados.
+\end{itemize}
+\begin{figure}[H]
+\centering
+\input{reemplazo_4.tex}
+%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+%\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
+\begin{itemize}
+\scriptsize
+\item De todos los candidatos no penalizados, seleccionar al individuo con mejor distancia de mejoría.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\input{reemplazo_5.tex}
+%%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+%\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
+\begin{itemize}
+\scriptsize
+\item Penalizar a los individuos candidatos más cercanos de los individuos ya seleccionados.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\input{reemplazo_6.tex}
+%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+%\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
+\begin{itemize}
+\scriptsize
+\item De todos los candidatos no penalizados, seleccionar al individuo con mejor distancia de mejoría.
+\end{itemize}
+\begin{figure}[H]
+\centering
+\input{reemplazo_7.tex}
+%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
+%\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
+\end{figure}
+\end{frame}
+
+
+
 
 \begin{frame}{Procedimiento de selección}
-El estimador de densidad en el espacio objetivo considera el indicador ASF y la distancia de mejoría.
+\begin{itemize}
+\scriptsize
+\item Para seleccionar a los individuos ``extremos'', el estimador de densidad del espacio objetivo considera el indicador ASF\footcite{deb2015optimality}.
+\end{itemize}
 \begin{equation}\label{eqn:extremes}
 \scriptsize
 AWF_k (\vec{x}) = f_k(\vec{x}) + 10^{-4} \times  \sum_{j=1}^M f_j( \vec{x} )
