@@ -173,23 +173,23 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {37}{37}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {5}{Problemas de prueba en multi-objetivo}{38}{Problemas de prueba en multi-objetivo}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {29}{37}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {29}{37}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{38}{38/38}{}{0}}
+\headcommand {\slideentry {4}{0}{38}{38/38}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {38}{38}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{39}{39/39}{}{0}}
+\headcommand {\slideentry {4}{0}{39}{39/39}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {39}{39}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{40}{40/40}{}{0}}
+\headcommand {\slideentry {4}{0}{40}{40/40}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {40}{40}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Problemas de prueba en multi-objetivo}{41}{Problemas de prueba en multi-objetivo}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {29}{40}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {29}{40}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\slideentry {5}{0}{41}{41/41}{}{0}}
 \defcounter {refsection}{0}\relax 
@@ -209,9 +209,9 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\sectionentry {6}{Convergencia de algoritmos multi-objetivo}{45}{Convergencia de algoritmos multi-objetivo}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {38}{44}}
+\headcommand {\beamer@sectionpages {41}{44}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {38}{44}}
+\headcommand {\beamer@subsectionpages {41}{44}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\slideentry {6}{0}{45}{45/45}{}{0}}
 \defcounter {refsection}{0}\relax 
@@ -275,15 +275,15 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {58}{58}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {8}{Propuesta de diversidad basada en dominancia}{59}{Propuesta de diversidad basada en dominancia}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {50}{58}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {50}{58}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {8}{0}{59}{59/59}{}{0}}
+\headcommand {\slideentry {7}{0}{59}{59/59}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {59}{59}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {8}{Propuesta de diversidad basada en dominancia}{60}{Propuesta de diversidad basada en dominancia}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {50}{59}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {50}{59}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\slideentry {8}{0}{60}{60/60}{}{0}}
 \defcounter {refsection}{0}\relax 
@@ -349,17 +349,45 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {75}{75}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {9}{Conclusiones y trabajo futuro}{76}{Conclusiones y trabajo futuro}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {59}{75}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {59}{75}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {9}{0}{76}{76/76}{}{0}}
+\headcommand {\slideentry {8}{0}{76}{76/76}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {76}{76}}
-\headcommand {\beamer@partpages {1}{76}}
-\headcommand {\beamer@subsectionpages {76}{76}}
-\headcommand {\beamer@sectionpages {76}{76}}
-\headcommand {\beamer@documentpages {76}}
-\headcommand {\def \inserttotalframenumber {76}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{77}{77/77}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {77}{77}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{78}{78/78}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {78}{78}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{79}{79/79}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {79}{79}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{80}{80/80}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {80}{80}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{81}{81/81}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {81}{81}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {8}{0}{82}{82/82}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {82}{82}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {9}{Conclusiones y trabajo futuro}{83}{Conclusiones y trabajo futuro}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {60}{82}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {60}{82}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {9}{0}{83}{83/83}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\beamer@partpages {1}{83}}
+\headcommand {\beamer@subsectionpages {83}{83}}
+\headcommand {\beamer@sectionpages {83}{83}}
+\headcommand {\beamer@documentpages {83}}
+\headcommand {\def \inserttotalframenumber {83}}

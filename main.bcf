@@ -2016,9 +2016,9 @@
     <bcf:citekey order="50">zhou2015all</bcf:citekey>
     <bcf:citekey order="51">ishibuchi1998multi</bcf:citekey>
     <bcf:citekey order="52">Joel:MOEAD_Adaptative</bcf:citekey>
-    <bcf:citekey order="53">li2009multiobjective</bcf:citekey>
+    <bcf:citekey order="53">raquel_2018</bcf:citekey>
     <bcf:citekey order="54">raquel_2018</bcf:citekey>
-    <bcf:citekey order="55">raquel_2018</bcf:citekey>
+    <bcf:citekey order="55">li2009multiobjective</bcf:citekey>
     <bcf:citekey order="56">Joel:IBEA</bcf:citekey>
     <bcf:citekey order="57">Joel:IBEA</bcf:citekey>
     <bcf:citekey order="58">Joel:SMSEMOA</bcf:citekey>
@@ -2040,21 +2040,21 @@
     <bcf:citekey order="74">Joel:IGDPlus_And_GDPlus</bcf:citekey>
     <bcf:citekey order="75">ishibuchi2016sensitivity</bcf:citekey>
     <bcf:citekey order="76">ishibuchi2016sensitivity</bcf:citekey>
-    <bcf:citekey order="77">Joel:ZDT</bcf:citekey>
+    <bcf:citekey order="77">Joel:StatisticalTest</bcf:citekey>
     <bcf:citekey order="78">Joel:ZDT</bcf:citekey>
-    <bcf:citekey order="79">Joel:DTLZ_1</bcf:citekey>
+    <bcf:citekey order="79">Joel:ZDT</bcf:citekey>
     <bcf:citekey order="80">Joel:DTLZ_1</bcf:citekey>
-    <bcf:citekey order="81">Joel:DTLZ_2</bcf:citekey>
-    <bcf:citekey order="82">Joel:WFG_Main</bcf:citekey>
+    <bcf:citekey order="81">Joel:DTLZ_1</bcf:citekey>
+    <bcf:citekey order="82">Joel:DTLZ_2</bcf:citekey>
     <bcf:citekey order="83">Joel:WFG_Main</bcf:citekey>
-    <bcf:citekey order="84">Joel:CEC2009</bcf:citekey>
+    <bcf:citekey order="84">Joel:WFG_Main</bcf:citekey>
     <bcf:citekey order="85">Joel:CEC2009</bcf:citekey>
-    <bcf:citekey order="86">Joel:DTLZ_1</bcf:citekey>
-    <bcf:citekey order="87">Joel:DTLZ_2</bcf:citekey>
-    <bcf:citekey order="88">Joel:WFG</bcf:citekey>
+    <bcf:citekey order="86">Joel:CEC2009</bcf:citekey>
+    <bcf:citekey order="87">Joel:DTLZ_1</bcf:citekey>
+    <bcf:citekey order="88">Joel:DTLZ_2</bcf:citekey>
     <bcf:citekey order="89">Joel:WFG</bcf:citekey>
-    <bcf:citekey order="90">Joel:CEC2009</bcf:citekey>
-    <bcf:citekey order="91">Joel:StatisticalTest</bcf:citekey>
+    <bcf:citekey order="90">Joel:WFG</bcf:citekey>
+    <bcf:citekey order="91">Joel:CEC2009</bcf:citekey>
     <bcf:citekey order="92">Joel:NSGA</bcf:citekey>
     <bcf:citekey order="93">Joel:NSGA</bcf:citekey>
     <bcf:citekey order="94">toffolo2003genetic</bcf:citekey>
@@ -2067,5 +2067,6 @@
     <bcf:citekey order="101">ulrich2010integrating</bcf:citekey>
     <bcf:citekey order="102">romero2018memetic</bcf:citekey>
     <bcf:citekey order="103">romero2018memetic</bcf:citekey>
+    <bcf:citekey order="104">deb2015optimality</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>

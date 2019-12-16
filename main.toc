@@ -12,12 +12,12 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{An\IeC {\'a}lisis de resultados en multi-objetivo}{29}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Problemas de prueba en multi-objetivo}{38}{0}{5}
+\beamer@sectionintoc {5}{Problemas de prueba en multi-objetivo}{41}{0}{5}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {6}{Convergencia de algoritmos multi-objetivo}{45}{0}{6}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {7}{Algoritmo de diversidad basado en dominancia}{50}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Propuesta de diversidad basada en dominancia}{59}{0}{8}
+\beamer@sectionintoc {8}{Propuesta de diversidad basada en dominancia}{60}{0}{8}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {9}{Conclusiones y trabajo futuro}{76}{0}{9}
+\beamer@sectionintoc {9}{Conclusiones y trabajo futuro}{83}{0}{9}
