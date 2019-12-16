@@ -23,7 +23,7 @@
 
 \usepackage{graphicx}
 \usepackage{ragged2e}
- \apptocmd{\frame}{}{\justifying}{} % Allow optional arguments after frame.0
+ %\apptocmd{\frame}{}{\justifying}{} % Allow optional arguments after frame.0
 \renewcommand{\raggedright}{\justifying}
 %\newtheorem{mydef}{Definition}
 \newtheorem{myteo}{Theorem}
@@ -52,9 +52,15 @@
 \newtcbtheorem[number within=section]{mydef}{Definition}%
 {colback=green!5,colframe=red!35!gray,fonttitle=\bfseries}{th}
 
+\titlegraphic{
+   \includegraphics[width=3cm]{cimat.eps}\hspace*{1.75cm}~%
+   \includegraphics[width=3cm]{CONACYT.eps}
+}
+
 \title[Your Short Title]{Optimización Evolutiva Multi-objetivo}
-\author{Dr. Carlos Segura González}
+\author{\textcolor{red}{Dr. Carlos Segura González} \\ Joel Chacón Castillo}
 \institute{Centro de Investigación de Matemáticas}
+
 %\date{November 07, 2019}
 
 \begin{document}
@@ -117,6 +123,7 @@
 
 \begin{frame}{Problemas de las meta-heurísticas poblacionales}
 \begin{itemize}
+ \scriptsize
     \item La mayoría de las meta-heurísticas poblacionales tienen problemas de convergencia, y no es fácil controlar la velocidad en que convergen.
    % \item Una de las fallas más típicas es la convergencia prematura.
 %    \item La convergencia prematura es cuando los %miembros de la población son `atrapados' en ciertas regiones del espacio de búsqueda.
@@ -299,7 +306,7 @@ $\exists m \in \{ 1, 2, ..., M \}: f_m(x) < f_m(y)$
 
 \begin{frame}{Conceptos multi-objetivo}
 
-\begin{mydef}{ \scriptsize Conjunto no dominado}{}
+\begin{mydef}{Conjunto no dominado}{}
 \scriptsize
     Es la colección de todas la soluciones incomparables y no dominadas relacionadas al conjunto $S \subseteq \Omega$ .
     \begin{equation*}
@@ -307,7 +314,7 @@ $\exists m \in \{ 1, 2, ..., M \}: f_m(x) < f_m(y)$
     \end{equation*}
 \end{mydef}
 
-\begin{mydef}{\scriptsize Conjunto Óptimo de Pareto}{}
+\begin{mydef}{Conjunto Óptimo de Pareto}{}
 \scriptsize
 %\begin{itemize}
 %    \item 
@@ -318,7 +325,7 @@ Es un conjunto de vectores de decisión óptimos no dominados en $\Omega$.
 %\end{itemize}{}
 \end{mydef}
 
-\begin{mydef}{\scriptsize Frente de Pareto}{}
+\begin{mydef}{Frente de Pareto}{}
 \scriptsize
 %\begin{itemize}
     %\item 
@@ -349,7 +356,7 @@ Es un conjunto de vectores de decisión óptimos no dominados en $\Omega$.
 
 
 
-\section{Paradigmas de algoritmos multi-objetivo}
+\section{Clasificación de algoritmos multi-objetivo}
 
 \begin{frame}{Paradigmas de los algoritmos multi-objetivo}
 Una clasificación muy aceptada de los MOEAs es\footcite{trivedi2016survey}:
@@ -367,7 +374,7 @@ Una clasificación muy aceptada de los MOEAs es\footcite{trivedi2016survey}:
 \justifying
 \item \textbf{Basados en indicadores}.
     \begin{itemize}
-        \item Combinan el grado de convergencia y/o la diversidad en el espacio objetivo con una métrica.
+        \item Combinan el grado de convergencia y/o la diversidad del espacio objetivo con una métrica.
     \end{itemize}
 \end{itemize}
 
@@ -381,7 +388,7 @@ Actualmente no existe un algoritmo el cual sea considerado superior, por lo tant
 
 
 \begin{frame}{Algoritmos basados en dominancia}
-Algunos de los clásicos algoritmos multi-objetivo basados en dominancia son:
+Algunos de los algoritmos multi-objetivo clásicos que son basados en dominancia:
 \begin{itemize}
 \scriptsize
     %\item  Algoritmo Genético Basado en Ordenación de No Dominados II (\textit{Non-dominated Sorting Genetic Algorithm II} - NSGA-II)\footcite{Joel:NSGAII}.
@@ -418,29 +425,31 @@ Algunos de los clásicos algoritmos multi-objetivo basados en dominancia son:
 \begin{frame}{Non-dominated Sorting Genetic Algorithm II (NSGA-II)}
 \begin{itemize}
 \scriptsize
-\item Es uno de los primeros algoritmos multi-objetivo que introducen elitismo.
-\item Realiza una clasificación por frentes de baja complejidad $O(MN^2)$, estrategia ampliamente utilizada en multi-objetivo conocida como \textit{fast-non-dominated-sortig}.
-\item Considera un operador de amontonamiento o \textit{crowding}. 
+\item Incorpora el operador de cruza SBX y el operador de mutación polinomial.
+%\item 
+%\item Es uno de los primeros algoritmos multi-objetivo que introducen elitismo.
+%\item Realiza una clasificación por frentes de baja complejidad $O(MN^2)$, estrategia ampliamente utilizada en multi-objetivo conocida como \textit{fast-non-dominated-sortig}.
+%\item Considera un operador de amontonamiento o \textit{crowding}. 
 \end{itemize}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{nsgaii_main.png}
+\includegraphics[width=0.8\textwidth]{nsgaii_main.png}
 \caption{\scriptsize Procedimiento principal del NSGA-II\footcite{Joel:NSGAII}.}
 \end{figure}
 \end{frame}
 
  
 \begin{frame}{Algoritmos basado en descomposición}
-Algunos de los clásicos algoritmos multi-objetivo basados en descomposición son:
+Algunos de los algoritmos multi-objetivo clásicos que son basados en descomposición son:
 \begin{itemize}
      \scriptsize
-    \item \citeyear{ishibuchi1998multi}, \textit{Multi-objective Genetic Local Search Algorithm} (MOGLS), \\ \citeauthor{ishibuchi1998multi},
-    \item \citeyear{murata2002cellular}, \textit{Cellular Multi-objective Genetic Algorithm} (C-MOGA), \\ \citeauthor{murata2002cellular}, 
+    \item \citeyear{ishibuchi1998multi}, \textit{Multi-objective Genetic Local Search Algorithm} (MOGLS), \\ \citeauthor{ishibuchi1998multi}.
+    \item \citeyear{murata2002cellular}, \textit{Cellular Multi-objective Genetic Algorithm} (C-MOGA), \\ \citeauthor{murata2002cellular}.
     \item \citeyear{Joel:MOEAD}, \textbf{\textit{Multi-objective Evolutionary Algorithm based in Decomposition} (MOEA/D)}, \\ \citeauthor{Joel:MOEAD}.
      \item \citeyear{li2009multiobjective}, \textit{Multi-objective Evolutionary Algorithm based in Decomposition with DE}, (MOEA/D -CEC 2009), \\ \citeauthor{li2009multiobjective}.
-    \item \citeyear{Joel:MOEAD_AMS}, \textit{MOEA/D - Adaptive Mating Selection Mechanism} (MOEA/D - AMS) \\ \citeauthor{Joel:MOEAD_AMS}.
-    \item \citeyear{zhou2015all}, \textit{MOEA/D - Generalized Resource Allocation} (MOEA/D-GRA) \\ \citeauthor{zhou2015all}.
+    \item \citeyear{Joel:MOEAD_AMS}, \textit{MOEA/D - Adaptive Mating Selection Mechanism} (MOEA/D - AMS), \\ \citeauthor{Joel:MOEAD_AMS}.
+    \item \citeyear{zhou2015all}, \textit{MOEA/D - Generalized Resource Allocation} (MOEA/D-GRA), \\ \citeauthor{zhou2015all}.
 \end{itemize}
 \end{frame}
 
@@ -471,7 +480,7 @@ Una versión bastante popular y que tomó el primer lugar en la competancia del 
 \scriptsize
     \item Reestricciones de emparejamiento y de reemplazamiento.
     \item Para mantener diversidad en el espacio de las variables se considera emparejamiento en toda la población con probabilidad $1 - \delta$ y en el vecindario con probabilidad $\delta$. 
-    \item Implementa un mecanismo que administra las evaluaciones de cada subproblema \textit{Dynamical Resource Allocation}.
+    \item Implementa un mecanismo que administra las evaluaciones a función en cada subproblema mejor conocido como \textit{Dynamical Resource Allocation}.
     \item Utiliza operadores de evolución diferencial y el operador de mutación polinomial.
 \end{itemize}
 %\end{itemize}
@@ -480,7 +489,9 @@ Una versión bastante popular y que tomó el primer lugar en la competancia del 
 
 
 \begin{frame}{Funciones de utilidad}
-Existen una gran variedad de funciones de utilidad para converir un problema multi-objetivo en un conjunto de problemas de un sólo objetivo, algunos de los más utilizados son\footcite{raquel_2018}:
+\justifying
+\scriptsize
+Existe una gran variedad de funciones de utilidad para convertir un problema multi-objetivo en un conjunto de problemas de un sólo objetivo, algunos de los más utilizados son\footcite{raquel_2018}:
 \begin{itemize}
 \scriptsize
 \item Suma ponderada (\textit{Weighted Sum})
@@ -491,7 +502,7 @@ Existen una gran variedad de funciones de utilidad para converir un problema mul
 \begin{equation*}
     \min_{} g^{te}(x | \lambda, z^*) = \max_{1 \leq i \leq m } \{ \lambda_i | f_i(x) - z_i^* | \}
 \end{equation*}{}
-\item Función de escalarización alcanzado (\textit{Achieved Scalarized Funcition} - ASF)
+\item Función de escalarización alcanzado (\textit{Achieved Scalarized Function} - ASF)
 \begin{equation*}
     \min_{} g^{te}(x | \lambda, z^*) = \max_{1 \leq i \leq m } \{ \frac{| f_i(x) - z_i^* |}{\lambda_i}\}
 \end{equation*}{}
@@ -508,7 +519,7 @@ Existen una gran variedad de funciones de utilidad para converir un problema mul
 \begin{frame}{Funciones de utilidad}
 \begin{figure}[H]
 \begin{tabular}{c c}
-\includegraphics[width=0.4\textwidth]{ws.png}     &  \includegraphics[width=0.4\textwidth]{che.png} \\
+\includegraphics[width=0.4\textwidth]{ws.png}     &  \includegraphics[width=0.42\textwidth]{che.png} \\
 \includegraphics[width=0.4\textwidth]{asf.png}     &  \includegraphics[width=0.4\textwidth]{pbi.png} \\
 \end{tabular}
 \centering
@@ -524,8 +535,8 @@ Algunos de los algoritmos clásicos multi-objetivo basados en indicadores son:
 \scriptsize
    \item \citeyear{Joel:IBEA}, \textit{Indicator Based-Selection Evolutionary Algorithm } (IBEA), \\ \citeauthor{Joel:IBEA}.
    \item \citeyear{Joel:SMSEMOA}, \textbf{\textit{S-Metric Selection Evolutionary Multi-objective Optimization Algorithm} (SMS-EMOA)}, \\ \citeauthor{Joel:SMSEMOA}.
-   \item \citeyear{Joel:FV-MOEA}, \textit{Fast Hypervolume Multi-objective Evolutionary Algorithm} FV-MOEA, \\ \citeauthor{Joel:FV-MOEA}.
-   \item \citeyear{Joel:MOMBI-II}, \textit{Many-Objective Metaheuristic Based on $R2$ Indicador} MOMBI-II, \\ \citeauthor{Joel:MOMBI-II}.
+   \item \citeyear{Joel:FV-MOEA}, \textit{Fast Hypervolume Multi-objective Evolutionary Algorithm} (FV-MOEA), \\ \citeauthor{Joel:FV-MOEA}.
+   \item \citeyear{Joel:MOMBI-II}, \textit{Many-Objective Metaheuristic Based on $R2$ Indicador} (MOMBI-II), \\ \citeauthor{Joel:MOMBI-II}.
 \end{itemize}
 \end{frame}
 
@@ -537,34 +548,34 @@ Algunos de los algoritmos clásicos multi-objetivo basados en indicadores son:
 \item Implementa un operador de selección especial que combina la métrica de hipervolumen con el concepto de dominancia de Pareto.
 %
 \item Considera un esquema de selección de estado estable (\textit{Steady State}).
-\item Una propuesta incorpora la clasificación por frentes y sólo considera el HV cuando la población está compuesta por individuos no dominados.
+\item Una propuesta incorpora una clasificación por frentes y sólo considera el HV en el conjunto no dominado (primer frente).
 \end{itemize}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.6\textwidth]{sms_emoa.png}
+\includegraphics[width=0.5\textwidth]{sms_emoa.png}
 \caption{\scriptsize Contribución del HV de cada solución\footcite{Joel:SMSEMOA}.}
 \end{figure}
 \end{frame}
 
+\section{Análisis de resultados en multi-objetivo}
 
 \begin{frame}{Análisis de los resultados}
-Existen distintas herramientas para verificar la calidad de las soluciones de un optimizador, se enlistan las siguientes:
+Existen distintas herramientas para estimar la calidad de un conjunto de soluciones generadas por un optimizador, algunas de las mas utilizadas son las siguientes:
 \begin{itemize}
 \justifying
-\item Métricas de desempeño: son métricas para evaluar la calidad de un conjunto de soluciones no dominadas.
+\item \textbf{Métricas de desempeño}
    \begin{itemize}
      \item La Distancia Generacional Invertida (IGD).
      \item La Distancia Generacional Invertida Modificada (IGD+).
      \item El hipervolumen (HV).
    \end{itemize}
-\item Análisis estadísticos:
+\item \textbf{Análisis estadísticos}
   \begin{itemize}
       \item Pruebas estadísticas.
-      \item Tabla general estadística.
+      \item Tabla general de las estadísticas.
   \end{itemize}
-  \item Superficies de cubrimiento
+  \item \textbf{Superficies de cubrimiento}
 \end{itemize}
-Poner diagrama de las pruebas estadísticas.
 \end{frame}
 
 \begin{frame}{Métricas de desempeño}
@@ -587,7 +598,7 @@ Poner diagrama de las pruebas estadísticas.
 \scriptsize
 \justifying
 \item Es un indicador unario conocido como ``Pareto Compliant''\footcite{zitzler1999evolutionary}.
-\item Este indicador determina la porción del espacio objetivo que es dominado por las soluciones de un conjunto $A$, el cual es limitado por un punto de referencia $r \in \Re^n$ indicado en la ecuación (\ref{eqn:HV}), donde $\Lambda$ denota la medición de Lebesgue y $r$ debería ser dominado por todos los elementos en $A$.
+\item Este indicador determina la porción del espacio objetivo que es dominado por las soluciones de un conjunto $A$, el cual es limitado por un punto de referencia $r \in \Re^m$ indicado en la ecuación (\ref{eqn:HV}), donde $\Lambda$ denota la medición de Lebesgue y $r$ debería ser dominado por todos los elementos en $A$.
 \end{itemize}
 \begin{equation}\label{eqn:HV}
 \scriptsize
@@ -630,7 +641,7 @@ GD(A; R) = \frac{1}{|A|} \left (   \sum_{a \in A} d(a, R)^p \right)^{1/p}, \quad
 \scriptsize
 \item El conjunto aproximado puede no converger a todo el frente de Pareto y aún así se tendría una medición ``buena'' (ver figura \ref{fig:igd}).
 
-\item Existe un sesgo al incrementar el número de puntos aproximados, es decir genera valores menores de GD al aumentar la cantidad de soluciones pero sin mejorar la calidad de las aproximaciones\footcite{Joel:HausdorffDistance}.
+\item Existe un sesgo al incrementar el número de puntos aproximados, es decir da valores menores del GD al aumentar la cantidad de soluciones pero sin mejorar la calidad de las aproximaciones\footcite{Joel:HausdorffDistance}.
 %\begin{equation*}
 %\begin{split}
 %& GD(a, R) = \frac{1}{|A|} \left (   \sum_{a \in A} d(a, R)^p \right)^{1/p} = \frac{||(1,...,1)^T ||_p}{|A|} = \frac{(|A|)^{1/p}}{|A|} \\
@@ -654,7 +665,7 @@ GD(A; R) = \frac{1}{|A|} \left (   \sum_{a \in A} d(a, R)^p \right)^{1/p}, \quad
 \begin{itemize}
 \justifying
 \scriptsize
-\item A diferencia de GD, la Distancia Generacional Invertida (IGD) es la distancia promedio de cada punto de referencia a su solución más cercana del conjunto aproximado.
+\item A diferencia del GD, la Distancia Generacional Invertida (IGD) es la distancia promedio de cada punto de referencia a su solución más cercana del conjunto aproximado.
 %\item La métrica sigue siendo Pareto \textit{non-compliant}.
 \end{itemize}
 \begin{equation*}
@@ -676,7 +687,7 @@ IGD(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d(r, A)^p \right)^{1/p}, \qua
 \begin{itemize}
 \justifying
 \scriptsize
-\item La métrica sigue siendo Pareto \textit{non-compliant}, por lo tanto existen situaciones en que un conjunto de soluciones alejado del frente de mejores valores que un conjunto más cercano del frente.
+\item La métrica sigue siendo Pareto \textit{non-compliant}, por lo tanto existen situaciones en que un conjunto de soluciones alejado del frente pueda generar mejores valores que un conjunto más cercano del frente.
 \item Se puede observar en la figura \ref{fig:igd_fail} que a pesar de que la solución $\boldsymbol{b}$ es dominada por la solución $\boldsymbol{a}$, la distancia de un punto de referencia $\boldsymbol{z}$ a $\boldsymbol{b}$ puede ser menor que la distancia de $\boldsymbol{z}$ a $\boldsymbol{a}$.
 \item ¿Cómo se puede mejorar?
 \end{itemize}
@@ -689,7 +700,7 @@ IGD(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d(r, A)^p \right)^{1/p}, \qua
 
 
 
-\begin{frame}{Distancias}
+\begin{frame}{Distancias generacional invertida modificada}
 \begin{itemize}
 \justifying
 \scriptsize
@@ -700,7 +711,7 @@ IGD(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d(r, A)^p \right)^{1/p}, \qua
 \begin{equation*}
 \scriptsize
 \begin{split}
-IGD(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d^+(r, A)^p \right)^{1/p}, \quad d^+ = \min_{a \in A} \sqrt{\sum_{i=1}^m (max\{ a_i - z_i, 0\})^2}
+IGD^+(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d^+(r, A)^p \right)^{1/p}, \quad d^+ = \min_{a \in A} \sqrt{\sum_{i=1}^m (max\{ a_i - z_i, 0\})^2}
 \end{split}
 \end{equation*}
 
@@ -708,22 +719,17 @@ IGD(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d^+(r, A)^p \right)^{1/p}, \q
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.25\textwidth]{igd_3.png}
-\caption{\scriptsize Distancia generacional invertida modificada (IGD+).\footcite{ishibuchi2016sensitivity}.}
+\caption{\scriptsize Distancia generacional invertida modificada ($IGD^+$).\footcite{ishibuchi2016sensitivity}.}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Distancia generacional invertida modificada}
-\begin{itemize}
-\justifying
-\scriptsize
-\item Propuesta por \citeauthor{Joel:IGDPlus_And_GDPlus} en el \citeyear{Joel:IGDPlus_And_GDPlus}, es considerada como débilmente \textit{Pareto Compliant}.
-\item Si una solución es dominada por un punto de referencia se utiliza la distancia euclideana, pero si la solución y el punto de referencia son no dominados entre sí, entonce se calcula la distancia mínima desde el punto de referencia a la región no dominada.
-\end{itemize}
+\begin{frame}{Distancias}
+
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
 \begin{table}[]
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{cc}
+\begin{tabular}{c|c}
 $IGD(A; R) =  \frac{1}{|R|} \left (  \sum_{r \in R} d(r, A)^p \right)^{1/p}$ & $IGD^+(A; R)= \frac{1}{|R|}\left (   \sum_{r \in R} d^+(r, A)^p \right)^{1/p}$ \\ \\
 $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \sqrt{\sum_{i=1}^m (max\{ a_i - z_i, 0\})^2}$
 \end{tabular}%
@@ -731,14 +737,14 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \end{table}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{igd.png}
-\caption{\scriptsize Ejemplo de las métricas IGD (izquierda) e IGD+ (derecha).\footcite{ishibuchi2016sensitivity}.}
+\includegraphics[width=0.7\textwidth]{igd.png}
+\caption{\scriptsize Ejemplo de las métricas $IGD$ (izquierda) e $IGD^+$ (derecha).\footcite{ishibuchi2016sensitivity}.}
 \end{figure}
 \end{frame}
 
 
 
-\section{Problemas de prueba}
+\section{Problemas de prueba en multi-objetivo}
 \begin{frame}{Problemas de prueba en el ámbito multi-objetivo}
 \begin{itemize}
    \item ZDT, \citeauthor{Joel:ZDT}, \citeyear{Joel:ZDT}.%, únicamente de dos objetivos, escalables en las variables.
@@ -789,8 +795,8 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{itemize}
 \scriptsize
    \item Estos son únicamente de dos objetivos (UF1-UF7) y tres objetivos (UF8-UF10), además son escalables en las variables.
-   \item Este conjunto de prueba fue propuesto en el Congreso de Cómputo Evolutivo (CEC 2009) en el \citeyear{Joel:CEC2009} por \citeauthor{Joel:CEC2009}.
-   \item Este tipo de problemas aún se consideran un reto para los optimizadores multi-objetivo.
+   \item Este conjunto de prueba fue propuesto en el Congreso de Cómputo Evolutivo (CEC 2009) por \citeauthor{Joel:CEC2009}.
+   \item Este tipo de problemas aún se consideran un reto para los optimizadores multi-objetivo más recientes.
 \end{itemize}
 \begin{figure}[H]
 \begin{tabular}{c c}
@@ -808,12 +814,12 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{frame}{Superficie de alcance}
 \begin{itemize}
 \item Una superficie de alcance o superficie de cubrimiento es una descripción de la distribución alcanzada en base a un conjunto de soluciones.
-\item Es un gráfico que muestra un resumen de una cantidad de solucione en varias medidas descriptivas considerando la relación de dominancia.
+\item Es un gráfico que muestra un resumen de una cantidad de soluciones en varias medidas descriptivas y considerando la relación de dominancia.
 \end{itemize}
 \begin{figure}[H]
 \includegraphics[width=0.4\textwidth]{superficie_alcance_WFG8.eps}
 \centering
-\caption{\scriptsize Superficie de alcance de cinco algoritmos considerando 35 ejecuciones y el problema WFG8.}
+\caption{\scriptsize Superficie de alcance al $50\%$ de cinco algoritmos del estado-del-arte considerando el resultado de 35 ejecuciones y el problema WFG8.}
 \end{figure}
 \end{frame}
 
@@ -847,7 +853,113 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \end{frame}
 
 
-\section{Convergencia en algoritmos evolutivos}
+\section{Convergencia de algoritmos multi-objetivo}
+
+
+\begin{frame}{Análisis preliminar}
+\begin{itemize}
+\scriptsize
+\justifying
+\item Se utilizan los problemas WFG \textit{The Walking Fish Group}.
+\justifying
+\item Estos problemas dividen a las variables de desición en dos tipos: las variables de distancia y las variables de posición.
+\end{itemize}
+\begin{figure}
+\centering
+\begin{tabular}{c}
+ \includegraphics[width=0.9\textwidth]{Parametros_Posicion_Distancia.pdf}   \\
+\end{tabular}
+\caption{Variables de posición y distancia de los problemas WFG.}
+\end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}{Análisis preliminar}
+\begin{itemize}
+\justifying
+\item Se eligen los algoritmos NSGA-II, GDE3, MOEA/D y MOMBI-II, siendo basados en dominancia los dos primeros, y basados en descomposición e indicadores los dos últimos.
+\justifying
+\item Se selecciona el problema de prueba WFG1 que aunque posee una definición simple, muchos MOEAs tienen dificultades de resolverlo.
+\justifying
+\item Específicamente, la instancia WFG1 es un problema uni-modal y separable.
+\justifying
+\item La región óptima para el WFG1 esta indicada en la ecuación (\ref{optimo}), donde $k$ es el número de variables de posición y $k+1$ a $n$ son las variables de distancia.
+\end{itemize}
+\begin{equation} \label{optimo}
+	x_{i=k+1:n} = 2i \times 0.35
+\end{equation}
+\end{frame}
+
+\begin{frame}{Análisis preliminar}
+\begin{itemize}
+\justifying
+\item Se realizaron $35$ ejecuciones con un criterio de paro de $50'000$ generaciones y el tamaño de población de $250$.
+\justifying
+\item Particularmente, el análisis de diversidad es considerando en las variables de distancia.
+\justifying
+\item Se calcula la distancia promedio entre los individuos (ADI \textit{Average Distance to all Individuals}).
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Análisis preliminar}
+\begin{itemize}
+\justifying
+\item En relativamente pocas generaciones (aproximadamente $5'000$), las variables de distancia convergen en todos los métodos.
+\justifying
+\item En algunas generaciones se recupera la diversidad por el efecto del operador de mutación polinomial.
+\end{itemize}
+
+\begin{figure}
+\centering
+\begin{tabular}{cc}
+ \includegraphics[width=0.5\textwidth]{Average_DistanceParamsStateArt.eps} 
+\includegraphics[width=0.35\textwidth]{WFG1_analisis.eps} %\\
+\end{tabular}
+\caption{Evolución de la diversidad y superficie de alcance al 50\%.}
+\label{fig:DiversityProposal}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Hipótesis}
+    \begin{itemize}
+        \item Los algoritmos evolutivos tienen un problema de convergencia acelerada en ejecuciones a largo plazo afectando la calidad de las soluciones.
+	\item Este problema podría ser tratado implementando mecanismos para administrar la diversidad considerando el tiempo de ejecución y el criterio de parada.
+    \end{itemize}
+\end{frame}
+
+
+\section{Algoritmo de diversidad basado en dominancia}
+
+\begin{frame}{Convergencia en el ámbito multi-objetivo}
+    \begin{itemize}
+        \item Hasta este punto se ha demostrado empíricamente la convergencia prematura en algoritmos multi-objetivo.
+	\item A diferencia del caso mono-objetivo, existe muy poco trabajo para administrar la diversidad del espacio de las variables de forma explícita.
+	\item Controlar la diversidad en el espacio de las variables puede ser un reto ya que los problemas multi-objetivo podrían mantener diversidad de forma implícita.
+	\item ¿Cómo controlar la convergencia en el caso multi-objetivo?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Trabajos relacionados para mantener la diversidad en multi-objetivo}
+\begin{itemize}
+\scriptsize
+    \item Algunos trabajos del área multi-objetivo que consideran la diversidad en el espacio de las variables son los siguientes: \begin{itemize}
+	\scriptsize
+	\item \citeyear{Joel:NSGA}, NSGA por \citeauthor{Joel:NSGA}.
+	\item \citeyear{toffolo2003genetic}, GDEA por \citeauthor{toffolo2003genetic}.
+	\item \citeyear{chan2005evolutionary}, KP1, KP2 por \citeauthor{chan2005evolutionary}.
+	\item \citeyear{deb2005omni}, Omni-optimizer por \citeauthor{deb2005omni}.
+	\item \citeyear{ulrich2010integrating}, DIVA por \citeauthor{ulrich2010integrating}.
+    \end{itemize}
+   \item Ningún trabajo promueve la diversidad de forma explícita y considera simultáneamente el criterio de parada como en el caso mono-objetivo del trabajo de \textit{Non-Best-Penalized} (BNP) por \citeauthor{romero2018memetic} (\citeyear{romero2018memetic}).
+\end{itemize}
+\end{frame}
+
+
 
 \begin{frame}{Operador de reemplazo \textit{Best-Non-Penalized} BNP}
 \begin{algorithm}[H]
@@ -951,94 +1063,16 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 
 
 
-\begin{frame}{Análisis preliminar}
-\begin{itemize}
-\scriptsize
-\justifying
-\item Se utilizan los problemas WFG \textit{The Walking Fish Group}.
-\justifying
-\item Estos problemas dividen a las variables de desición en dos tipos: las variables de distancia y las variables de posición.
-\end{itemize}
-\begin{figure}
-\centering
-\begin{tabular}{c}
- \includegraphics[width=0.9\textwidth]{Parametros_Posicion_Distancia.pdf}   \\
-\end{tabular}
-\caption{Variables de posición y distancia de los problemas WFG.}
-\end{figure}
-\end{frame}
-
-
-
-
-\begin{frame}{Análisis preliminar}
-\begin{itemize}
-\justifying
-\item Se eligen los algoritmos NSGA-II, GDE3, MOEA/D y MOMBI-II, siendo basados en dominancia los dos primeros, y basados en descomposición e indicadores los dos últimos.
-\justifying
-\item Se selecciona el problema de prueba WFG1 que aunque posee una definición simple, muchos MOEAs tienen dificultades de resolverlo.
-\justifying
-\item Específicamente, la instancia WFG1 es un problema uni-modal y separable.
-\justifying
-\item La región óptima para el WFG1 esta indicada en la ecuación (\ref{optimo}), donde $k$ es el número de variables de posición y $k+1$ a $n$ son las variables de distancia.
-\end{itemize}
-\begin{equation} \label{optimo}
-	x_{i=k+1:n} = 2i \times 0.35
-\end{equation}
-\end{frame}
-
-\begin{frame}{Análisis preliminar}
-\begin{itemize}
-\justifying
-\item Se realizaron $35$ ejecuciones con un criterio de paro de $50'000$ generaciones y el tamaño de población de $250$.
-\justifying
-\item Particularmente, el análisis de diversidad es considerando en las variables de distancia.
-\justifying
-\item Se calcula la distancia promedio entre los individuos (ADI \textit{Average Distance to all Individuals}).
-\end{itemize}
-\end{frame}
-
-
-
-\begin{frame}{Análisis preliminar}
-\begin{itemize}
-\justifying
-\item En relativamente pocas generaciones (aproximadamente $5'000$), las variables de distancia convergen en todos los métodos.
-\justifying
-\item En algunas generaciones se recupera la diversidad por el efecto del operador de mutación polinomial.
-\end{itemize}
-
-\begin{figure}
-\centering
-\begin{tabular}{cc}
- \includegraphics[width=0.5\textwidth]{Average_DistanceParamsStateArt.eps} 
-\includegraphics[width=0.35\textwidth]{WFG1_analisis.eps} %\\
-\end{tabular}
-\caption{Evolución de la diversidad y superficie de alcance al 50\%.}
-\label{fig:DiversityProposal}
-\end{figure}
-\end{frame}
-
-
-\begin{frame}{Hipótesis}
-    \begin{itemize}
-        \item Los algoritmos evolutivos tienen un problema de convergencia acelerada en ejecuciones a largo plazo afectando la calidad de las soluciones.
-	\item Este problema podría ser tratado implementando mecanismos para administrar la diversidad considerando el tiempo de ejecución y el criterio de parada.
-%        \item Se ha demostrado que utlizar el criterio de parada ha mejorado el rendimiento en ejecuciones a largo plazo, principalmente esto se debe a que es relacionado el grado de diversidad con el criterio de paro con lo que se alcanza una balanceo entre exploración e intensificacion.
-    \end{itemize}
-\end{frame}
-
-
-\section{Algoritmo de diversidad basado en dominancia}
+\section{Propuesta de diversidad basada en dominancia}
 
 \begin{frame}{Procedimiento principal del VSD-MOEA}
 \begin{itemize}
 \justifying
 \item Se propone al VSD-MOEA (\textit{Variable Space Diversity - Multi-objective Evolutionary Algorithm}).
 \justifying
-\item Se utiliza el esquema usual de un Algoritmo Evolutivo (EA - \textit{Evolutionary Algorithm}).
+\item Se utiliza el esquema usual de un algoritmo evolutivo.
 \justifying
-\item Se establece una fase especial de reemplazo, donde se define un procedimiento para administrar de forma explícita la diversidad.
+\item Se establece un operador de reemplazo, donde se define un procedimiento para administrar de forma explícita la diversidad.
 \end{itemize}
 \begin{figure}
 \centering
@@ -1197,7 +1231,12 @@ AWF_k (\vec{x}) = f_k(\vec{x}) + 10^{-4} \times  \sum_{j=1}^M f_j( \vec{x} )
 
 
 \begin{frame}{Comparación del estado-del-arte con ejecuciones a largo plazo}
-Pruebas estadísticas considerando al estado-del-arte
+\begin{itemize}
+\scriptsize
+\item Se consideran $250'000$ generaciones.
+\item Se considera el MOEA/D, NSGA-II y R2-EMOA.
+\item Los problemas que se consideraron fueron DTLZ, WFG y UF.
+\end{itemize}
 \input{Tables/Tests_HV_2obj.tex}
 \input{Tables/Tests_HV_3obj.tex}
 \end{frame}
@@ -1209,11 +1248,14 @@ Pruebas estadísticas considerando al estado-del-arte
 
 
 
-\begin{frame}{Superficies de cubrimiento}
-Poner superficie de diferencias.
-\end{frame}
+%\begin{frame}{Superficies de cubrimiento}
+%Poner superficie de diferencias.
+%\end{frame}
 
 \begin{frame}{Análisis de escalabilidad en el espacio de las variables}
+\begin{itemize}
+\item Se hizo un análisis de escalabilidad con 50, 100 y 250 variables, considerando $25'000$ generaciones.
+\end{itemize}
 \begin{figure}
 \centering
 \begin{tabular}{cc}
@@ -1224,6 +1266,9 @@ Poner superficie de diferencias.
 \end{frame}
 
 \begin{frame}{Análisis de diversidad en el espacio de la variables}
+\begin{itemize}
+\item Se observa que el VSD-MOEA mantiene un grado de diversidad en los parámetros de distancia en los problemas WFG.
+\end{itemize}
 \begin{figure}
 \centering
 \begin{tabular}{cc}
@@ -1264,6 +1309,10 @@ criterion: short-term (first row), middle-term (second row) and long-term (third
 
 
 \begin{frame}{Análisis del umbral de diversidad inicial}
+\begin{itemize}
+\item Se hizo un análisis del parámetro que induce el grado de diversidad inicial en el operador de reemplazo.
+\item El mejor valor en dos como en tres objetivos es de $0.4$.
+\end{itemize}
 \begin{figure}[t]
 \centering
 \includegraphics[scale=0.85]{Images/Graphic-Initial-Distance_tikz-figure0.eps} \\
@@ -1273,9 +1322,19 @@ criterion: short-term (first row), middle-term (second row) and long-term (third
 
 \begin{frame}{Simulación}
 \begin{itemize}
-\item Se considera el problema WFG5 el que es deceptivo.
-\item El número de generaciones que se consideraron fue de 
+\scriptsize
+\justifying
+\item Se realiza una simulación con el problema WFG5.
+\item Se configuró el problema WFG5 con dos variables de decisión, una variable de posición y una variable de distancia.
+\item En esta configuración el conjunto de Pareto está definido en $x_2 = 1.4$
+\item Este problema está compuesto por funciones con características deceptivas.
 \end{itemize}
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.2]{deceptiva_wfg5.png} \\
+%\caption{Mean of \HV{} values taking into account all the problems with several initial threshold values}\label{fig:Initial-distance-factor}
+\end{figure}
+\centering
 \url{https://youtu.be/dbk5DaFJ8y0}
 \end{frame}
 
@@ -1286,6 +1345,7 @@ criterion: short-term (first row), middle-term (second row) and long-term (third
 \end{frame}
 
 
+\section{Conclusiones y trabajo futuro}
 \begin{frame}{Conclusiones y trabajo futuro}
     \begin{itemize}
         \item Los algoritmos evolutivos que consideran la diversidad en el espacio de las variables de forma explícita y en función al criterio de parada ofrecen soluciones de calidad en esquemas de largo plazo. 
@@ -1297,8 +1357,9 @@ criterion: short-term (first row), middle-term (second row) and long-term (third
 
 
 
-\begin{frame}{Acknowledgements}
-This work has been supported by the Center for Research in Mathematics.
-\end{frame}
+%\begin{frame}{Acknowledgements}
+%Este ta
+%This work has been supported by the Center for Research in Mathematics.
+%\end{frame}
 
 \end{document}

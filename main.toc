@@ -1,14 +1,23 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\beamer@endinputifotherversion {3.24pt}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Introducci\IeC {\'o}n y antecedentes}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {2}{Conceptos}{12}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Paradigmas de algoritmos multi-objetivo}{18}{0}{3}
+\beamer@sectionintoc {3}{Clasificaci\IeC {\'o}n de algoritmos multi-objetivo}{18}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Problemas de prueba}{38}{0}{4}
+\beamer@sectionintoc {4}{An\IeC {\'a}lisis de resultados en multi-objetivo}{29}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Convergencia en algoritmos evolutivos}{45}{0}{5}
+\beamer@sectionintoc {5}{Problemas de prueba en multi-objetivo}{38}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Algoritmo de diversidad basado en dominancia}{57}{0}{6}
+\beamer@sectionintoc {6}{Convergencia de algoritmos multi-objetivo}{45}{0}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{Algoritmo de diversidad basado en dominancia}{50}{0}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {8}{Propuesta de diversidad basada en dominancia}{59}{0}{8}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {9}{Conclusiones y trabajo futuro}{75}{0}{9}

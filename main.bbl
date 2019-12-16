@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 2.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,135 +18,87 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \sortlist{entry}{nty}
     \entry{alam2012diversity}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=b9084afa9aaa4dc6aee3c0f3aada2cd6}{Alam}{A\bibinitperiod}{Mohammad\bibnamedelima Shafiul}{M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=9e53efe4a505f5e226474b003729dad0}{Islam}{I\bibinitperiod}{Md\bibnamedelima Monirul}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=48a347d6ad0f3cf8a1eb79c21b58eb75}{Yao}{Y\bibinitperiod}{Xin}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=83bf4c3a7135faa85b8105f3a086e1a4}{Murase}{M\bibinitperiod}{Kazuyuki}{K\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=b9084afa9aaa4dc6aee3c0f3aada2cd6}{%
-           family={Alam},
-           familyi={A\bibinitperiod},
-           given={Mohammad\bibnamedelima Shafiul},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=9e53efe4a505f5e226474b003729dad0}{%
-           family={Islam},
-           familyi={I\bibinitperiod},
-           given={Md\bibnamedelima Monirul},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=48a347d6ad0f3cf8a1eb79c21b58eb75}{%
-           family={Yao},
-           familyi={Y\bibinitperiod},
-           given={Xin},
-           giveni={X\bibinitperiod}}}%
-        {{hash=83bf4c3a7135faa85b8105f3a086e1a4}{%
-           family={Murase},
-           familyi={M\bibinitperiod},
-           given={Kazuyuki},
-           giveni={K\bibinitperiod}}}%
+        {{hash=b9084afa9aaa4dc6aee3c0f3aada2cd6}{Alam}{A\bibinitperiod}{Mohammad\bibnamedelima Shafiul}{M\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=9e53efe4a505f5e226474b003729dad0}{Islam}{I\bibinitperiod}{Md\bibnamedelima Monirul}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=48a347d6ad0f3cf8a1eb79c21b58eb75}{Yao}{Y\bibinitperiod}{Xin}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=83bf4c3a7135faa85b8105f3a086e1a4}{Murase}{M\bibinitperiod}{Kazuyuki}{K\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Elsevier}%
       }
       \strng{namehash}{5d71834927f307a0a121e923eecd6583}
       \strng{fullhash}{e2acea64ffbb0283c1fc517e39c76fd4}
-      \strng{bibnamehash}{5d71834927f307a0a121e923eecd6583}
-      \strng{authorbibnamehash}{5d71834927f307a0a121e923eecd6583}
-      \strng{authornamehash}{5d71834927f307a0a121e923eecd6583}
-      \strng{authorfullhash}{e2acea64ffbb0283c1fc517e39c76fd4}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Diversity Guided Evolutionary Programming: A novel approach for continuous optimization}
       \field{journaltitle}{Applied soft computing}
       \field{number}{6}
       \field{title}{Diversity Guided Evolutionary Programming: A novel approach for continuous optimization}
       \field{volume}{12}
       \field{year}{2012}
       \field{pages}{1693\bibrangedash 1707}
-      \range{pages}{15}
     \endentry
     \entry{alba2005parallel}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=3bba57c9b13d5773e34ff8bf341727f7}{Alba}{A\bibinitperiod}{Enrique}{E\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{1}{}{%
-        {{hash=3bba57c9b13d5773e34ff8bf341727f7}{%
-           family={Alba},
-           familyi={A\bibinitperiod},
-           given={Enrique},
-           giveni={E\bibinitperiod}}}%
+        {{hash=3bba57c9b13d5773e34ff8bf341727f7}{Alba}{A\bibinitperiod}{Enrique}{E\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {John Wiley \& Sons}%
       }
       \strng{namehash}{3bba57c9b13d5773e34ff8bf341727f7}
       \strng{fullhash}{3bba57c9b13d5773e34ff8bf341727f7}
-      \strng{bibnamehash}{3bba57c9b13d5773e34ff8bf341727f7}
-      \strng{authorbibnamehash}{3bba57c9b13d5773e34ff8bf341727f7}
-      \strng{authornamehash}{3bba57c9b13d5773e34ff8bf341727f7}
-      \strng{authorfullhash}{3bba57c9b13d5773e34ff8bf341727f7}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Parallel metaheuristics: a new class of algorithms}
       \field{title}{Parallel metaheuristics: a new class of algorithms}
       \field{volume}{47}
       \field{year}{2005}
     \endentry
     \entry{beheshti2013review}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=b43020aa4e2dea74a3beaed2594fb868}{Beheshti}{B\bibinitperiod}{Zahra}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=a3f8a9de3f217cd00aca04b174fe6539}{Shamsuddin}{S\bibinitperiod}{Siti\bibnamedelimb Mariyam\bibnamedelima Hj}{S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=b43020aa4e2dea74a3beaed2594fb868}{%
-           family={Beheshti},
-           familyi={B\bibinitperiod},
-           given={Zahra},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=a3f8a9de3f217cd00aca04b174fe6539}{%
-           family={Shamsuddin},
-           familyi={S\bibinitperiod},
-           given={Siti\bibnamedelimb Mariyam\bibnamedelima Hj},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=b43020aa4e2dea74a3beaed2594fb868}{Beheshti}{B\bibinitperiod}{Zahra}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=a3f8a9de3f217cd00aca04b174fe6539}{Shamsuddin}{S\bibinitperiod}{Siti\bibnamedelimb Mariyam\bibnamedelima Hj}{S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{13b9faf0e62c1fb1e1027b1a7db3641d}
       \strng{fullhash}{13b9faf0e62c1fb1e1027b1a7db3641d}
-      \strng{bibnamehash}{13b9faf0e62c1fb1e1027b1a7db3641d}
-      \strng{authorbibnamehash}{13b9faf0e62c1fb1e1027b1a7db3641d}
-      \strng{authornamehash}{13b9faf0e62c1fb1e1027b1a7db3641d}
-      \strng{authorfullhash}{13b9faf0e62c1fb1e1027b1a7db3641d}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{A review of population-based meta-heuristic algorithms}
       \field{journaltitle}{Int. J. Adv. Soft Comput. Appl}
       \field{number}{1}
       \field{title}{A review of population-based meta-heuristic algorithms}
       \field{volume}{5}
       \field{year}{2013}
       \field{pages}{1\bibrangedash 35}
-      \range{pages}{35}
     \endentry
     \entry{Joel:SMSEMOA}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=7725327d1276b176fd70cd58490b9b45}{Beume}{B\bibinitperiod}{Nicola}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=4a34e8e688ef6d2dfa90e07ee2139720}{Naujoks}{N\bibinitperiod}{Boris}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1f0690890636870e2066e61bbf5da3aa}{Emmerich}{E\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{3}{}{%
-        {{hash=7725327d1276b176fd70cd58490b9b45}{%
-           family={Beume},
-           familyi={B\bibinitperiod},
-           given={Nicola},
-           giveni={N\bibinitperiod}}}%
-        {{hash=4a34e8e688ef6d2dfa90e07ee2139720}{%
-           family={Naujoks},
-           familyi={N\bibinitperiod},
-           given={Boris},
-           giveni={B\bibinitperiod}}}%
-        {{hash=1f0690890636870e2066e61bbf5da3aa}{%
-           family={Emmerich},
-           familyi={E\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
+        {{hash=7725327d1276b176fd70cd58490b9b45}{Beume}{B\bibinitperiod}{Nicola}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=4a34e8e688ef6d2dfa90e07ee2139720}{Naujoks}{N\bibinitperiod}{Boris}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1f0690890636870e2066e61bbf5da3aa}{Emmerich}{E\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{2ce393c7ca54f995c595634b18e2281c}
       \strng{fullhash}{2ce393c7ca54f995c595634b18e2281c}
-      \strng{bibnamehash}{2ce393c7ca54f995c595634b18e2281c}
-      \strng{authorbibnamehash}{2ce393c7ca54f995c595634b18e2281c}
-      \strng{authornamehash}{2ce393c7ca54f995c595634b18e2281c}
-      \strng{authorfullhash}{2ce393c7ca54f995c595634b18e2281c}
       \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{{SMS-EMOA: Multiobjective selection based on dominated hypervolume }}
       \field{issn}{0377-2217}
       \field{journaltitle}{European Journal of Operational Research}
       \field{number}{3}
@@ -154,58 +106,56 @@
       \field{volume}{181}
       \field{year}{2007}
       \field{pages}{1653\bibrangedash 1669}
-      \range{pages}{17}
       \keyw{OR in aerodynamic industries}
     \endentry
-    \entry{Joel:MOEAD_AMS}{inproceedings}{}
+    \entry{chan2005evolutionary}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=544a7c7566d1b43e789c7449090b97a7}{Chan}{C\bibinitperiod}{KP}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=540d8afd619589c7e817f6793125952d}{Ray}{R\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=c7055466e45d104ae99952b0c76a0a4d}{%
-           family={Chiang},
-           familyi={C\bibinitperiod},
-           given={T.\bibnamedelimi C.},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=47a6142c9d5cdb4fe32972dbdcd9d539}{%
-           family={Lai},
-           familyi={L\bibinitperiod},
-           given={Y.\bibnamedelimi P.},
-           giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=544a7c7566d1b43e789c7449090b97a7}{Chan}{C\bibinitperiod}{KP}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=540d8afd619589c7e817f6793125952d}{Ray}{R\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{807d9b2fca65e9a55ffbaeba15542cda}
+      \strng{fullhash}{807d9b2fca65e9a55ffbaeba15542cda}
+      \field{sortinit}{C}
+      \field{labeltitle}{An evolutionary algorithm to maintain diversity in the parametric and the objective space}
+      \field{booktitle}{International Conference on Computational Robotics and Autonomous Systems (CIRAS), Centre for Intelligent Control, National University of Singapore}
+      \field{title}{An evolutionary algorithm to maintain diversity in the parametric and the objective space}
+      \field{year}{2005}
+    \endentry
+    \entry{Joel:MOEAD_AMS}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=c7055466e45d104ae99952b0c76a0a4d}{Chiang}{C\bibinitperiod}{T.\bibnamedelimi C.}{T\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=47a6142c9d5cdb4fe32972dbdcd9d539}{Lai}{L\bibinitperiod}{Y.\bibnamedelimi P.}{Y\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=c7055466e45d104ae99952b0c76a0a4d}{Chiang}{C\bibinitperiod}{T.\bibnamedelimi C.}{T\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=47a6142c9d5cdb4fe32972dbdcd9d539}{Lai}{L\bibinitperiod}{Y.\bibnamedelimi P.}{Y\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{24b8a284907764001758d70fd0185ad4}
       \strng{fullhash}{24b8a284907764001758d70fd0185ad4}
-      \strng{bibnamehash}{24b8a284907764001758d70fd0185ad4}
-      \strng{authorbibnamehash}{24b8a284907764001758d70fd0185ad4}
-      \strng{authornamehash}{24b8a284907764001758d70fd0185ad4}
-      \strng{authorfullhash}{24b8a284907764001758d70fd0185ad4}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{{MOEA/D-AMS: Improving MOEA/D by an adaptive mating selection mechanism}}
       \field{booktitle}{2011 IEEE Congress of Evolutionary Computation (CEC)}
       \field{issn}{1089-778X}
-      \field{month}{6}
+      \field{month}{06}
       \field{title}{{MOEA/D-AMS: Improving MOEA/D by an adaptive mating selection mechanism}}
       \field{year}{2011}
       \field{pages}{1473\bibrangedash 1480}
-      \range{pages}{8}
       \keyw{Pareto optimisation;evolutionary computation;MOEA-D-AMS;Pareto optimal solutions;adaptive mating selection mechanism;distributed weight vectors;multiobjective evolutionary algorithm;Approximation algorithms;Benchmark testing;Cascading style sheets;Evolutionary computation;Measurement;Optimization;Vectors;evolutionary algorithm;mating pool;mating selection;multiobjective optimization;scalarization;subproblem}
     \endentry
     \entry{Crepinsek:13}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=254edfb69de028c3d0ca8c6fabec15f3}{Črepinšek}{Č\bibinitperiod}{Matej}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=435bb0d8bd5789d728ef1fdce009945d}{Liu}{L\bibinitperiod}{Shih-Hsi}{S\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=ad44b79af15ed460ebd677f4d43c5227}{Mernik}{M\bibinitperiod}{Marjan}{M\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{3}{}{%
-        {{hash=254edfb69de028c3d0ca8c6fabec15f3}{%
-           family={Črepinšek},
-           familyi={Č\bibinitperiod},
-           given={Matej},
-           giveni={M\bibinitperiod}}}%
-        {{hash=435bb0d8bd5789d728ef1fdce009945d}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Shih-Hsi},
-           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
-        {{hash=ad44b79af15ed460ebd677f4d43c5227}{%
-           family={Mernik},
-           familyi={M\bibinitperiod},
-           given={Marjan},
-           giveni={M\bibinitperiod}}}%
+        {{hash=254edfb69de028c3d0ca8c6fabec15f3}{Črepinšek}{Č\bibinitperiod}{Matej}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=435bb0d8bd5789d728ef1fdce009945d}{Liu}{L\bibinitperiod}{Shih-Hsi}{S\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=ad44b79af15ed460ebd677f4d43c5227}{Mernik}{M\bibinitperiod}{Marjan}{M\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
         {New York, NY, USA}%
@@ -215,108 +165,43 @@
       }
       \strng{namehash}{5ef43cccd0f727c7885dc48573c61ee5}
       \strng{fullhash}{5ef43cccd0f727c7885dc48573c61ee5}
-      \strng{bibnamehash}{5ef43cccd0f727c7885dc48573c61ee5}
-      \strng{authorbibnamehash}{5ef43cccd0f727c7885dc48573c61ee5}
-      \strng{authornamehash}{5ef43cccd0f727c7885dc48573c61ee5}
-      \strng{authorfullhash}{5ef43cccd0f727c7885dc48573c61ee5}
       \field{sortinit}{Č}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Exploration and Exploitation in Evolutionary Algorithms: A Survey}
       \field{journaltitle}{ACM Computing Surveys}
-      \field{month}{7}
+      \field{month}{07}
       \field{number}{3}
       \field{title}{Exploration and Exploitation in Evolutionary Algorithms: A Survey}
       \field{volume}{45}
       \field{year}{2013}
       \field{pages}{35:1\bibrangedash 35:33}
-      \range{pages}{-1}
     \endentry
     \entry{dasgupta2013evolutionary}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=c900a3500e53e3ff83378b51ea2ae3a3}{Dasgupta}{D\bibinitperiod}{Dipankar}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=4a8cba6efa3afc65630aa05f0cbd9b66}{Michalewicz}{M\bibinitperiod}{Zbigniew}{Z\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=c900a3500e53e3ff83378b51ea2ae3a3}{%
-           family={Dasgupta},
-           familyi={D\bibinitperiod},
-           given={Dipankar},
-           giveni={D\bibinitperiod}}}%
-        {{hash=4a8cba6efa3afc65630aa05f0cbd9b66}{%
-           family={Michalewicz},
-           familyi={M\bibinitperiod},
-           given={Zbigniew},
-           giveni={Z\bibinitperiod}}}%
+        {{hash=c900a3500e53e3ff83378b51ea2ae3a3}{Dasgupta}{D\bibinitperiod}{Dipankar}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=4a8cba6efa3afc65630aa05f0cbd9b66}{Michalewicz}{M\bibinitperiod}{Zbigniew}{Z\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Springer Science \& Business Media}%
       }
       \strng{namehash}{43979e346f60d836a1ef6963cbcc3158}
       \strng{fullhash}{43979e346f60d836a1ef6963cbcc3158}
-      \strng{bibnamehash}{43979e346f60d836a1ef6963cbcc3158}
-      \strng{authorbibnamehash}{43979e346f60d836a1ef6963cbcc3158}
-      \strng{authornamehash}{43979e346f60d836a1ef6963cbcc3158}
-      \strng{authorfullhash}{43979e346f60d836a1ef6963cbcc3158}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Evolutionary algorithms in engineering applications}
       \field{title}{Evolutionary algorithms in engineering applications}
       \field{year}{2013}
     \endentry
-    \entry{Joel:NSGAII}{article}{}
-      \name{author}{4}{}{%
-        {{hash=3b0426e9fc6ff3fc1eaf4286ab054d63}{%
-           family={Deb},
-           familyi={D\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=0d86d36d1f8559f2cf0d19f64ba88bd8}{%
-           family={Pratap},
-           familyi={P\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=a8f8b103d55840c9aaeeb076d15cb1fb}{%
-           family={Agarwal},
-           familyi={A\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b48a097305788d7919a8610a070f19c4}{%
-           family={Meyarivan},
-           familyi={M\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{7f6a7dd7c56ecb7e499472dfe1a19e94}
-      \strng{fullhash}{5ae23765a6f2e74106ff7d5953dbb80c}
-      \strng{bibnamehash}{7f6a7dd7c56ecb7e499472dfe1a19e94}
-      \strng{authorbibnamehash}{7f6a7dd7c56ecb7e499472dfe1a19e94}
-      \strng{authornamehash}{7f6a7dd7c56ecb7e499472dfe1a19e94}
-      \strng{authorfullhash}{5ae23765a6f2e74106ff7d5953dbb80c}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1089-778X}
-      \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
-      \field{month}{4}
-      \field{number}{2}
-      \field{title}{{A fast and elitist multiobjective genetic algorithm: NSGA-II}}
-      \field{volume}{6}
-      \field{year}{2002}
-      \field{pages}{182\bibrangedash 197}
-      \range{pages}{16}
-      \keyw{Pareto distribution;computational complexity;constraint theory;convergence;genetic algorithms;operations research;simulation;sorting;NSGA-II;Nondominated Sorting Genetic Algorithm II;Pareto-archived evolution strategy;Pareto-optimal front;algorithm performance;computational complexity;constrained multi-objective problems;constraint handling;convergence;dominance definition;fast elitist multi-objective genetic algorithm;mating pool;multi-criterion decision making;multi-objective evolutionary algorithm;multi-objective optimization;nondominated sharing;nonlinear problem;objectives;parent/offspring population combination;population size;selection operator;simulation;solution fitness;solution spread;strength-Pareto evolutionary algorithm;Associate members;Computational complexity;Computational modeling;Constraint optimization;Decision making;Diversity reception;Evolutionary computation;Genetic algorithms;Sorting;Testing}
-    \endentry
     \entry{Joel:Kalyanmoy}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=67ddb791fe14cca6bbfa10225de533eb}{Kalyanmoy}{K\bibinitperiod}{Deb}{D\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=b11d1da0cc2920eef235d484e6b858ef}{%
-           family={Deb},
-           familyi={D\bibinitperiod},
-           given={Kalyanmoy},
-           giveni={K\bibinitperiod}}}%
-        {{hash=67ddb791fe14cca6bbfa10225de533eb}{%
-           family={Kalyanmoy},
-           familyi={K\bibinitperiod},
-           given={Deb},
-           giveni={D\bibinitperiod}}}%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=67ddb791fe14cca6bbfa10225de533eb}{Kalyanmoy}{K\bibinitperiod}{Deb}{D\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
         {New York, NY, USA}%
@@ -326,232 +211,194 @@
       }
       \strng{namehash}{99ed3c3e4efa52344a9153aac733ee3e}
       \strng{fullhash}{99ed3c3e4efa52344a9153aac733ee3e}
-      \strng{bibnamehash}{99ed3c3e4efa52344a9153aac733ee3e}
-      \strng{authorbibnamehash}{99ed3c3e4efa52344a9153aac733ee3e}
-      \strng{authornamehash}{99ed3c3e4efa52344a9153aac733ee3e}
-      \strng{authorfullhash}{99ed3c3e4efa52344a9153aac733ee3e}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{{Multi-Objective Optimization Using Evolutionary Algorithms}}
       \field{isbn}{047187339X}
       \field{title}{{Multi-Objective Optimization Using Evolutionary Algorithms}}
       \field{year}{2001}
     \endentry
+    \entry{deb2005omni}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=e4653f50881f56b60b1b43e5b2a16b7a}{Tiwari}{T\bibinitperiod}{Santosh}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=e4653f50881f56b60b1b43e5b2a16b7a}{Tiwari}{T\bibinitperiod}{Santosh}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4ce8f489e24d4d759250e56be47f21a5}
+      \strng{fullhash}{4ce8f489e24d4d759250e56be47f21a5}
+      \field{sortinit}{D}
+      \field{labeltitle}{Omni-optimizer: A Procedure for Single and Multi-objective Optimization.}
+      \field{booktitle}{EMO}
+      \field{title}{Omni-optimizer: A Procedure for Single and Multi-objective Optimization.}
+      \field{volume}{3410}
+      \field{year}{2005}
+      \field{pages}{47\bibrangedash 61}
+    \endentry
     \entry{Joel:DTLZ_1}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b366e77b845023904aeac46562f429c}{Laumanns}{L\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=b11d1da0cc2920eef235d484e6b858ef}{%
-           family={Deb},
-           familyi={D\bibinitperiod},
-           given={Kalyanmoy},
-           giveni={K\bibinitperiod}}}%
-        {{hash=443849b4c8bfc03386052ff0243f508c}{%
-           family={Thiele},
-           familyi={T\bibinitperiod},
-           given={Lothar},
-           giveni={L\bibinitperiod}}}%
-        {{hash=7b366e77b845023904aeac46562f429c}{%
-           family={Laumanns},
-           familyi={L\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-        {{hash=69e40d953c66ad25defd15441930b1f3}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={Eckart},
-           giveni={E\bibinitperiod}}}%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b366e77b845023904aeac46562f429c}{Laumanns}{L\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
       }
       \list{organization}{1}{%
         {IEEE}%
       }
       \strng{namehash}{6943967d389ec1de2e10e25fbdf3b2a0}
       \strng{fullhash}{e7139106a66c7b5e9da8b29f5415d084}
-      \strng{bibnamehash}{6943967d389ec1de2e10e25fbdf3b2a0}
-      \strng{authorbibnamehash}{6943967d389ec1de2e10e25fbdf3b2a0}
-      \strng{authornamehash}{6943967d389ec1de2e10e25fbdf3b2a0}
-      \strng{authorfullhash}{e7139106a66c7b5e9da8b29f5415d084}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Scalable multi-objective optimization test problems}
       \field{booktitle}{Evolutionary Computation, 2002. CEC'02. Proceedings of the 2002 Congress on}
       \field{title}{Scalable multi-objective optimization test problems}
       \field{volume}{1}
       \field{year}{2002}
       \field{pages}{825\bibrangedash 830}
-      \range{pages}{6}
     \endentry
     \entry{Joel:DTLZ_2}{book}{}
+      \name{labelname}{4}{}{%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b366e77b845023904aeac46562f429c}{Laumanns}{L\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=b11d1da0cc2920eef235d484e6b858ef}{%
-           family={Deb},
-           familyi={D\bibinitperiod},
-           given={Kalyanmoy},
-           giveni={K\bibinitperiod}}}%
-        {{hash=443849b4c8bfc03386052ff0243f508c}{%
-           family={Thiele},
-           familyi={T\bibinitperiod},
-           given={Lothar},
-           giveni={L\bibinitperiod}}}%
-        {{hash=7b366e77b845023904aeac46562f429c}{%
-           family={Laumanns},
-           familyi={L\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-        {{hash=69e40d953c66ad25defd15441930b1f3}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={Eckart},
-           giveni={E\bibinitperiod}}}%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b366e77b845023904aeac46562f429c}{Laumanns}{L\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Springer}%
       }
       \strng{namehash}{6943967d389ec1de2e10e25fbdf3b2a0}
       \strng{fullhash}{e7139106a66c7b5e9da8b29f5415d084}
-      \strng{bibnamehash}{6943967d389ec1de2e10e25fbdf3b2a0}
-      \strng{authorbibnamehash}{6943967d389ec1de2e10e25fbdf3b2a0}
-      \strng{authornamehash}{6943967d389ec1de2e10e25fbdf3b2a0}
-      \strng{authorfullhash}{e7139106a66c7b5e9da8b29f5415d084}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Scalable test problems for evolutionary multiobjective optimization}
       \field{title}{Scalable test problems for evolutionary multiobjective optimization}
       \field{year}{2005}
     \endentry
+    \entry{Joel:NSGAII}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=3b0426e9fc6ff3fc1eaf4286ab054d63}{Deb}{D\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=0d86d36d1f8559f2cf0d19f64ba88bd8}{Pratap}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a8f8b103d55840c9aaeeb076d15cb1fb}{Agarwal}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b48a097305788d7919a8610a070f19c4}{Meyarivan}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=3b0426e9fc6ff3fc1eaf4286ab054d63}{Deb}{D\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=0d86d36d1f8559f2cf0d19f64ba88bd8}{Pratap}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a8f8b103d55840c9aaeeb076d15cb1fb}{Agarwal}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b48a097305788d7919a8610a070f19c4}{Meyarivan}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7f6a7dd7c56ecb7e499472dfe1a19e94}
+      \strng{fullhash}{5ae23765a6f2e74106ff7d5953dbb80c}
+      \field{sortinit}{D}
+      \field{labeltitle}{{A fast and elitist multiobjective genetic algorithm: NSGA-II}}
+      \field{issn}{1089-778X}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
+      \field{month}{04}
+      \field{number}{2}
+      \field{title}{{A fast and elitist multiobjective genetic algorithm: NSGA-II}}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{pages}{182\bibrangedash 197}
+      \keyw{Pareto distribution;computational complexity;constraint theory;convergence;genetic algorithms;operations research;simulation;sorting;NSGA-II;Nondominated Sorting Genetic Algorithm II;Pareto-archived evolution strategy;Pareto-optimal front;algorithm performance;computational complexity;constrained multi-objective problems;constraint handling;convergence;dominance definition;fast elitist multi-objective genetic algorithm;mating pool;multi-criterion decision making;multi-objective evolutionary algorithm;multi-objective optimization;nondominated sharing;nonlinear problem;objectives;parent/offspring population combination;population size;selection operator;simulation;solution fitness;solution spread;strength-Pareto evolutionary algorithm;Associate members;Computational complexity;Computational modeling;Constraint optimization;Decision making;Diversity reception;Evolutionary computation;Genetic algorithms;Sorting;Testing}
+    \endentry
     \entry{Joel:StatisticalTest}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=4c3380334f93f387729329bb9f6c2e52}{Durillo}{D\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=d8de7252a474a5e48f7f32c20c49982c}{Nebro}{N\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=6cbb37aaebed433633e54827ce61b572}{Coello}{C\bibinitperiod}{C.\bibnamedelimi A.\bibnamedelimi C.}{C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=39ab7a685a983fb3aeedf1553b2fd9be}{Garcia-Nieto}{G\bibinithyphendelim N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=cf9d99b103b42bf6b5a212986011f00c}{Luna}{L\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=8dcdbf6fad3e469213f7a876b5a39e18}{Alba}{A\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{6}{}{%
-        {{hash=4c3380334f93f387729329bb9f6c2e52}{%
-           family={Durillo},
-           familyi={D\bibinitperiod},
-           given={J.\bibnamedelimi J.},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=d8de7252a474a5e48f7f32c20c49982c}{%
-           family={Nebro},
-           familyi={N\bibinitperiod},
-           given={A.\bibnamedelimi J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=6cbb37aaebed433633e54827ce61b572}{%
-           family={Coello},
-           familyi={C\bibinitperiod},
-           given={C.\bibnamedelimi A.\bibnamedelimi C.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=39ab7a685a983fb3aeedf1553b2fd9be}{%
-           family={Garcia-Nieto},
-           familyi={G\bibinithyphendelim N\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=cf9d99b103b42bf6b5a212986011f00c}{%
-           family={Luna},
-           familyi={L\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=8dcdbf6fad3e469213f7a876b5a39e18}{%
-           family={Alba},
-           familyi={A\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
+        {{hash=4c3380334f93f387729329bb9f6c2e52}{Durillo}{D\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=d8de7252a474a5e48f7f32c20c49982c}{Nebro}{N\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=6cbb37aaebed433633e54827ce61b572}{Coello}{C\bibinitperiod}{C.\bibnamedelimi A.\bibnamedelimi C.}{C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=39ab7a685a983fb3aeedf1553b2fd9be}{Garcia-Nieto}{G\bibinithyphendelim N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=cf9d99b103b42bf6b5a212986011f00c}{Luna}{L\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=8dcdbf6fad3e469213f7a876b5a39e18}{Alba}{A\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{19b55b02b2cf8bee5124a870174ab4cb}
       \strng{fullhash}{69cc088911bc11b2185d7c46bd3dd4fc}
-      \strng{bibnamehash}{19b55b02b2cf8bee5124a870174ab4cb}
-      \strng{authorbibnamehash}{19b55b02b2cf8bee5124a870174ab4cb}
-      \strng{authornamehash}{19b55b02b2cf8bee5124a870174ab4cb}
-      \strng{authorfullhash}{69cc088911bc11b2185d7c46bd3dd4fc}
       \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{{A Study of Multiobjective Metaheuristics When Solving Parameter Scalable Problems}}
       \field{issn}{1089-778X}
       \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
-      \field{month}{8}
+      \field{month}{08}
       \field{number}{4}
       \field{title}{{A Study of Multiobjective Metaheuristics When Solving Parameter Scalable Problems}}
       \field{volume}{14}
       \field{year}{2010}
       \field{pages}{618\bibrangedash 635}
-      \range{pages}{18}
       \keyw{Pareto optimisation;particle swarm optimisation;Pareto front;Zitzler-Deb-Thiele test suite;differential evolution;hypervolume indicator;multiobjective metaheuristics;parameter scalable problems;parameter-wise scalable problems;particle swarm optimization;quality indicators;search capability;Comparative study;efficiency;metaheuristics;multi-objective optimization;scalability}
     \endentry
     \entry{eiben1998evolutionary}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=fcc56d687f58fd3f07cceb185700fda5}{Eiben}{E\bibinitperiod}{Agoston\bibnamedelima E}{A\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=320866a6f730218427e8d821aed8146d}{Schippers}{S\bibinitperiod}{Cornelis\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=fcc56d687f58fd3f07cceb185700fda5}{%
-           family={Eiben},
-           familyi={E\bibinitperiod},
-           given={Agoston\bibnamedelima E},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=320866a6f730218427e8d821aed8146d}{%
-           family={Schippers},
-           familyi={S\bibinitperiod},
-           given={Cornelis\bibnamedelima A},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fcc56d687f58fd3f07cceb185700fda5}{Eiben}{E\bibinitperiod}{Agoston\bibnamedelima E}{A\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=320866a6f730218427e8d821aed8146d}{Schippers}{S\bibinitperiod}{Cornelis\bibnamedelima A}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {IOS Press}%
       }
       \strng{namehash}{ad8607ba86c93d13e244e98242acb95b}
       \strng{fullhash}{ad8607ba86c93d13e244e98242acb95b}
-      \strng{bibnamehash}{ad8607ba86c93d13e244e98242acb95b}
-      \strng{authorbibnamehash}{ad8607ba86c93d13e244e98242acb95b}
-      \strng{authornamehash}{ad8607ba86c93d13e244e98242acb95b}
-      \strng{authorfullhash}{ad8607ba86c93d13e244e98242acb95b}
       \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{On evolutionary exploration and exploitation}
       \field{journaltitle}{Fundamenta Informaticae}
       \field{number}{1-4}
       \field{title}{On evolutionary exploration and exploitation}
       \field{volume}{35}
       \field{year}{1998}
       \field{pages}{35\bibrangedash 50}
-      \range{pages}{16}
     \endentry
     \entry{eiben2003introduction}{book}{}
-      \true{moreauthor}
       \true{morelabelname}
+      \name{labelname}{2}{}{%
+        {{hash=fcc56d687f58fd3f07cceb185700fda5}{Eiben}{E\bibinitperiod}{Agoston\bibnamedelima E}{A\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=2f06c76e7076eccb2826cb00243ba962}{Smith}{S\bibinitperiod}{James\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
       \name{author}{2}{}{%
-        {{hash=fcc56d687f58fd3f07cceb185700fda5}{%
-           family={Eiben},
-           familyi={E\bibinitperiod},
-           given={Agoston\bibnamedelima E},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=2f06c76e7076eccb2826cb00243ba962}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={James\bibnamedelima E},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=fcc56d687f58fd3f07cceb185700fda5}{Eiben}{E\bibinitperiod}{Agoston\bibnamedelima E}{A\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=2f06c76e7076eccb2826cb00243ba962}{Smith}{S\bibinitperiod}{James\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Springer}%
       }
-      \strng{namehash}{2a857b2dd3f46ba17b4926b6b7dc251f}
+      \strng{namehash}{705734fb1d24ddbabb11bdfef0b3f5f1}
       \strng{fullhash}{2a857b2dd3f46ba17b4926b6b7dc251f}
-      \strng{bibnamehash}{2a857b2dd3f46ba17b4926b6b7dc251f}
-      \strng{authorbibnamehash}{2a857b2dd3f46ba17b4926b6b7dc251f}
-      \strng{authornamehash}{2a857b2dd3f46ba17b4926b6b7dc251f}
-      \strng{authorfullhash}{2a857b2dd3f46ba17b4926b6b7dc251f}
       \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Introduction to evolutionary computing}
       \field{title}{Introduction to evolutionary computing}
       \field{volume}{53}
       \field{year}{2003}
     \endentry
     \entry{Joel:MOGA}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=c4e9754b0a8993b74c9a3ce15edea8d5}{Fonseca}{F\bibinitperiod}{Carlos\bibnamedelima M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f64a95e403e6dd2ebe80b60a8cc02e26}{Fleming}{F\bibinitperiod}{Peter\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=c4e9754b0a8993b74c9a3ce15edea8d5}{%
-           family={Fonseca},
-           familyi={F\bibinitperiod},
-           given={Carlos\bibnamedelima M.},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=f64a95e403e6dd2ebe80b60a8cc02e26}{%
-           family={Fleming},
-           familyi={F\bibinitperiod},
-           given={Peter\bibnamedelima J.},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c4e9754b0a8993b74c9a3ce15edea8d5}{Fonseca}{F\bibinitperiod}{Carlos\bibnamedelima M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f64a95e403e6dd2ebe80b60a8cc02e26}{Fleming}{F\bibinitperiod}{Peter\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
         {San Francisco, CA, USA}%
@@ -561,92 +408,62 @@
       }
       \strng{namehash}{c8b2aa9f7012b328fe3d6f1816461a5c}
       \strng{fullhash}{c8b2aa9f7012b328fe3d6f1816461a5c}
-      \strng{bibnamehash}{c8b2aa9f7012b328fe3d6f1816461a5c}
-      \strng{authorbibnamehash}{c8b2aa9f7012b328fe3d6f1816461a5c}
-      \strng{authornamehash}{c8b2aa9f7012b328fe3d6f1816461a5c}
-      \strng{authorfullhash}{c8b2aa9f7012b328fe3d6f1816461a5c}
       \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Genetic Algorithms for Multiobjective Optimization: FormulationDiscussion and Generalization}
       \field{booktitle}{Proceedings of the 5th International Conference on Genetic Algorithms}
       \field{isbn}{1-55860-299-2}
       \field{title}{Genetic Algorithms for Multiobjective Optimization: FormulationDiscussion and Generalization}
       \field{year}{1993}
       \field{pages}{416\bibrangedash 423}
-      \range{pages}{8}
-      \verb{urlraw}
-      \verb http://dl.acm.org/citation.cfm?id=645513.657757
-      \endverb
       \verb{url}
       \verb http://dl.acm.org/citation.cfm?id=645513.657757
       \endverb
     \endentry
     \entry{WinNT}{misc}{}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Generative Components Community Wiki}
       \field{howpublished}{\url{https://communities.bentley.com/products/products_generativecomponents/w/generative_components_community_wiki/37421/b---non-dominated-solutions-and-the-pareto-frontier}}
       \field{note}{Accessed: 2019-12-13}
       \field{title}{Generative Components Community Wiki}
     \endentry
     \entry{raquel_2018}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=29d100a928a17ee8984c9011f4fe9a5d}{Gómez}{G\bibinitperiod}{Raquel\bibnamedelima Hernández}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{1}{}{%
-        {{hash=29d100a928a17ee8984c9011f4fe9a5d}{%
-           family={Gómez},
-           familyi={G\bibinitperiod},
-           given={Raquel\bibnamedelima Hernández},
-           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=29d100a928a17ee8984c9011f4fe9a5d}{Gómez}{G\bibinitperiod}{Raquel\bibnamedelima Hernández}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{29d100a928a17ee8984c9011f4fe9a5d}
       \strng{fullhash}{29d100a928a17ee8984c9011f4fe9a5d}
-      \strng{bibnamehash}{29d100a928a17ee8984c9011f4fe9a5d}
-      \strng{authorbibnamehash}{29d100a928a17ee8984c9011f4fe9a5d}
-      \strng{authornamehash}{29d100a928a17ee8984c9011f4fe9a5d}
-      \strng{authorfullhash}{29d100a928a17ee8984c9011f4fe9a5d}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Parallel Hyper-Heuristics for Multi-Objective Optimization (PhD thesis)}
       \field{title}{Parallel Hyper-Heuristics for Multi-Objective Optimization (PhD thesis)}
       \field{year}{2018}
     \endentry
     \entry{harik1995finding}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=64c5e6c78f56632fdd783d0049d29bd6}{Harik}{H\bibinitperiod}{Georges\bibnamedelima R}{G\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{1}{}{%
-        {{hash=64c5e6c78f56632fdd783d0049d29bd6}{%
-           family={Harik},
-           familyi={H\bibinitperiod},
-           given={Georges\bibnamedelima R},
-           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=64c5e6c78f56632fdd783d0049d29bd6}{Harik}{H\bibinitperiod}{Georges\bibnamedelima R}{G\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{64c5e6c78f56632fdd783d0049d29bd6}
       \strng{fullhash}{64c5e6c78f56632fdd783d0049d29bd6}
-      \strng{bibnamehash}{64c5e6c78f56632fdd783d0049d29bd6}
-      \strng{authorbibnamehash}{64c5e6c78f56632fdd783d0049d29bd6}
-      \strng{authornamehash}{64c5e6c78f56632fdd783d0049d29bd6}
-      \strng{authorfullhash}{64c5e6c78f56632fdd783d0049d29bd6}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Finding Multimodal Solutions Using Restricted Tournament Selection.}
       \field{booktitle}{ICGA}
       \field{title}{Finding Multimodal Solutions Using Restricted Tournament Selection.}
       \field{year}{1995}
       \field{pages}{24\bibrangedash 31}
-      \range{pages}{8}
     \endentry
     \entry{Joel:MOMBI-II}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=5ea0ba408dd4746d7fc8cca00046ed81}{Hernández\bibnamedelima Gómez}{H\bibinitperiod\bibinitdelim G\bibinitperiod}{Raquel}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=20883ced3fc10ea103d3ce3d09c374e4}{Coello\bibnamedelima Coello}{C\bibinitperiod\bibinitdelim C\bibinitperiod}{Carlos\bibnamedelima A.}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=5ea0ba408dd4746d7fc8cca00046ed81}{%
-           family={Hernández\bibnamedelima Gómez},
-           familyi={H\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={Raquel},
-           giveni={R\bibinitperiod}}}%
-        {{hash=20883ced3fc10ea103d3ce3d09c374e4}{%
-           family={Coello\bibnamedelima Coello},
-           familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Carlos\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5ea0ba408dd4746d7fc8cca00046ed81}{Hernández\bibnamedelima Gómez}{H\bibinitperiod\bibinitdelim G\bibinitperiod}{Raquel}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=20883ced3fc10ea103d3ce3d09c374e4}{Coello\bibnamedelima Coello}{C\bibinitperiod\bibinitdelim C\bibinitperiod}{Carlos\bibnamedelima A.}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
         {Madrid, Spain}%
@@ -656,26 +473,16 @@
       }
       \strng{namehash}{beb154889200d8d42393973568cac01e}
       \strng{fullhash}{beb154889200d8d42393973568cac01e}
-      \strng{bibnamehash}{beb154889200d8d42393973568cac01e}
-      \strng{authorbibnamehash}{beb154889200d8d42393973568cac01e}
-      \strng{authornamehash}{beb154889200d8d42393973568cac01e}
-      \strng{authorfullhash}{beb154889200d8d42393973568cac01e}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Improved Metaheuristic Based on the R2 Indicator for Many-Objective Optimization}
       \field{booktitle}{Proceedings of the 2015 Annual Conference on Genetic and Evolutionary Computation}
       \field{isbn}{978-1-4503-3472-3}
       \field{series}{GECCO '15}
       \field{title}{Improved Metaheuristic Based on the R2 Indicator for Many-Objective Optimization}
       \field{year}{2015}
       \field{pages}{679\bibrangedash 686}
-      \range{pages}{8}
       \verb{doi}
       \verb 10.1145/2739480.2754776
-      \endverb
-      \verb{urlraw}
-      \verb http://doi.acm.org/10.1145/2739480.2754776
       \endverb
       \verb{url}
       \verb http://doi.acm.org/10.1145/2739480.2754776
@@ -683,113 +490,66 @@
       \keyw{genetic algorithms,multi-objective optimization,performance measures}
     \endentry
     \entry{herrera1996adaptation}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=9f81f46436ba77791311a5db20ff5c25}{Herrera}{H\bibinitperiod}{Francisco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=277f0ff0fa87b54f650fdac32a1b4c5a}{Lozano}{L\bibinitperiod}{Manuel}{M\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=9f81f46436ba77791311a5db20ff5c25}{%
-           family={Herrera},
-           familyi={H\bibinitperiod},
-           given={Francisco},
-           giveni={F\bibinitperiod}}}%
-        {{hash=277f0ff0fa87b54f650fdac32a1b4c5a}{%
-           family={Lozano},
-           familyi={L\bibinitperiod},
-           given={Manuel},
-           giveni={M\bibinitperiod}}}%
+        {{hash=9f81f46436ba77791311a5db20ff5c25}{Herrera}{H\bibinitperiod}{Francisco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=277f0ff0fa87b54f650fdac32a1b4c5a}{Lozano}{L\bibinitperiod}{Manuel}{M\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Physica-Verlag Berlin}%
       }
       \strng{namehash}{627ce8c2bc1d9a7b8ee249f9cafa5faa}
       \strng{fullhash}{627ce8c2bc1d9a7b8ee249f9cafa5faa}
-      \strng{bibnamehash}{627ce8c2bc1d9a7b8ee249f9cafa5faa}
-      \strng{authorbibnamehash}{627ce8c2bc1d9a7b8ee249f9cafa5faa}
-      \strng{authornamehash}{627ce8c2bc1d9a7b8ee249f9cafa5faa}
-      \strng{authorfullhash}{627ce8c2bc1d9a7b8ee249f9cafa5faa}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Adaptation of genetic algorithm parameters based on fuzzy logic controllers}
       \field{journaltitle}{Genetic Algorithms and Soft Computing}
       \field{title}{Adaptation of genetic algorithm parameters based on fuzzy logic controllers}
       \field{volume}{8}
       \field{year}{1996}
       \field{pages}{95\bibrangedash 125}
-      \range{pages}{31}
     \endentry
     \entry{Joel:NPGA}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=cd9db2a1c43b62d48cd1475da3a6e0cc}{Horn}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d60cb4a7d717e8eacae6f211f13c241c}{Nafpliotis}{N\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=a1c5809bef5e934ff026a560de64476a}{Goldberg}{G\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{3}{}{%
-        {{hash=cd9db2a1c43b62d48cd1475da3a6e0cc}{%
-           family={Horn},
-           familyi={H\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d60cb4a7d717e8eacae6f211f13c241c}{%
-           family={Nafpliotis},
-           familyi={N\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a1c5809bef5e934ff026a560de64476a}{%
-           family={Goldberg},
-           familyi={G\bibinitperiod},
-           given={D.\bibnamedelimi E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=cd9db2a1c43b62d48cd1475da3a6e0cc}{Horn}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d60cb4a7d717e8eacae6f211f13c241c}{Nafpliotis}{N\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=a1c5809bef5e934ff026a560de64476a}{Goldberg}{G\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{475f79f1e5caeebdbd9ed8087e1b757e}
       \strng{fullhash}{475f79f1e5caeebdbd9ed8087e1b757e}
-      \strng{bibnamehash}{475f79f1e5caeebdbd9ed8087e1b757e}
-      \strng{authorbibnamehash}{475f79f1e5caeebdbd9ed8087e1b757e}
-      \strng{authornamehash}{475f79f1e5caeebdbd9ed8087e1b757e}
-      \strng{authorfullhash}{475f79f1e5caeebdbd9ed8087e1b757e}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{{A niched Pareto genetic algorithm for multiobjective optimization}}
       \field{booktitle}{Proceedings of the First IEEE Conference on Evolutionary Computation. IEEE World Congress on Computational Intelligence}
-      \field{month}{6}
+      \field{month}{06}
       \field{title}{{A niched Pareto genetic algorithm for multiobjective optimization}}
       \field{year}{1994}
       \field{pages}{82\bibrangedash 87 vol.1}
-      \range{pages}{-1}
       \keyw{genetic algorithms;operations research;optimisation;Niched Pareto GA;Pareto genetic algorithm;Pareto optimal set;genetic algorithm;multiobjective optimization;multiple objectives;niching pressure;optimization problems;Bioinformatics;Contracts;Costs;Genetic algorithms;Genomics;Internet;NASA;Pareto optimization;Sampling methods;Turning}
     \endentry
     \entry{Joel:WFG_Main}{inbook}{}
+      \name{labelname}{4}{}{%
+        {{hash=a05fc868a2621abfb9777527a3dc1cac}{Huband}{H\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=7b71a2fb541c0cd9993d62945529e03e}{Barone}{B\bibinitperiod}{Luigi}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=edaa4f4628ee1d0dbc8d7c58c21ec333}{While}{W\bibinitperiod}{Lyndon}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=410ab087b5850a81feacd549a98081f9}{Hingston}{H\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=a05fc868a2621abfb9777527a3dc1cac}{%
-           family={Huband},
-           familyi={H\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7b71a2fb541c0cd9993d62945529e03e}{%
-           family={Barone},
-           familyi={B\bibinitperiod},
-           given={Luigi},
-           giveni={L\bibinitperiod}}}%
-        {{hash=edaa4f4628ee1d0dbc8d7c58c21ec333}{%
-           family={While},
-           familyi={W\bibinitperiod},
-           given={Lyndon},
-           giveni={L\bibinitperiod}}}%
-        {{hash=410ab087b5850a81feacd549a98081f9}{%
-           family={Hingston},
-           familyi={H\bibinitperiod},
-           given={Phil},
-           giveni={P\bibinitperiod}}}%
+        {{hash=a05fc868a2621abfb9777527a3dc1cac}{Huband}{H\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=7b71a2fb541c0cd9993d62945529e03e}{Barone}{B\bibinitperiod}{Luigi}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=edaa4f4628ee1d0dbc8d7c58c21ec333}{While}{W\bibinitperiod}{Lyndon}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=410ab087b5850a81feacd549a98081f9}{Hingston}{H\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
       }
       \name{editor}{3}{}{%
-        {{hash=20883ced3fc10ea103d3ce3d09c374e4}{%
-           family={Coello\bibnamedelima Coello},
-           familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Carlos\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=c7ae395db18ff5402b63997027257353}{%
-           family={Hern{á}ndez\bibnamedelima Aguirre},
-           familyi={H\bibinitperiod\bibinitdelim A\bibinitperiod},
-           given={Arturo},
-           giveni={A\bibinitperiod}}}%
-        {{hash=69e40d953c66ad25defd15441930b1f3}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={Eckart},
-           giveni={E\bibinitperiod}}}%
+        {{hash=20883ced3fc10ea103d3ce3d09c374e4}{Coello\bibnamedelima Coello}{C\bibinitperiod\bibinitdelim C\bibinitperiod}{Carlos\bibnamedelima A.}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1351a90c4e97aefdd51b3c8d040f1ffc}{Hernández\bibnamedelima Aguirre}{H\bibinitperiod\bibinitdelim A\bibinitperiod}{Arturo}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
         {Berlin, Heidelberg}%
@@ -799,72 +559,37 @@
       }
       \strng{namehash}{b09a34b08644b3cbb6fb38eff950c051}
       \strng{fullhash}{c3fffcbfd905afa3eb5420bca0a559e7}
-      \strng{bibnamehash}{b09a34b08644b3cbb6fb38eff950c051}
-      \strng{authorbibnamehash}{b09a34b08644b3cbb6fb38eff950c051}
-      \strng{authornamehash}{b09a34b08644b3cbb6fb38eff950c051}
-      \strng{authorfullhash}{c3fffcbfd905afa3eb5420bca0a559e7}
-      \strng{editorbibnamehash}{b2bf6aa9876695ad1f33e6d1a59dbd51}
-      \strng{editornamehash}{b2bf6aa9876695ad1f33e6d1a59dbd51}
-      \strng{editorfullhash}{b2bf6aa9876695ad1f33e6d1a59dbd51}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{A Scalable Multi-objective Test Problem Toolkit}
       \field{booktitle}{Evolutionary Multi-Criterion Optimization: Third International Conference, EMO 2005, Guanajuato, Mexico, March 9-11, 2005. Proceedings}
       \field{isbn}{978-3-540-31880-4}
       \field{title}{A Scalable Multi-objective Test Problem Toolkit}
       \field{year}{2005}
       \field{pages}{280\bibrangedash 295}
-      \range{pages}{16}
       \verb{doi}
       \verb 10.1007/978-3-540-31880-4_20
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/978-3-540-31880-4_20
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1007/978-3-540-31880-4_20
       \endverb
     \endentry
     \entry{Joel:WFG}{inbook}{}
+      \name{labelname}{4}{}{%
+        {{hash=a05fc868a2621abfb9777527a3dc1cac}{Huband}{H\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=7b71a2fb541c0cd9993d62945529e03e}{Barone}{B\bibinitperiod}{Luigi}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=edaa4f4628ee1d0dbc8d7c58c21ec333}{While}{W\bibinitperiod}{Lyndon}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=410ab087b5850a81feacd549a98081f9}{Hingston}{H\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=a05fc868a2621abfb9777527a3dc1cac}{%
-           family={Huband},
-           familyi={H\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7b71a2fb541c0cd9993d62945529e03e}{%
-           family={Barone},
-           familyi={B\bibinitperiod},
-           given={Luigi},
-           giveni={L\bibinitperiod}}}%
-        {{hash=edaa4f4628ee1d0dbc8d7c58c21ec333}{%
-           family={While},
-           familyi={W\bibinitperiod},
-           given={Lyndon},
-           giveni={L\bibinitperiod}}}%
-        {{hash=410ab087b5850a81feacd549a98081f9}{%
-           family={Hingston},
-           familyi={H\bibinitperiod},
-           given={Phil},
-           giveni={P\bibinitperiod}}}%
+        {{hash=a05fc868a2621abfb9777527a3dc1cac}{Huband}{H\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=7b71a2fb541c0cd9993d62945529e03e}{Barone}{B\bibinitperiod}{Luigi}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=edaa4f4628ee1d0dbc8d7c58c21ec333}{While}{W\bibinitperiod}{Lyndon}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=410ab087b5850a81feacd549a98081f9}{Hingston}{H\bibinitperiod}{Phil}{P\bibinitperiod}{}{}{}{}}%
       }
       \name{editor}{3}{}{%
-        {{hash=20883ced3fc10ea103d3ce3d09c374e4}{%
-           family={Coello\bibnamedelima Coello},
-           familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Carlos\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=c7ae395db18ff5402b63997027257353}{%
-           family={Hern{á}ndez\bibnamedelima Aguirre},
-           familyi={H\bibinitperiod\bibinitdelim A\bibinitperiod},
-           given={Arturo},
-           giveni={A\bibinitperiod}}}%
-        {{hash=69e40d953c66ad25defd15441930b1f3}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={Eckart},
-           giveni={E\bibinitperiod}}}%
+        {{hash=20883ced3fc10ea103d3ce3d09c374e4}{Coello\bibnamedelima Coello}{C\bibinitperiod\bibinitdelim C\bibinitperiod}{Carlos\bibnamedelima A.}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1351a90c4e97aefdd51b3c8d040f1ffc}{Hernández\bibnamedelima Aguirre}{H\bibinitperiod\bibinitdelim A\bibinitperiod}{Arturo}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
         {Berlin, Heidelberg}%
@@ -874,175 +599,104 @@
       }
       \strng{namehash}{b09a34b08644b3cbb6fb38eff950c051}
       \strng{fullhash}{c3fffcbfd905afa3eb5420bca0a559e7}
-      \strng{bibnamehash}{b09a34b08644b3cbb6fb38eff950c051}
-      \strng{authorbibnamehash}{b09a34b08644b3cbb6fb38eff950c051}
-      \strng{authornamehash}{b09a34b08644b3cbb6fb38eff950c051}
-      \strng{authorfullhash}{c3fffcbfd905afa3eb5420bca0a559e7}
-      \strng{editorbibnamehash}{b2bf6aa9876695ad1f33e6d1a59dbd51}
-      \strng{editornamehash}{b2bf6aa9876695ad1f33e6d1a59dbd51}
-      \strng{editorfullhash}{b2bf6aa9876695ad1f33e6d1a59dbd51}
       \field{sortinit}{H}
-      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{{A Scalable Multi-objective Test Problem Toolkit}}
       \field{booktitle}{Evolutionary Multi-Criterion Optimization: Third International Conference, EMO 2005, Guanajuato, Mexico, March 9-11, 2005. Proceedings}
       \field{isbn}{978-3-540-31880-4}
       \field{title}{{A Scalable Multi-objective Test Problem Toolkit}}
       \field{year}{2005}
       \field{pages}{280\bibrangedash 295}
-      \range{pages}{16}
     \endentry
     \entry{ishibuchi2016sensitivity}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=09df1268a0bb72d12f5cb70e54cc604f}{Ishibuchi}{I\bibinitperiod}{Hisao}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=6076862c16daecc83441fd4bf9e359bf}{Masuda}{M\bibinitperiod}{Hiroyuki}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=d4e542ab464d023c8375748fb9d62d26}{Nojima}{N\bibinitperiod}{Yusuke}{Y\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{3}{}{%
-        {{hash=09df1268a0bb72d12f5cb70e54cc604f}{%
-           family={Ishibuchi},
-           familyi={I\bibinitperiod},
-           given={Hisao},
-           giveni={H\bibinitperiod}}}%
-        {{hash=6076862c16daecc83441fd4bf9e359bf}{%
-           family={Masuda},
-           familyi={M\bibinitperiod},
-           given={Hiroyuki},
-           giveni={H\bibinitperiod}}}%
-        {{hash=d4e542ab464d023c8375748fb9d62d26}{%
-           family={Nojima},
-           familyi={N\bibinitperiod},
-           given={Yusuke},
-           giveni={Y\bibinitperiod}}}%
+        {{hash=09df1268a0bb72d12f5cb70e54cc604f}{Ishibuchi}{I\bibinitperiod}{Hisao}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=6076862c16daecc83441fd4bf9e359bf}{Masuda}{M\bibinitperiod}{Hiroyuki}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=d4e542ab464d023c8375748fb9d62d26}{Nojima}{N\bibinitperiod}{Yusuke}{Y\bibinitperiod}{}{}{}{}}%
       }
       \list{organization}{1}{%
         {IEEE}%
       }
       \strng{namehash}{b1058460f12f10e0620f1de699f4df0b}
       \strng{fullhash}{b1058460f12f10e0620f1de699f4df0b}
-      \strng{bibnamehash}{b1058460f12f10e0620f1de699f4df0b}
-      \strng{authorbibnamehash}{b1058460f12f10e0620f1de699f4df0b}
-      \strng{authornamehash}{b1058460f12f10e0620f1de699f4df0b}
-      \strng{authorfullhash}{b1058460f12f10e0620f1de699f4df0b}
       \field{sortinit}{I}
-      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Sensitivity of performance evaluation results by inverted generational distance to reference points}
       \field{booktitle}{2016 IEEE Congress on Evolutionary Computation (CEC)}
       \field{title}{Sensitivity of performance evaluation results by inverted generational distance to reference points}
       \field{year}{2016}
       \field{pages}{1107\bibrangedash 1114}
-      \range{pages}{8}
     \endentry
     \entry{ishibuchi1998multi}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=09df1268a0bb72d12f5cb70e54cc604f}{Ishibuchi}{I\bibinitperiod}{Hisao}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=2be3ebaaf67a0c682f904c9a9efd8d48}{Murata}{M\bibinitperiod}{Tadahiko}{T\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=09df1268a0bb72d12f5cb70e54cc604f}{%
-           family={Ishibuchi},
-           familyi={I\bibinitperiod},
-           given={Hisao},
-           giveni={H\bibinitperiod}}}%
-        {{hash=2be3ebaaf67a0c682f904c9a9efd8d48}{%
-           family={Murata},
-           familyi={M\bibinitperiod},
-           given={Tadahiko},
-           giveni={T\bibinitperiod}}}%
+        {{hash=09df1268a0bb72d12f5cb70e54cc604f}{Ishibuchi}{I\bibinitperiod}{Hisao}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=2be3ebaaf67a0c682f904c9a9efd8d48}{Murata}{M\bibinitperiod}{Tadahiko}{T\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
       \strng{namehash}{ea43f6011a7659b88826ab9f15c5f66a}
       \strng{fullhash}{ea43f6011a7659b88826ab9f15c5f66a}
-      \strng{bibnamehash}{ea43f6011a7659b88826ab9f15c5f66a}
-      \strng{authorbibnamehash}{ea43f6011a7659b88826ab9f15c5f66a}
-      \strng{authornamehash}{ea43f6011a7659b88826ab9f15c5f66a}
-      \strng{authorfullhash}{ea43f6011a7659b88826ab9f15c5f66a}
       \field{sortinit}{I}
-      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{A multi-objective genetic local search algorithm and its application to flowshop scheduling}
       \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)}
       \field{number}{3}
       \field{title}{A multi-objective genetic local search algorithm and its application to flowshop scheduling}
       \field{volume}{28}
       \field{year}{1998}
       \field{pages}{392\bibrangedash 403}
-      \range{pages}{12}
     \endentry
     \entry{Joel:IGDPlus_And_GDPlus}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=09df1268a0bb72d12f5cb70e54cc604f}{Ishibuchi}{I\bibinitperiod}{Hisao}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=6076862c16daecc83441fd4bf9e359bf}{Masuda}{M\bibinitperiod}{Hiroyuki}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=8f9657b3476a0f541e2adf642e3afc83}{Tanigaki}{T\bibinitperiod}{Yuki}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=d4e542ab464d023c8375748fb9d62d26}{Nojima}{N\bibinitperiod}{Yusuke}{Y\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=09df1268a0bb72d12f5cb70e54cc604f}{%
-           family={Ishibuchi},
-           familyi={I\bibinitperiod},
-           given={Hisao},
-           giveni={H\bibinitperiod}}}%
-        {{hash=6076862c16daecc83441fd4bf9e359bf}{%
-           family={Masuda},
-           familyi={M\bibinitperiod},
-           given={Hiroyuki},
-           giveni={H\bibinitperiod}}}%
-        {{hash=8f9657b3476a0f541e2adf642e3afc83}{%
-           family={Tanigaki},
-           familyi={T\bibinitperiod},
-           given={Yuki},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=d4e542ab464d023c8375748fb9d62d26}{%
-           family={Nojima},
-           familyi={N\bibinitperiod},
-           given={Yusuke},
-           giveni={Y\bibinitperiod}}}%
+        {{hash=09df1268a0bb72d12f5cb70e54cc604f}{Ishibuchi}{I\bibinitperiod}{Hisao}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=6076862c16daecc83441fd4bf9e359bf}{Masuda}{M\bibinitperiod}{Hiroyuki}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=8f9657b3476a0f541e2adf642e3afc83}{Tanigaki}{T\bibinitperiod}{Yuki}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=d4e542ab464d023c8375748fb9d62d26}{Nojima}{N\bibinitperiod}{Yusuke}{Y\bibinitperiod}{}{}{}{}}%
       }
       \list{organization}{1}{%
         {Springer}%
       }
       \strng{namehash}{88320551477a94084528782f6b3c634e}
       \strng{fullhash}{6b216db14d3e7d69ce4daaa70642bf30}
-      \strng{bibnamehash}{88320551477a94084528782f6b3c634e}
-      \strng{authorbibnamehash}{88320551477a94084528782f6b3c634e}
-      \strng{authornamehash}{88320551477a94084528782f6b3c634e}
-      \strng{authorfullhash}{6b216db14d3e7d69ce4daaa70642bf30}
       \field{sortinit}{I}
-      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Modified distance calculation in generational distance and inverted generational distance}
       \field{booktitle}{International Conference on Evolutionary Multi-Criterion Optimization}
       \field{title}{Modified distance calculation in generational distance and inverted generational distance}
       \field{year}{2015}
       \field{pages}{110\bibrangedash 125}
-      \range{pages}{16}
     \endentry
     \entry{Joel:FV-MOEA}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=d25c9c428fa671455a1fe741276680a7}{Jiang}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=9bfa2052b7d90421cd5742cc6bbb7750}{Zhang}{Z\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c1483593c5f1b98697dcb7bbb6b9ea4f}{Ong}{O\bibinitperiod}{Y.\bibnamedelimi S.}{Y\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=751fdcfcf64868873d9a54ccd2294e36}{Zhang}{Z\bibinitperiod}{A.\bibnamedelimi N.}{A\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=9b1200e6f3261745cb214bacc9d2f577}{Tan}{T\bibinitperiod}{P.\bibnamedelimi S.}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{5}{}{%
-        {{hash=d25c9c428fa671455a1fe741276680a7}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9bfa2052b7d90421cd5742cc6bbb7750}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=c1483593c5f1b98697dcb7bbb6b9ea4f}{%
-           family={Ong},
-           familyi={O\bibinitperiod},
-           given={Y.\bibnamedelimi S.},
-           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=751fdcfcf64868873d9a54ccd2294e36}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={A.\bibnamedelimi N.},
-           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=9b1200e6f3261745cb214bacc9d2f577}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={P.\bibnamedelimi S.},
-           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d25c9c428fa671455a1fe741276680a7}{Jiang}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=9bfa2052b7d90421cd5742cc6bbb7750}{Zhang}{Z\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c1483593c5f1b98697dcb7bbb6b9ea4f}{Ong}{O\bibinitperiod}{Y.\bibnamedelimi S.}{Y\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=751fdcfcf64868873d9a54ccd2294e36}{Zhang}{Z\bibinitperiod}{A.\bibnamedelimi N.}{A\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=9b1200e6f3261745cb214bacc9d2f577}{Tan}{T\bibinitperiod}{P.\bibnamedelimi S.}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{d72e799f8a90e389d39a16f94f7a01e8}
       \strng{fullhash}{5f4d44ecef5c2c20e3dea04c939e25ed}
-      \strng{bibnamehash}{d72e799f8a90e389d39a16f94f7a01e8}
-      \strng{authorbibnamehash}{d72e799f8a90e389d39a16f94f7a01e8}
-      \strng{authornamehash}{d72e799f8a90e389d39a16f94f7a01e8}
-      \strng{authorfullhash}{5f4d44ecef5c2c20e3dea04c939e25ed}
       \field{sortinit}{J}
-      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{A Simple and Fast Hypervolume Indicator-Based Multiobjective Evolutionary Algorithm}
       \field{issn}{2168-2267}
       \field{journaltitle}{IEEE Transactions on Cybernetics}
       \field{month}{10}
@@ -1051,655 +705,492 @@
       \field{volume}{45}
       \field{year}{2015}
       \field{pages}{2202\bibrangedash 2213}
-      \range{pages}{12}
       \verb{doi}
       \verb 10.1109/TCYB.2014.2367526
       \endverb
       \keyw{Pareto optimisation;evolutionary computation;FV-MOEA algorithm;MOEA/D;NSGAII;Pareto front;S-metric selection based evolutionary multiobjective optimization algorithm;SMS-EMOA;SPEA2;fast hypervolume indicator-based multiobjective evolutionary algorithm;indicator-based evolutionary algorithm;multiobjective evolutionary algorithm based on decomposition;nondominated sorting genetic algorithm II;strength Pareto evolutionary algorithm 2;Evolutionary computation;Joints;Laboratories;Sociology;Statistics;Time complexity;Vectors;Hypervolume (HV);Pareto dominance-based;indicator-based;jMetal;multiobjective evolutionary algorithms (MOEAs);scalarizing function-based}
     \endentry
     \entry{kadlec2016multi}{incollection}{}
+      \name{labelname}{2}{}{%
+        {{hash=7c8b520b425333d625879c1ff127fa80}{Kadlec}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=635e7692c160196e52a31257254705af}{Raida}{R\bibinitperiod}{Zbyněk}{Z\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=7c8b520b425333d625879c1ff127fa80}{%
-           family={Kadlec},
-           familyi={K\bibinitperiod},
-           given={Petr},
-           giveni={P\bibinitperiod}}}%
-        {{hash=b777fbfc38417b71df30a54aa2277ee1}{%
-           family={Raida},
-           familyi={R\bibinitperiod},
-           given={Zbyn{ě}k},
-           giveni={Z\bibinitperiod}}}%
+        {{hash=7c8b520b425333d625879c1ff127fa80}{Kadlec}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=635e7692c160196e52a31257254705af}{Raida}{R\bibinitperiod}{Zbyněk}{Z\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Springer}%
       }
-      \strng{namehash}{8a61a56a49fe501b545ce7dbb1795f78}
-      \strng{fullhash}{8a61a56a49fe501b545ce7dbb1795f78}
-      \strng{bibnamehash}{8a61a56a49fe501b545ce7dbb1795f78}
-      \strng{authorbibnamehash}{8a61a56a49fe501b545ce7dbb1795f78}
-      \strng{authornamehash}{8a61a56a49fe501b545ce7dbb1795f78}
-      \strng{authorfullhash}{8a61a56a49fe501b545ce7dbb1795f78}
+      \strng{namehash}{139163b1e61a5d37e315be0bdfa48fea}
+      \strng{fullhash}{139163b1e61a5d37e315be0bdfa48fea}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Multi-objective self-organizing migrating algorithm}
       \field{booktitle}{Self-Organizing Migrating Algorithm}
       \field{title}{Multi-objective self-organizing migrating algorithm}
       \field{year}{2016}
       \field{pages}{83\bibrangedash 103}
-      \range{pages}{21}
     \endentry
     \entry{Joel:ComparacionMetricas}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=15941fe09e44e6c447456d86da4ed173}{Knowles}{K\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b92311316eb14ae708fd2a311d835ece}{Corne}{C\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=15941fe09e44e6c447456d86da4ed173}{%
-           family={Knowles},
-           familyi={K\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b92311316eb14ae708fd2a311d835ece}{%
-           family={Corne},
-           familyi={C\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
+        {{hash=15941fe09e44e6c447456d86da4ed173}{Knowles}{K\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b92311316eb14ae708fd2a311d835ece}{Corne}{C\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{70620ca57ae4711cb48a7bc37749f90d}
       \strng{fullhash}{70620ca57ae4711cb48a7bc37749f90d}
-      \strng{bibnamehash}{70620ca57ae4711cb48a7bc37749f90d}
-      \strng{authorbibnamehash}{70620ca57ae4711cb48a7bc37749f90d}
-      \strng{authornamehash}{70620ca57ae4711cb48a7bc37749f90d}
-      \strng{authorfullhash}{70620ca57ae4711cb48a7bc37749f90d}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{On metrics for comparing nondominated sets}
       \field{booktitle}{Evolutionary Computation, 2002. CEC '02. Proceedings of the 2002 Congress on}
-      \field{month}{5}
+      \field{month}{05}
       \field{title}{On metrics for comparing nondominated sets}
       \field{volume}{1}
       \field{year}{2002}
       \field{pages}{711\bibrangedash 716}
-      \range{pages}{6}
       \verb{doi}
       \verb 10.1109/CEC.2002.1007013
       \endverb
       \keyw{evolutionary computation;optimisation;set theory;evolutionary multiobjective optimization;metrics;nondominated set comparison;outperformance relations;vectors;Approximation algorithms;Benchmark testing;Computer science;Graphics;Pathology;Shape}
     \endentry
     \entry{Joel:GDE3}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=28bbb9a3193515386e28fb958b7cdce6}{Kukkonen}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0015d6dc8646e626a71a5c5e9bf7523a}{Lampinen}{L\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=28bbb9a3193515386e28fb958b7cdce6}{%
-           family={Kukkonen},
-           familyi={K\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0015d6dc8646e626a71a5c5e9bf7523a}{%
-           family={Lampinen},
-           familyi={L\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
+        {{hash=28bbb9a3193515386e28fb958b7cdce6}{Kukkonen}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0015d6dc8646e626a71a5c5e9bf7523a}{Lampinen}{L\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{b37cfb36b9d740ba1de3837d4ec840c8}
       \strng{fullhash}{b37cfb36b9d740ba1de3837d4ec840c8}
-      \strng{bibnamehash}{b37cfb36b9d740ba1de3837d4ec840c8}
-      \strng{authorbibnamehash}{b37cfb36b9d740ba1de3837d4ec840c8}
-      \strng{authornamehash}{b37cfb36b9d740ba1de3837d4ec840c8}
-      \strng{authorfullhash}{b37cfb36b9d740ba1de3837d4ec840c8}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{{GDE3: the third evolution step of generalized differential evolution}}
       \field{booktitle}{2005 IEEE Congress on Evolutionary Computation}
       \field{issn}{1089-778X}
-      \field{month}{9}
+      \field{month}{09}
       \field{title}{{GDE3: the third evolution step of generalized differential evolution}}
       \field{volume}{1}
       \field{year}{2005}
       \field{pages}{443\bibrangedash 450 Vol.1}
-      \range{pages}{-1}
       \keyw{constraint theory;evolutionary computation;optimisation;GDE3;generalized differential evolution;global optimization;multiobjective problems;Constraint optimization;Evolutionary computation;Genetic algorithms;Information technology;Manufacturing;Optimization methods;Pareto optimization;Proposals;Sorting;Testing}
     \endentry
     \entry{li2009multiobjective}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=9b1528d0b6c9bc88bfd8c569f290bcec}{Li}{L\bibinitperiod}{Hui}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=b2e22db866fa79372f07034ed0140d0e}{Zhang}{Z\bibinitperiod}{Qingfu}{Q\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=9b1528d0b6c9bc88bfd8c569f290bcec}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Hui},
-           giveni={H\bibinitperiod}}}%
-        {{hash=b2e22db866fa79372f07034ed0140d0e}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Qingfu},
-           giveni={Q\bibinitperiod}}}%
+        {{hash=9b1528d0b6c9bc88bfd8c569f290bcec}{Li}{L\bibinitperiod}{Hui}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=b2e22db866fa79372f07034ed0140d0e}{Zhang}{Z\bibinitperiod}{Qingfu}{Q\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
       \strng{namehash}{b8e86414925c5bf7e11af2a3ac12d9a4}
       \strng{fullhash}{b8e86414925c5bf7e11af2a3ac12d9a4}
-      \strng{bibnamehash}{b8e86414925c5bf7e11af2a3ac12d9a4}
-      \strng{authorbibnamehash}{b8e86414925c5bf7e11af2a3ac12d9a4}
-      \strng{authornamehash}{b8e86414925c5bf7e11af2a3ac12d9a4}
-      \strng{authorfullhash}{b8e86414925c5bf7e11af2a3ac12d9a4}
       \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Multiobjective optimization problems with complicated Pareto sets, MOEA/D and NSGA-II}
       \field{journaltitle}{IEEE transactions on evolutionary computation}
       \field{number}{2}
       \field{title}{Multiobjective optimization problems with complicated Pareto sets, MOEA/D and NSGA-II}
       \field{volume}{13}
       \field{year}{2009}
       \field{pages}{284\bibrangedash 302}
-      \range{pages}{19}
     \endentry
     \entry{lozano2008replacement}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=277f0ff0fa87b54f650fdac32a1b4c5a}{Lozano}{L\bibinitperiod}{Manuel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9f81f46436ba77791311a5db20ff5c25}{Herrera}{H\bibinitperiod}{Francisco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=79c159095cc8165c90f70e8c8e09e8ae}{Cano}{C\bibinitperiod}{José\bibnamedelima Ramón}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{3}{}{%
-        {{hash=277f0ff0fa87b54f650fdac32a1b4c5a}{%
-           family={Lozano},
-           familyi={L\bibinitperiod},
-           given={Manuel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9f81f46436ba77791311a5db20ff5c25}{%
-           family={Herrera},
-           familyi={H\bibinitperiod},
-           given={Francisco},
-           giveni={F\bibinitperiod}}}%
-        {{hash=e47a988f453ce34602ca4aa26df98a96}{%
-           family={Cano},
-           familyi={C\bibinitperiod},
-           given={Jos{é}\bibnamedelima Ram{ó}n},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=277f0ff0fa87b54f650fdac32a1b4c5a}{Lozano}{L\bibinitperiod}{Manuel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9f81f46436ba77791311a5db20ff5c25}{Herrera}{H\bibinitperiod}{Francisco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=79c159095cc8165c90f70e8c8e09e8ae}{Cano}{C\bibinitperiod}{José\bibnamedelima Ramón}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{2e7c7d27834360091d84753f7981ecd9}
-      \strng{fullhash}{2e7c7d27834360091d84753f7981ecd9}
-      \strng{bibnamehash}{2e7c7d27834360091d84753f7981ecd9}
-      \strng{authorbibnamehash}{2e7c7d27834360091d84753f7981ecd9}
-      \strng{authornamehash}{2e7c7d27834360091d84753f7981ecd9}
-      \strng{authorfullhash}{2e7c7d27834360091d84753f7981ecd9}
+      \strng{namehash}{d2e2cc62869c081d2654fb3bcaf9792f}
+      \strng{fullhash}{d2e2cc62869c081d2654fb3bcaf9792f}
       \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Replacement strategies to preserve useful diversity in steady-state genetic algorithms}
       \field{journaltitle}{Information Sciences}
       \field{number}{23}
       \field{title}{Replacement strategies to preserve useful diversity in steady-state genetic algorithms}
       \field{volume}{178}
       \field{year}{2008}
       \field{pages}{4421\bibrangedash 4433}
-      \range{pages}{13}
     \endentry
     \entry{murata2002cellular}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=2be3ebaaf67a0c682f904c9a9efd8d48}{Murata}{M\bibinitperiod}{Tadahiko}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=cda827ec7da921538663a82033c89621}{Gen}{G\bibinitperiod}{Mitsuo}{M\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=2be3ebaaf67a0c682f904c9a9efd8d48}{%
-           family={Murata},
-           familyi={M\bibinitperiod},
-           given={Tadahiko},
-           giveni={T\bibinitperiod}}}%
-        {{hash=cda827ec7da921538663a82033c89621}{%
-           family={Gen},
-           familyi={G\bibinitperiod},
-           given={Mitsuo},
-           giveni={M\bibinitperiod}}}%
+        {{hash=2be3ebaaf67a0c682f904c9a9efd8d48}{Murata}{M\bibinitperiod}{Tadahiko}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=cda827ec7da921538663a82033c89621}{Gen}{G\bibinitperiod}{Mitsuo}{M\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{e35fdf3f0d9c297008ab5ba7fc7d425a}
       \strng{fullhash}{e35fdf3f0d9c297008ab5ba7fc7d425a}
-      \strng{bibnamehash}{e35fdf3f0d9c297008ab5ba7fc7d425a}
-      \strng{authorbibnamehash}{e35fdf3f0d9c297008ab5ba7fc7d425a}
-      \strng{authornamehash}{e35fdf3f0d9c297008ab5ba7fc7d425a}
-      \strng{authorfullhash}{e35fdf3f0d9c297008ab5ba7fc7d425a}
       \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Cellular genetic algorithm for multi-objective optimization}
       \field{booktitle}{Proc. of the 4th Asian Fuzzy System Symposium}
       \field{title}{Cellular genetic algorithm for multi-objective optimization}
       \field{year}{2002}
       \field{pages}{538\bibrangedash 542}
-      \range{pages}{5}
     \endentry
     \entry{nocedal2006numerical}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=88a342d927bf795b0d92af8a5613da31}{Nocedal}{N\bibinitperiod}{Jorge}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=7763509f7c4b10ac0b0770c30259cb1d}{Wright}{W\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=88a342d927bf795b0d92af8a5613da31}{%
-           family={Nocedal},
-           familyi={N\bibinitperiod},
-           given={Jorge},
-           giveni={J\bibinitperiod}}}%
-        {{hash=7763509f7c4b10ac0b0770c30259cb1d}{%
-           family={Wright},
-           familyi={W\bibinitperiod},
-           given={Stephen},
-           giveni={S\bibinitperiod}}}%
+        {{hash=88a342d927bf795b0d92af8a5613da31}{Nocedal}{N\bibinitperiod}{Jorge}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=7763509f7c4b10ac0b0770c30259cb1d}{Wright}{W\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Springer Science \& Business Media}%
       }
       \strng{namehash}{ce7f3d831c22b27fad5b1d2afbe4ec28}
       \strng{fullhash}{ce7f3d831c22b27fad5b1d2afbe4ec28}
-      \strng{bibnamehash}{ce7f3d831c22b27fad5b1d2afbe4ec28}
-      \strng{authorbibnamehash}{ce7f3d831c22b27fad5b1d2afbe4ec28}
-      \strng{authornamehash}{ce7f3d831c22b27fad5b1d2afbe4ec28}
-      \strng{authorfullhash}{ce7f3d831c22b27fad5b1d2afbe4ec28}
       \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Numerical optimization}
       \field{title}{Numerical optimization}
       \field{year}{2006}
     \endentry
     \entry{romero2018memetic}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0072474a7263a7d676e6e4e749b8bdc9}{Romero\bibnamedelima Ruiz}{R\bibinitperiod\bibinitdelim R\bibinitperiod}{Emmanuel}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=af036593850a522dfc1e7fe8b267fa4a}{Segura}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=0072474a7263a7d676e6e4e749b8bdc9}{%
-           family={Romero\bibnamedelima Ruiz},
-           familyi={R\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={Emmanuel},
-           giveni={E\bibinitperiod}}}%
-        {{hash=af036593850a522dfc1e7fe8b267fa4a}{%
-           family={Segura},
-           familyi={S\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod}}}%
+        {{hash=0072474a7263a7d676e6e4e749b8bdc9}{Romero\bibnamedelima Ruiz}{R\bibinitperiod\bibinitdelim R\bibinitperiod}{Emmanuel}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=af036593850a522dfc1e7fe8b267fa4a}{Segura}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{b61f7f9d78305fb662e40e40c1fdab36}
       \strng{fullhash}{b61f7f9d78305fb662e40e40c1fdab36}
-      \strng{bibnamehash}{b61f7f9d78305fb662e40e40c1fdab36}
-      \strng{authorbibnamehash}{b61f7f9d78305fb662e40e40c1fdab36}
-      \strng{authornamehash}{b61f7f9d78305fb662e40e40c1fdab36}
-      \strng{authorfullhash}{b61f7f9d78305fb662e40e40c1fdab36}
       \field{sortinit}{R}
-      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computaci{ó}n y Sistemas}
+      \field{labeltitle}{Memetic algorithm with hungarian matching based crossover and diversity preservation}
+      \field{journaltitle}{Computación y Sistemas}
       \field{number}{2}
       \field{title}{Memetic algorithm with hungarian matching based crossover and diversity preservation}
       \field{volume}{22}
       \field{year}{2018}
     \endentry
     \entry{Joel:HausdorffDistance}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=94ffa6161718f6972cab74d336303433}{Schutze}{S\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=83d8d786a0dad40bfb1712e2bfee19d0}{Esquivel}{E\bibinitperiod}{Xavier}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=1faa07c5a0efe7038e9ea876aae1bdfa}{Lara}{L\bibinitperiod}{Adriana}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=2357b875e09fced645c5e39942ccb9a6}{Coello}{C\bibinitperiod}{Carlos\bibnamedelimb A\bibnamedelima Coello}{C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=94ffa6161718f6972cab74d336303433}{%
-           family={Schutze},
-           familyi={S\bibinitperiod},
-           given={Oliver},
-           giveni={O\bibinitperiod}}}%
-        {{hash=83d8d786a0dad40bfb1712e2bfee19d0}{%
-           family={Esquivel},
-           familyi={E\bibinitperiod},
-           given={Xavier},
-           giveni={X\bibinitperiod}}}%
-        {{hash=1faa07c5a0efe7038e9ea876aae1bdfa}{%
-           family={Lara},
-           familyi={L\bibinitperiod},
-           given={Adriana},
-           giveni={A\bibinitperiod}}}%
-        {{hash=2357b875e09fced645c5e39942ccb9a6}{%
-           family={Coello},
-           familyi={C\bibinitperiod},
-           given={Carlos\bibnamedelimb A\bibnamedelima Coello},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=94ffa6161718f6972cab74d336303433}{Schutze}{S\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=83d8d786a0dad40bfb1712e2bfee19d0}{Esquivel}{E\bibinitperiod}{Xavier}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=1faa07c5a0efe7038e9ea876aae1bdfa}{Lara}{L\bibinitperiod}{Adriana}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=2357b875e09fced645c5e39942ccb9a6}{Coello}{C\bibinitperiod}{Carlos\bibnamedelimb A\bibnamedelima Coello}{C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
       \strng{namehash}{93dd885d988a54f8da2fab5422850ec2}
       \strng{fullhash}{69c7bc2922d73bbb175432a7a422403a}
-      \strng{bibnamehash}{93dd885d988a54f8da2fab5422850ec2}
-      \strng{authorbibnamehash}{93dd885d988a54f8da2fab5422850ec2}
-      \strng{authornamehash}{93dd885d988a54f8da2fab5422850ec2}
-      \strng{authorfullhash}{69c7bc2922d73bbb175432a7a422403a}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Using the averaged Hausdorff distance as a performance measure in evolutionary multiobjective optimization}
       \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
       \field{number}{4}
       \field{title}{Using the averaged Hausdorff distance as a performance measure in evolutionary multiobjective optimization}
       \field{volume}{16}
       \field{year}{2012}
       \field{pages}{504\bibrangedash 522}
-      \range{pages}{19}
     \endentry
     \entry{segura2016novel}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=af036593850a522dfc1e7fe8b267fa4a}{Segura}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=2357b875e09fced645c5e39942ccb9a6}{Coello}{C\bibinitperiod}{Carlos\bibnamedelimb A\bibnamedelima Coello}{C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=87e33ef44e929b5bf84725834af4af08}{Segredo}{S\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=afe25667c5c778dd01a67c773c1b349d}{Aguirre}{A\bibinitperiod}{Arturo\bibnamedelima Hernández}{A\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=af036593850a522dfc1e7fe8b267fa4a}{%
-           family={Segura},
-           familyi={S\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod}}}%
-        {{hash=2357b875e09fced645c5e39942ccb9a6}{%
-           family={Coello},
-           familyi={C\bibinitperiod},
-           given={Carlos\bibnamedelimb A\bibnamedelima Coello},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=87e33ef44e929b5bf84725834af4af08}{%
-           family={Segredo},
-           familyi={S\bibinitperiod},
-           given={Eduardo},
-           giveni={E\bibinitperiod}}}%
-        {{hash=1c876a362e96f7b52c6e3cbe384eedc1}{%
-           family={Aguirre},
-           familyi={A\bibinitperiod},
-           given={Arturo\bibnamedelima Hern{á}ndez},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=af036593850a522dfc1e7fe8b267fa4a}{Segura}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=2357b875e09fced645c5e39942ccb9a6}{Coello}{C\bibinitperiod}{Carlos\bibnamedelimb A\bibnamedelima Coello}{C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=87e33ef44e929b5bf84725834af4af08}{Segredo}{S\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=afe25667c5c778dd01a67c773c1b349d}{Aguirre}{A\bibinitperiod}{Arturo\bibnamedelima Hernández}{A\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
       \strng{namehash}{c9c059a83cb9979670af681356957555}
-      \strng{fullhash}{718f1c63034703f4ae136a8cb3820d74}
-      \strng{bibnamehash}{c9c059a83cb9979670af681356957555}
-      \strng{authorbibnamehash}{c9c059a83cb9979670af681356957555}
-      \strng{authornamehash}{c9c059a83cb9979670af681356957555}
-      \strng{authorfullhash}{718f1c63034703f4ae136a8cb3820d74}
+      \strng{fullhash}{812b00e639c4044e05a4f03927e067e7}
       \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{A novel diversity-based replacement strategy for evolutionary algorithms}
       \field{journaltitle}{IEEE transactions on cybernetics}
       \field{number}{12}
       \field{title}{A novel diversity-based replacement strategy for evolutionary algorithms}
       \field{volume}{46}
       \field{year}{2016}
       \field{pages}{3233\bibrangedash 3246}
-      \range{pages}{14}
+    \endentry
+    \entry{Joel:NSGA}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=f008123c51d73dcba365a1df2d1f9ad7}{Srinivas}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f008123c51d73dcba365a1df2d1f9ad7}{Srinivas}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{c3b9ce4777b2c6b64495b98872add0b6}
+      \strng{fullhash}{c3b9ce4777b2c6b64495b98872add0b6}
+      \field{sortinit}{S}
+      \field{labeltitle}{Muiltiobjective Optimization Using Nondominated Sorting in Genetic Algorithms}
+      \field{issn}{1063-6560}
+      \field{journaltitle}{Evol. Comput.}
+      \field{month}{09}
+      \field{number}{3}
+      \field{title}{Muiltiobjective Optimization Using Nondominated Sorting in Genetic Algorithms}
+      \field{volume}{2}
+      \field{year}{1994}
+      \field{pages}{221\bibrangedash 248}
+      \verb{doi}
+      \verb 10.1162/evco.1994.2.3.221
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1162/evco.1994.2.3.221
+      \endverb
+      \keyw{Multiobjective optimization,nondominated sorting,phenotypic sharing,ranking selection}
+    \endentry
+    \entry{toffolo2003genetic}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=bc2a09507648e2630e0f24d692eb381f}{Toffolo}{T\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=bf6548365fc31af7fd1b5c9860a118c4}{Benini}{B\bibinitperiod}{Ernesto}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=bc2a09507648e2630e0f24d692eb381f}{Toffolo}{T\bibinitperiod}{Andrea}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=bf6548365fc31af7fd1b5c9860a118c4}{Benini}{B\bibinitperiod}{Ernesto}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{a3c48cd65096d98ed79f2f1e1cb2bfc2}
+      \strng{fullhash}{a3c48cd65096d98ed79f2f1e1cb2bfc2}
+      \field{sortinit}{T}
+      \field{labeltitle}{Genetic diversity as an objective in multi-objective evolutionary algorithms}
+      \field{journaltitle}{Evolutionary computation}
+      \field{number}{2}
+      \field{title}{Genetic diversity as an objective in multi-objective evolutionary algorithms}
+      \field{volume}{11}
+      \field{year}{2003}
+      \field{pages}{151\bibrangedash 167}
     \endentry
     \entry{trivedi2016survey}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=b543c025560c78f3402d5e6ed1168f5d}{Trivedi}{T\bibinitperiod}{Anupam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6e4bd82eb383577889d7cd6ac1c21237}{Srinivasan}{S\bibinitperiod}{Dipti}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=4e6df258ca81c4e1772c980e71b4ceb6}{Sanyal}{S\bibinitperiod}{Krishnendu}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d88466ca105d7ac8734655582b479396}{Ghosh}{G\bibinitperiod}{Abhiroop}{A\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=b543c025560c78f3402d5e6ed1168f5d}{%
-           family={Trivedi},
-           familyi={T\bibinitperiod},
-           given={Anupam},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6e4bd82eb383577889d7cd6ac1c21237}{%
-           family={Srinivasan},
-           familyi={S\bibinitperiod},
-           given={Dipti},
-           giveni={D\bibinitperiod}}}%
-        {{hash=4e6df258ca81c4e1772c980e71b4ceb6}{%
-           family={Sanyal},
-           familyi={S\bibinitperiod},
-           given={Krishnendu},
-           giveni={K\bibinitperiod}}}%
-        {{hash=d88466ca105d7ac8734655582b479396}{%
-           family={Ghosh},
-           familyi={G\bibinitperiod},
-           given={Abhiroop},
-           giveni={A\bibinitperiod}}}%
+        {{hash=b543c025560c78f3402d5e6ed1168f5d}{Trivedi}{T\bibinitperiod}{Anupam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6e4bd82eb383577889d7cd6ac1c21237}{Srinivasan}{S\bibinitperiod}{Dipti}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=4e6df258ca81c4e1772c980e71b4ceb6}{Sanyal}{S\bibinitperiod}{Krishnendu}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d88466ca105d7ac8734655582b479396}{Ghosh}{G\bibinitperiod}{Abhiroop}{A\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
       \strng{namehash}{c5ed74bec33ae6ddf1a96cd18af61109}
       \strng{fullhash}{d9b6e5152f14462081e7f5ae4d3eaf54}
-      \strng{bibnamehash}{c5ed74bec33ae6ddf1a96cd18af61109}
-      \strng{authorbibnamehash}{c5ed74bec33ae6ddf1a96cd18af61109}
-      \strng{authornamehash}{c5ed74bec33ae6ddf1a96cd18af61109}
-      \strng{authorfullhash}{d9b6e5152f14462081e7f5ae4d3eaf54}
       \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{A survey of multiobjective evolutionary algorithms based on decomposition}
       \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
       \field{number}{3}
       \field{title}{A survey of multiobjective evolutionary algorithms based on decomposition}
       \field{volume}{21}
       \field{year}{2016}
       \field{pages}{440\bibrangedash 462}
-      \range{pages}{23}
+    \endentry
+    \entry{ulrich2010integrating}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b53cfd564a8472c955918487167e7c24}{Ulrich}{U\bibinitperiod}{Tamara}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=bb6b966cd98fe19bbf8e2e74485dee5e}{Bader}{B\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b53cfd564a8472c955918487167e7c24}{Ulrich}{U\bibinitperiod}{Tamara}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=bb6b966cd98fe19bbf8e2e74485dee5e}{Bader}{B\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9e5e763354716e047f65b41929eef917}
+      \strng{fullhash}{9e5e763354716e047f65b41929eef917}
+      \field{sortinit}{U}
+      \field{labeltitle}{Integrating decision space diversity into hypervolume-based multiobjective search}
+      \field{booktitle}{Proceedings of the 12th annual conference on Genetic and evolutionary computation}
+      \field{title}{Integrating decision space diversity into hypervolume-based multiobjective search}
+      \field{year}{2010}
+      \field{pages}{455\bibrangedash 462}
     \endentry
     \entry{Joel:GD}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=c0c70417ad56cf8cbdf6e67485423dd0}{Veldhuizen}{V\bibinitperiod}{David\bibnamedelimb A.\bibnamedelimi Van}{D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=d60eb613ae5344c9399af5452b7e4c96}{Lamont}{L\bibinitperiod}{Gary\bibnamedelima B.}{G\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=c0c70417ad56cf8cbdf6e67485423dd0}{%
-           family={Veldhuizen},
-           familyi={V\bibinitperiod},
-           given={David\bibnamedelimb A.\bibnamedelimi Van},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=d60eb613ae5344c9399af5452b7e4c96}{%
-           family={Lamont},
-           familyi={L\bibinitperiod},
-           given={Gary\bibnamedelima B.},
-           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c0c70417ad56cf8cbdf6e67485423dd0}{Veldhuizen}{V\bibinitperiod}{David\bibnamedelimb A.\bibnamedelimi Van}{D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=d60eb613ae5344c9399af5452b7e4c96}{Lamont}{L\bibinitperiod}{Gary\bibnamedelima B.}{G\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Morgan Kaufmann}%
       }
       \strng{namehash}{0d697f20f7e2592ff817019ca8526034}
       \strng{fullhash}{0d697f20f7e2592ff817019ca8526034}
-      \strng{bibnamehash}{0d697f20f7e2592ff817019ca8526034}
-      \strng{authorbibnamehash}{0d697f20f7e2592ff817019ca8526034}
-      \strng{authornamehash}{0d697f20f7e2592ff817019ca8526034}
-      \strng{authorfullhash}{0d697f20f7e2592ff817019ca8526034}
       \field{sortinit}{V}
-      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Evolutionary Computation and Convergence to a Pareto Front}
       \field{booktitle}{Stanford University, California}
       \field{title}{Evolutionary Computation and Convergence to a Pareto Front}
       \field{year}{1998}
       \field{pages}{221\bibrangedash 228}
-      \range{pages}{8}
     \endentry
     \entry{vidal2013hybrid}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=f8b1fe2b57f8a82a140583738588869a}{Vidal}{V\bibinitperiod}{Thibaut}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=096dc0ca7f75aca194e31bfce4cc86ba}{Crainic}{C\bibinitperiod}{Teodor\bibnamedelima Gabriel}{T\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=d4ebdd3fdc985c36f68c8295c5664c74}{Gendreau}{G\bibinitperiod}{Michel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=900ff4eaee85acd9095309878df56e18}{Prins}{P\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=f8b1fe2b57f8a82a140583738588869a}{%
-           family={Vidal},
-           familyi={V\bibinitperiod},
-           given={Thibaut},
-           giveni={T\bibinitperiod}}}%
-        {{hash=096dc0ca7f75aca194e31bfce4cc86ba}{%
-           family={Crainic},
-           familyi={C\bibinitperiod},
-           given={Teodor\bibnamedelima Gabriel},
-           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=d4ebdd3fdc985c36f68c8295c5664c74}{%
-           family={Gendreau},
-           familyi={G\bibinitperiod},
-           given={Michel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=900ff4eaee85acd9095309878df56e18}{%
-           family={Prins},
-           familyi={P\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod}}}%
+        {{hash=f8b1fe2b57f8a82a140583738588869a}{Vidal}{V\bibinitperiod}{Thibaut}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=096dc0ca7f75aca194e31bfce4cc86ba}{Crainic}{C\bibinitperiod}{Teodor\bibnamedelima Gabriel}{T\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=d4ebdd3fdc985c36f68c8295c5664c74}{Gendreau}{G\bibinitperiod}{Michel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=900ff4eaee85acd9095309878df56e18}{Prins}{P\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Elsevier}%
       }
       \strng{namehash}{f14b4d033960169db8e536b480066b9f}
       \strng{fullhash}{fee1a98a2509933033dd9ab109ebe472}
-      \strng{bibnamehash}{f14b4d033960169db8e536b480066b9f}
-      \strng{authorbibnamehash}{f14b4d033960169db8e536b480066b9f}
-      \strng{authornamehash}{f14b4d033960169db8e536b480066b9f}
-      \strng{authorfullhash}{fee1a98a2509933033dd9ab109ebe472}
       \field{sortinit}{V}
-      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{A hybrid genetic algorithm with adaptive diversity management for a large class of vehicle routing problems with time-windows}
       \field{journaltitle}{Computers \& operations research}
       \field{number}{1}
       \field{title}{A hybrid genetic algorithm with adaptive diversity management for a large class of vehicle routing problems with time-windows}
       \field{volume}{40}
       \field{year}{2013}
       \field{pages}{475\bibrangedash 489}
-      \range{pages}{15}
     \endentry
     \entry{voss2012meta}{book}{}
+      \name{labelname}{4}{}{%
+        {{hash=d8f31a4e6c3c6412c35f7b2ea0eae3bf}{Voß}{V\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=355dcd3e47338d7e940120cc6c363cb7}{Martello}{M\bibinitperiod}{Silvano}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0cb260fc51c8f6586fdf763e42997dfb}{Osman}{O\bibinitperiod}{Ibrahim\bibnamedelima H}{I\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=699a22f911e0185970a29b6f571a8b3b}{Roucairol}{R\bibinitperiod}{Catherine}{C\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{4}{}{%
-        {{hash=d8f31a4e6c3c6412c35f7b2ea0eae3bf}{%
-           family={Voß},
-           familyi={V\bibinitperiod},
-           given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=355dcd3e47338d7e940120cc6c363cb7}{%
-           family={Martello},
-           familyi={M\bibinitperiod},
-           given={Silvano},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0cb260fc51c8f6586fdf763e42997dfb}{%
-           family={Osman},
-           familyi={O\bibinitperiod},
-           given={Ibrahim\bibnamedelima H},
-           giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=699a22f911e0185970a29b6f571a8b3b}{%
-           family={Roucairol},
-           familyi={R\bibinitperiod},
-           given={Catherine},
-           giveni={C\bibinitperiod}}}%
+        {{hash=d8f31a4e6c3c6412c35f7b2ea0eae3bf}{Voß}{V\bibinitperiod}{Stefan}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=355dcd3e47338d7e940120cc6c363cb7}{Martello}{M\bibinitperiod}{Silvano}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0cb260fc51c8f6586fdf763e42997dfb}{Osman}{O\bibinitperiod}{Ibrahim\bibnamedelima H}{I\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=699a22f911e0185970a29b6f571a8b3b}{Roucairol}{R\bibinitperiod}{Catherine}{C\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Springer Science \& Business Media}%
       }
       \strng{namehash}{7676a9963265141a0e330fec44b5bfdd}
       \strng{fullhash}{f7f26250f4da5e2b84f0f427d0522c86}
-      \strng{bibnamehash}{7676a9963265141a0e330fec44b5bfdd}
-      \strng{authorbibnamehash}{7676a9963265141a0e330fec44b5bfdd}
-      \strng{authornamehash}{7676a9963265141a0e330fec44b5bfdd}
-      \strng{authorfullhash}{f7f26250f4da5e2b84f0f427d0522c86}
       \field{sortinit}{V}
-      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Meta-heuristics: Advances and trends in local search paradigms for optimization}
       \field{title}{Meta-heuristics: Advances and trends in local search paradigms for optimization}
       \field{year}{2012}
     \endentry
     \entry{Joel:MOEAD_Adaptative}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=92581400fc578eb34e4be9ef6e4afc33}{Wang}{W\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=c931af3637695914c2018e4235017422}{Zhang}{Z\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=1e177dc67516aa0eb7ede28808e878fb}{Zhou}{Z\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8312a2bd0121292ca0a3350bab84e140}{Gong}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=841e10c2dfb33b0e07d6b0c1948b543c}{Jiao}{J\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{5}{}{%
-        {{hash=92581400fc578eb34e4be9ef6e4afc33}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=c931af3637695914c2018e4235017422}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=1e177dc67516aa0eb7ede28808e878fb}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8312a2bd0121292ca0a3350bab84e140}{%
-           family={Gong},
-           familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=841e10c2dfb33b0e07d6b0c1948b543c}{%
-           family={Jiao},
-           familyi={J\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
+        {{hash=92581400fc578eb34e4be9ef6e4afc33}{Wang}{W\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=c931af3637695914c2018e4235017422}{Zhang}{Z\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=1e177dc67516aa0eb7ede28808e878fb}{Zhou}{Z\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8312a2bd0121292ca0a3350bab84e140}{Gong}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=841e10c2dfb33b0e07d6b0c1948b543c}{Jiao}{J\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{461ebdb36c1ade1932f8f303a39bb149}
       \strng{fullhash}{96f5ee294c1fbf9edd4d94ef41646727}
-      \strng{bibnamehash}{461ebdb36c1ade1932f8f303a39bb149}
-      \strng{authorbibnamehash}{461ebdb36c1ade1932f8f303a39bb149}
-      \strng{authornamehash}{461ebdb36c1ade1932f8f303a39bb149}
-      \strng{authorfullhash}{96f5ee294c1fbf9edd4d94ef41646727}
       \field{sortinit}{W}
-      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{{Adaptive Replacement Strategies for MOEA/D}}
       \field{issn}{2168-2267}
       \field{journaltitle}{IEEE Transactions on Cybernetics}
-      \field{month}{2}
+      \field{month}{02}
       \field{number}{2}
       \field{title}{{Adaptive Replacement Strategies for MOEA/D}}
       \field{volume}{46}
       \field{year}{2016}
       \field{pages}{474\bibrangedash 486}
-      \range{pages}{13}
       \keyw{convergence;evolutionary computation;optimisation;MOEA/D;adaptive replacement strategies;convergence;multiobjective evolutionary algorithms based on decomposition;optimization subproblems;population diversity;replacement global replacement scheme;steady-state algorithm;Convergence;Pareto optimization;Sociology;Steady-state;Vectors;Adaptive scheme;decomposition;multiobjective optimization;replacement}
     \endentry
     \entry{yu2014differential}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=2915f1c39a9a32bf420ad0274ffb944b}{Yu}{Y\bibinitperiod}{Wei-Jie}{W\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=279088500cd0849d7eac709da50aa9bc}{Shen}{S\bibinitperiod}{Meie}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9629166e7e805537996946f59d56ef24}{Chen}{C\bibinitperiod}{Wei-Neng}{W\bibinithyphendelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=ddcbbde7f8d5969d3a8658eeb81b16e5}{Zhan}{Z\bibinitperiod}{Zhi-Hui}{Z\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=004d2a1535d0ba7e430406e684de6136}{Gong}{G\bibinitperiod}{Yue-Jiao}{Y\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=f87a48871351b84c2d8c427cf7ace9d8}{Lin}{L\bibinitperiod}{Ying}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=17be0941964ebbc4bf9609c4a8541eca}{Liu}{L\bibinitperiod}{Ou}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=c085572f860d99d03a37c331ee13ff68}{Zhang}{Z\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{8}{}{%
-        {{hash=2915f1c39a9a32bf420ad0274ffb944b}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Wei-Jie},
-           giveni={W\bibinithyphendelim J\bibinitperiod}}}%
-        {{hash=279088500cd0849d7eac709da50aa9bc}{%
-           family={Shen},
-           familyi={S\bibinitperiod},
-           given={Meie},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9629166e7e805537996946f59d56ef24}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Wei-Neng},
-           giveni={W\bibinithyphendelim N\bibinitperiod}}}%
-        {{hash=ddcbbde7f8d5969d3a8658eeb81b16e5}{%
-           family={Zhan},
-           familyi={Z\bibinitperiod},
-           given={Zhi-Hui},
-           giveni={Z\bibinithyphendelim H\bibinitperiod}}}%
-        {{hash=004d2a1535d0ba7e430406e684de6136}{%
-           family={Gong},
-           familyi={G\bibinitperiod},
-           given={Yue-Jiao},
-           giveni={Y\bibinithyphendelim J\bibinitperiod}}}%
-        {{hash=f87a48871351b84c2d8c427cf7ace9d8}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Ying},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=17be0941964ebbc4bf9609c4a8541eca}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Ou},
-           giveni={O\bibinitperiod}}}%
-        {{hash=c085572f860d99d03a37c331ee13ff68}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jun},
-           giveni={J\bibinitperiod}}}%
+        {{hash=2915f1c39a9a32bf420ad0274ffb944b}{Yu}{Y\bibinitperiod}{Wei-Jie}{W\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=279088500cd0849d7eac709da50aa9bc}{Shen}{S\bibinitperiod}{Meie}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9629166e7e805537996946f59d56ef24}{Chen}{C\bibinitperiod}{Wei-Neng}{W\bibinithyphendelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=ddcbbde7f8d5969d3a8658eeb81b16e5}{Zhan}{Z\bibinitperiod}{Zhi-Hui}{Z\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=004d2a1535d0ba7e430406e684de6136}{Gong}{G\bibinitperiod}{Yue-Jiao}{Y\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=f87a48871351b84c2d8c427cf7ace9d8}{Lin}{L\bibinitperiod}{Ying}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=17be0941964ebbc4bf9609c4a8541eca}{Liu}{L\bibinitperiod}{Ou}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=c085572f860d99d03a37c331ee13ff68}{Zhang}{Z\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
       \strng{namehash}{0506795c7f5ec8586640004e336888c0}
       \strng{fullhash}{fd4b5921b13b396ec8faf3c5ed0c437e}
-      \strng{bibnamehash}{0506795c7f5ec8586640004e336888c0}
-      \strng{authorbibnamehash}{0506795c7f5ec8586640004e336888c0}
-      \strng{authornamehash}{0506795c7f5ec8586640004e336888c0}
-      \strng{authorfullhash}{fd4b5921b13b396ec8faf3c5ed0c437e}
       \field{sortinit}{Y}
-      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Differential evolution with two-level parameter adaptation}
       \field{journaltitle}{IEEE Transactions on Cybernetics}
       \field{number}{7}
       \field{title}{Differential evolution with two-level parameter adaptation}
       \field{volume}{44}
       \field{year}{2014}
       \field{pages}{1080\bibrangedash 1099}
-      \range{pages}{20}
     \endentry
     \entry{Joel:MOEAD}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=c931af3637695914c2018e4235017422}{Zhang}{Z\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=d253f5a82a0e6d0787bfb293e3bc5fff}{Li}{L\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=c931af3637695914c2018e4235017422}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=d253f5a82a0e6d0787bfb293e3bc5fff}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
+        {{hash=c931af3637695914c2018e4235017422}{Zhang}{Z\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=d253f5a82a0e6d0787bfb293e3bc5fff}{Li}{L\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{fdbfd2f64d02d497fe386077b6617729}
       \strng{fullhash}{fdbfd2f64d02d497fe386077b6617729}
-      \strng{bibnamehash}{fdbfd2f64d02d497fe386077b6617729}
-      \strng{authorbibnamehash}{fdbfd2f64d02d497fe386077b6617729}
-      \strng{authornamehash}{fdbfd2f64d02d497fe386077b6617729}
-      \strng{authorfullhash}{fdbfd2f64d02d497fe386077b6617729}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{{MOEA/D: A Multiobjective Evolutionary Algorithm Based on Decomposition}}
       \field{issn}{1089-778X}
       \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
       \field{month}{12}
@@ -1708,133 +1199,85 @@
       \field{volume}{11}
       \field{year}{2007}
       \field{pages}{712\bibrangedash 731}
-      \range{pages}{20}
       \keyw{computational complexity;genetic algorithms;computational complexity;decomposition;genetic algorithm;knapsack problem;multiobjective evolutionary algorithm;scalar optimization subproblem;Computational complexity;Pareto optimality;decomposition;evolutionary algorithm;multiobjective optimization}
     \endentry
     \entry{Joel:CEC2009}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=b2e22db866fa79372f07034ed0140d0e}{Zhang}{Z\bibinitperiod}{Qingfu}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=ce8b86330f85d8629691a29d87373157}{Zhou}{Z\bibinitperiod}{Aimin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8b0eec2eaf16516cba93bfe9f2633985}{Zhao}{Z\bibinitperiod}{Shizheng}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=c1428a1feaa6d4f5104757e5bf92e9c0}{Suganthan}{S\bibinitperiod}{Ponnuthurai\bibnamedelima Nagaratnam}{P\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=cbe193fb96f912c5525636b88417d78e}{Liu}{L\bibinitperiod}{Wudong}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=e4653f50881f56b60b1b43e5b2a16b7a}{Tiwari}{T\bibinitperiod}{Santosh}{S\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{6}{}{%
-        {{hash=b2e22db866fa79372f07034ed0140d0e}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Qingfu},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=ce8b86330f85d8629691a29d87373157}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Aimin},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8b0eec2eaf16516cba93bfe9f2633985}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Shizheng},
-           giveni={S\bibinitperiod}}}%
-        {{hash=c1428a1feaa6d4f5104757e5bf92e9c0}{%
-           family={Suganthan},
-           familyi={S\bibinitperiod},
-           given={Ponnuthurai\bibnamedelima Nagaratnam},
-           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=cbe193fb96f912c5525636b88417d78e}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Wudong},
-           giveni={W\bibinitperiod}}}%
-        {{hash=e4653f50881f56b60b1b43e5b2a16b7a}{%
-           family={Tiwari},
-           familyi={T\bibinitperiod},
-           given={Santosh},
-           giveni={S\bibinitperiod}}}%
+        {{hash=b2e22db866fa79372f07034ed0140d0e}{Zhang}{Z\bibinitperiod}{Qingfu}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=ce8b86330f85d8629691a29d87373157}{Zhou}{Z\bibinitperiod}{Aimin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8b0eec2eaf16516cba93bfe9f2633985}{Zhao}{Z\bibinitperiod}{Shizheng}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=c1428a1feaa6d4f5104757e5bf92e9c0}{Suganthan}{S\bibinitperiod}{Ponnuthurai\bibnamedelima Nagaratnam}{P\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=cbe193fb96f912c5525636b88417d78e}{Liu}{L\bibinitperiod}{Wudong}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=e4653f50881f56b60b1b43e5b2a16b7a}{Tiwari}{T\bibinitperiod}{Santosh}{S\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{76d9e79bcca6c5056ccb9c1576ada943}
       \strng{fullhash}{f285c3ced481f83db7afb27a415dbf52}
-      \strng{bibnamehash}{76d9e79bcca6c5056ccb9c1576ada943}
-      \strng{authorbibnamehash}{76d9e79bcca6c5056ccb9c1576ada943}
-      \strng{authornamehash}{76d9e79bcca6c5056ccb9c1576ada943}
-      \strng{authorfullhash}{f285c3ced481f83db7afb27a415dbf52}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Multiobjective optimization test instances for the CEC 2009 special session and competition}
       \field{journaltitle}{University of Essex, Colchester, UK and Nanyang technological University, Singapore, special session on performance assessment of multi-objective optimization algorithms, technical report}
       \field{title}{Multiobjective optimization test instances for the CEC 2009 special session and competition}
       \field{volume}{264}
       \field{year}{2008}
     \endentry
     \entry{zhou2015all}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=ce8b86330f85d8629691a29d87373157}{Zhou}{Z\bibinitperiod}{Aimin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b2e22db866fa79372f07034ed0140d0e}{Zhang}{Z\bibinitperiod}{Qingfu}{Q\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=ce8b86330f85d8629691a29d87373157}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Aimin},
-           giveni={A\bibinitperiod}}}%
-        {{hash=b2e22db866fa79372f07034ed0140d0e}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Qingfu},
-           giveni={Q\bibinitperiod}}}%
+        {{hash=ce8b86330f85d8629691a29d87373157}{Zhou}{Z\bibinitperiod}{Aimin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b2e22db866fa79372f07034ed0140d0e}{Zhang}{Z\bibinitperiod}{Qingfu}{Q\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
       \strng{namehash}{71688754a69c82880662e540524a74ba}
       \strng{fullhash}{71688754a69c82880662e540524a74ba}
-      \strng{bibnamehash}{71688754a69c82880662e540524a74ba}
-      \strng{authorbibnamehash}{71688754a69c82880662e540524a74ba}
-      \strng{authornamehash}{71688754a69c82880662e540524a74ba}
-      \strng{authorfullhash}{71688754a69c82880662e540524a74ba}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Are all the subproblems equally important? Resource allocation in decomposition-based multiobjective evolutionary algorithms}
       \field{journaltitle}{IEEE Transactions on Evolutionary computation}
       \field{number}{1}
       \field{title}{Are all the subproblems equally important? Resource allocation in decomposition-based multiobjective evolutionary algorithms}
       \field{volume}{20}
       \field{year}{2015}
       \field{pages}{52\bibrangedash 64}
-      \range{pages}{13}
     \endentry
     \entry{zitzler1999evolutionary}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{1}{}{%
-        {{hash=69e40d953c66ad25defd15441930b1f3}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={Eckart},
-           giveni={E\bibinitperiod}}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Citeseer}%
       }
       \strng{namehash}{69e40d953c66ad25defd15441930b1f3}
       \strng{fullhash}{69e40d953c66ad25defd15441930b1f3}
-      \strng{bibnamehash}{69e40d953c66ad25defd15441930b1f3}
-      \strng{authorbibnamehash}{69e40d953c66ad25defd15441930b1f3}
-      \strng{authornamehash}{69e40d953c66ad25defd15441930b1f3}
-      \strng{authorfullhash}{69e40d953c66ad25defd15441930b1f3}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Evolutionary algorithms for multiobjective optimization: Methods and applications}
       \field{title}{Evolutionary algorithms for multiobjective optimization: Methods and applications}
       \field{volume}{63}
       \field{year}{1999}
     \endentry
     \entry{Joel:ZDT}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{3}{}{%
-        {{hash=69e40d953c66ad25defd15441930b1f3}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={Eckart},
-           giveni={E\bibinitperiod}}}%
-        {{hash=b11d1da0cc2920eef235d484e6b858ef}{%
-           family={Deb},
-           familyi={D\bibinitperiod},
-           given={Kalyanmoy},
-           giveni={K\bibinitperiod}}}%
-        {{hash=443849b4c8bfc03386052ff0243f508c}{%
-           family={Thiele},
-           familyi={T\bibinitperiod},
-           given={Lothar},
-           giveni={L\bibinitperiod}}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b11d1da0cc2920eef235d484e6b858ef}{Deb}{D\bibinitperiod}{Kalyanmoy}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
         {Cambridge, MA, USA}%
@@ -1844,53 +1287,35 @@
       }
       \strng{namehash}{0a8d3b75d662316cad7f3b024d7610f5}
       \strng{fullhash}{0a8d3b75d662316cad7f3b024d7610f5}
-      \strng{bibnamehash}{0a8d3b75d662316cad7f3b024d7610f5}
-      \strng{authorbibnamehash}{0a8d3b75d662316cad7f3b024d7610f5}
-      \strng{authornamehash}{0a8d3b75d662316cad7f3b024d7610f5}
-      \strng{authorfullhash}{0a8d3b75d662316cad7f3b024d7610f5}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Comparison of Multiobjective Evolutionary Algorithms: Empirical Results}
       \field{issn}{1063-6560}
       \field{journaltitle}{Evol. Comput.}
-      \field{month}{6}
+      \field{month}{06}
       \field{number}{2}
       \field{title}{Comparison of Multiobjective Evolutionary Algorithms: Empirical Results}
       \field{volume}{8}
       \field{year}{2000}
       \field{pages}{173\bibrangedash 195}
-      \range{pages}{23}
       \verb{doi}
       \verb 10.1162/106365600568202
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1162/106365600568202
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1162/106365600568202
       \endverb
     \endentry
     \entry{Joel:IBEA}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=85a5f6c6647f5dbb5efea64031d8ed47}{Künzli}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=69e40d953c66ad25defd15441930b1f3}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={Eckart},
-           giveni={E\bibinitperiod}}}%
-        {{hash=81c3a4e41a2d0ea16d1cd470ddcaea5f}{%
-           family={K{ü}nzli},
-           familyi={K\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod}}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=85a5f6c6647f5dbb5efea64031d8ed47}{Künzli}{K\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
       }
       \true{moreeditor}
       \name{editor}{1}{}{%
-        {{hash=48a347d6ad0f3cf8a1eb79c21b58eb75}{%
-           family={Yao},
-           familyi={Y\bibinitperiod},
-           given={Xin},
-           giveni={X\bibinitperiod}}}%
+        {{hash=48a347d6ad0f3cf8a1eb79c21b58eb75}{Yao}{Y\bibinitperiod}{Xin}{X\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
         {Berlin, Germany}%
@@ -1898,89 +1323,55 @@
       \list{publisher}{1}{%
         {Springer-Verlag}%
       }
-      \strng{namehash}{ed24a1bfff8f9004968871794e4d3ef6}
-      \strng{fullhash}{ed24a1bfff8f9004968871794e4d3ef6}
-      \strng{bibnamehash}{ed24a1bfff8f9004968871794e4d3ef6}
-      \strng{authorbibnamehash}{ed24a1bfff8f9004968871794e4d3ef6}
-      \strng{authornamehash}{ed24a1bfff8f9004968871794e4d3ef6}
-      \strng{authorfullhash}{ed24a1bfff8f9004968871794e4d3ef6}
-      \strng{editorbibnamehash}{f735ae7053642ab219769dafe248cb1f}
-      \strng{editornamehash}{f735ae7053642ab219769dafe248cb1f}
-      \strng{editorfullhash}{f735ae7053642ab219769dafe248cb1f}
+      \strng{namehash}{99a439f97fec87cbcf0c27161845bc93}
+      \strng{fullhash}{99a439f97fec87cbcf0c27161845bc93}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Indicator-Based Selection in Multiobjective Search}
       \field{booktitle}{Parallel Problem Solving from Nature (PPSN VIII)}
       \field{title}{Indicator-Based Selection in Multiobjective Search}
       \field{year}{2004}
       \field{pages}{832\bibrangedash 842}
-      \range{pages}{11}
     \endentry
     \entry{zitzler2001spea2}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=7b366e77b845023904aeac46562f429c}{Laumanns}{L\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{3}{}{%
-        {{hash=69e40d953c66ad25defd15441930b1f3}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={Eckart},
-           giveni={E\bibinitperiod}}}%
-        {{hash=7b366e77b845023904aeac46562f429c}{%
-           family={Laumanns},
-           familyi={L\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-        {{hash=443849b4c8bfc03386052ff0243f508c}{%
-           family={Thiele},
-           familyi={T\bibinitperiod},
-           given={Lothar},
-           giveni={L\bibinitperiod}}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=7b366e77b845023904aeac46562f429c}{Laumanns}{L\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{14d52ea7eab465307a128aa60aa18a36}
       \strng{fullhash}{14d52ea7eab465307a128aa60aa18a36}
-      \strng{bibnamehash}{14d52ea7eab465307a128aa60aa18a36}
-      \strng{authorbibnamehash}{14d52ea7eab465307a128aa60aa18a36}
-      \strng{authornamehash}{14d52ea7eab465307a128aa60aa18a36}
-      \strng{authorfullhash}{14d52ea7eab465307a128aa60aa18a36}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{SPEA2: Improving the strength Pareto evolutionary algorithm}
       \field{title}{SPEA2: Improving the strength Pareto evolutionary algorithm}
       \field{year}{2001}
     \endentry
     \entry{Joel:ComparativeCaseStudy}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
+      }
       \name{author}{2}{}{%
-        {{hash=69e40d953c66ad25defd15441930b1f3}{%
-           family={Zitzler},
-           familyi={Z\bibinitperiod},
-           given={Eckart},
-           giveni={E\bibinitperiod}}}%
-        {{hash=443849b4c8bfc03386052ff0243f508c}{%
-           family={Thiele},
-           familyi={T\bibinitperiod},
-           given={Lothar},
-           giveni={L\bibinitperiod}}}%
+        {{hash=69e40d953c66ad25defd15441930b1f3}{Zitzler}{Z\bibinitperiod}{Eckart}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=443849b4c8bfc03386052ff0243f508c}{Thiele}{T\bibinitperiod}{Lothar}{L\bibinitperiod}{}{}{}{}}%
       }
       \list{organization}{1}{%
         {Springer}%
       }
       \strng{namehash}{e94333fff8d48a109f60b9b8f74c9151}
       \strng{fullhash}{e94333fff8d48a109f60b9b8f74c9151}
-      \strng{bibnamehash}{e94333fff8d48a109f60b9b8f74c9151}
-      \strng{authorbibnamehash}{e94333fff8d48a109f60b9b8f74c9151}
-      \strng{authornamehash}{e94333fff8d48a109f60b9b8f74c9151}
-      \strng{authorfullhash}{e94333fff8d48a109f60b9b8f74c9151}
       \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{labeltitle}{Multiobjective optimization using evolutionary algorithms—a comparative case study}
       \field{booktitle}{International Conference on Parallel Problem Solving from Nature}
       \field{title}{Multiobjective optimization using evolutionary algorithms—a comparative case study}
       \field{year}{1998}
       \field{pages}{292\bibrangedash 301}
-      \range{pages}{10}
     \endentry
-  \enddatalist
+  \endsortlist
 \endrefsection
 \endinput
 
