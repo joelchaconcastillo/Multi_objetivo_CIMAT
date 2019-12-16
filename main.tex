@@ -53,12 +53,12 @@
 {colback=green!5,colframe=red!35!gray,fonttitle=\bfseries}{th}
 
 \titlegraphic{
-   \includegraphics[width=3cm]{cimat.eps}\hspace*{1.75cm}~%
-   \includegraphics[width=3cm]{CONACYT.eps}
+   \includegraphics[width=3cm]{Images/cimat.eps}\hspace*{1.75cm}~%
+   \includegraphics[width=3cm]{Images/CONACYT.eps}
 }
 
 \title[Your Short Title]{Optimización Evolutiva Multi-objetivo}
-\author{\textcolor{red}{Dr. Carlos Segura González} \\ Joel Chacón Castillo}
+\author{\textcolor{red}{Dr. Carlos Segura González} \\ M.C. Joel Chacón Castillo}
 \institute{Centro de Investigación de Matemáticas}
 
 %\date{November 07, 2019}
@@ -115,9 +115,8 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.6\textwidth]{clasificacion.png}
+\includegraphics[width=0.6\textwidth]{Images/clasificacion.png}
 \caption{Clasificación de las meta-heurísticas más populares\footcite{beheshti2013review}.}
-\label{fig:clasificacion}
 \end{figure}
 \end{frame}
 
@@ -131,9 +130,8 @@
     
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{landscape.png}
+\includegraphics[width=0.7\textwidth]{Images/landscape.png}
 \caption{\scriptsize Escenarios de convergencia de una meta-heurística poblacional\footcite{alam2012diversity}.}
-\label{fig:clasificacion}
 \end{figure}
 \end{itemize}
 \end{frame}
@@ -182,7 +180,7 @@
     
 \end{itemize}
 \begin{figure}
-\includegraphics[width=0.6\textwidth]{exploration_2.png}
+\includegraphics[width=0.6\textwidth]{Images/exploration_2.png}
 %\caption{Clasificación de las Meta-heurísticas más populares\footcite{beheshti2013review}.}
 \label{fig:clasificacion}
 \end{figure}
@@ -299,7 +297,7 @@ $\exists m \in \{ 1, 2, ..., M \}: f_m(x) < f_m(y)$
 \begin{frame}{Dominancia}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{dominance_scheme.png}
+\includegraphics[width=0.9\textwidth]{Images/dominance_scheme.png}
 \caption{\scriptsize Esquema de dominancia en dos y tres objetivos respectivamente\footcite{WinNT}.}
 \end{figure}
 \end{frame}
@@ -348,7 +346,7 @@ Es un conjunto de vectores de decisión óptimos no dominados en $\Omega$.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{Mapping.jpg}
+\includegraphics[width=0.9\textwidth]{Images/Mapping.jpg}
 \caption{\scriptsize Mapeo del espacio de las variables (a) en el espacio objetivo (b)\footcite{alam2012diversity}.}
 \end{figure}
 \end{frame}
@@ -415,7 +413,7 @@ Algunos de los algoritmos multi-objetivo clásicos que son basados en dominancia
 \begin{figure}[H]
 \centering
 \begin{tabular}{c c}
-\includegraphics[width=0.3\textwidth]{fronts.png} & \includegraphics[width=0.3\textwidth]{crowding_nsgaii.jpg} 
+\includegraphics[width=0.3\textwidth]{Images/fronts.png} & \includegraphics[width=0.3\textwidth]{Images/crowding_nsgaii.jpg} 
 \end{tabular}
 \caption{\scriptsize Clasificación por frentes (izquierda) y distancia de crowding (derecha)\footcite{kadlec2016multi}.}
 \end{figure}
@@ -434,7 +432,7 @@ Algunos de los algoritmos multi-objetivo clásicos que son basados en dominancia
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{nsgaii_main.png}
+\includegraphics[width=0.8\textwidth]{Images/nsgaii_main.png}
 \caption{\scriptsize Procedimiento principal del NSGA-II\footcite{Joel:NSGAII}.}
 \end{figure}
 \end{frame}
@@ -466,7 +464,7 @@ La versión original del MOEA/D\footcite{ishibuchi1998multi} tiene las siguiente
 \end{itemize}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.35\textwidth]{moead_diagrama.png}
+\includegraphics[width=0.35\textwidth]{Images/moead_diagrama.png}
 \caption{\scriptsize Vectores de pesos y su punto óptimo con el enfoque de Tchebysheff\footcite{Joel:MOEAD_Adaptative}}
 \end{figure}
 
@@ -519,8 +517,8 @@ Existe una gran variedad de funciones de utilidad para convertir un problema mul
 \begin{frame}{Funciones de utilidad}
 \begin{figure}[H]
 \begin{tabular}{c c}
-\includegraphics[width=0.4\textwidth]{ws.png}     &  \includegraphics[width=0.42\textwidth]{che.png} \\
-\includegraphics[width=0.4\textwidth]{asf.png}     &  \includegraphics[width=0.4\textwidth]{pbi.png} \\
+\includegraphics[width=0.4\textwidth]{Images/ws.png}     &  \includegraphics[width=0.42\textwidth]{Images/che.png} \\
+\includegraphics[width=0.4\textwidth]{Images/asf.png}     &  \includegraphics[width=0.4\textwidth]{Images/pbi.png} \\
 \end{tabular}
 \centering
 \caption{\scriptsize Mapa de contorno de las funciones de utilidad\footcite{raquel_2018}.}
@@ -552,7 +550,7 @@ Algunos de los algoritmos clásicos multi-objetivo basados en indicadores son:
 \end{itemize}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{sms_emoa.png}
+\includegraphics[width=0.5\textwidth]{Images/sms_emoa.png}
 \caption{\scriptsize Contribución del HV de cada solución\footcite{Joel:SMSEMOA}.}
 \end{figure}
 \end{frame}
@@ -607,7 +605,7 @@ Existen distintas herramientas para estimar la calidad de un conjunto de solucio
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.55\textwidth]{HV.jpg}
+\includegraphics[width=0.55\textwidth]{Images/HV.jpg}
 %\caption{\scriptsize Mapeo del espacio de las variables (a) en el espacio objetivo (b)\footcite{alam2012diversity}.}
 \end{figure}
 \end{frame}
@@ -677,7 +675,7 @@ IGD(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d(r, A)^p \right)^{1/p}, \qua
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.4\textwidth]{igd_1.png}
+\includegraphics[width=0.4\textwidth]{Images/igd_1.png}
 \caption{\scriptsize Ejemplo de la distancia generacional invertida.\footcite{ishibuchi2016sensitivity}.}
 \end{figure}
 \end{frame}
@@ -693,7 +691,7 @@ IGD(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d(r, A)^p \right)^{1/p}, \qua
 \end{itemize}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.3\textwidth]{igd_2.png}
+\includegraphics[width=0.3\textwidth]{Images/igd_2.png}
 \caption{\scriptsize Desventaja de la métrica IGD.\footcite{ishibuchi2016sensitivity}.} \label{fig:igd_fail}
 \end{figure}
 \end{frame}
@@ -718,7 +716,7 @@ IGD^+(A; R) = \frac{1}{|R|} \left (   \sum_{r \in R} d^+(r, A)^p \right)^{1/p}, 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.25\textwidth]{igd_3.png}
+\includegraphics[width=0.25\textwidth]{Images/igd_3.png}
 \caption{\scriptsize Distancia generacional invertida modificada ($IGD^+$).\footcite{ishibuchi2016sensitivity}.}
 \end{figure}
 \end{frame}
@@ -737,7 +735,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \end{table}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{igd.png}
+\includegraphics[width=0.7\textwidth]{Images/igd.png}
 \caption{\scriptsize Ejemplo de las métricas $IGD$ (izquierda) e $IGD^+$ (derecha).\footcite{ishibuchi2016sensitivity}.}
 \end{figure}
 \end{frame}
@@ -765,8 +763,8 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \end{itemize}
 \begin{figure}[H]
 \begin{tabular}{c c}
-\includegraphics[width=0.3\textwidth]{DTLZ1.jpg}     &  \includegraphics[width=0.3\textwidth]{DTLZ3.jpg} \\
-\includegraphics[width=0.3\textwidth]{DTLZ5.jpg}     &  \includegraphics[width=0.3\textwidth]{DTLZ7.jpg} \\
+\includegraphics[width=0.3\textwidth]{Images/DTLZ1.jpg}     &  \includegraphics[width=0.3\textwidth]{Images/DTLZ3.jpg} \\
+\includegraphics[width=0.3\textwidth]{Images/DTLZ5.jpg}     &  \includegraphics[width=0.3\textwidth]{Images/DTLZ7.jpg} \\
 \end{tabular}
 \centering
 \caption{\scriptsize Frente de Pareto discretizado.}
@@ -784,7 +782,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
    \item Los problemas WFG dividen el espaco de las variables de decisión en dos subconjuntos: los parámetros de distancia y los parámetros de posición.
 \end{itemize}
 \begin{figure}[H]
-\includegraphics[width=0.45\textwidth]{pos_dist.png}
+\includegraphics[width=0.45\textwidth]{Images/pos_dist.png}
 \centering
 \caption{\scriptsize Parámetros de posición y distancia WFG.}
 \end{figure}
@@ -800,8 +798,8 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \end{itemize}
 \begin{figure}[H]
 \begin{tabular}{c c}
-\includegraphics[width=0.4\textwidth]{UF1.eps}     &  \includegraphics[width=0.4\textwidth]{UF6.eps} \\
-\includegraphics[width=0.4\textwidth]{UF9.eps}     &  \includegraphics[width=0.4\textwidth]{UF10.eps} \\
+\includegraphics[width=0.4\textwidth]{Images/UF1.eps}     &  \includegraphics[width=0.4\textwidth]{Images/UF6.eps} \\
+\includegraphics[width=0.4\textwidth]{Images/UF9.eps}     &  \includegraphics[width=0.4\textwidth]{Images/UF10.eps} \\
 \end{tabular}
 \centering
 \caption{\scriptsize Frente de Pareto y conjunto de Pareto.}
@@ -817,7 +815,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \item Es un gráfico que muestra un resumen de una cantidad de soluciones en varias medidas descriptivas y considerando la relación de dominancia.
 \end{itemize}
 \begin{figure}[H]
-\includegraphics[width=0.4\textwidth]{superficie_alcance_WFG8.eps}
+\includegraphics[width=0.4\textwidth]{Images/superficie_alcance_WFG8.eps}
 \centering
 \caption{\scriptsize Superficie de alcance al $50\%$ de cinco algoritmos del estado-del-arte considerando el resultado de 35 ejecuciones y el problema WFG8.}
 \end{figure}
@@ -829,7 +827,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \item Proporciona una diferencia estadística entre los resultados generados por dos algoritmos.
 \end{itemize}
 \begin{figure}[H]
- \includegraphics[width=0.8\textwidth]{diff_plot.png} 
+ \includegraphics[width=0.8\textwidth]{Images/diff_plot.png} 
 \centering
 \caption{\scriptsize Diferencia estadística de dos algoritmos considerando 35 ejecuciones y el problema WFG8.}
 \end{figure}
@@ -844,7 +842,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \end{itemize}
 \begin{figure}[H]
 \begin{tabular}{c}
-\includegraphics[width=0.8\textwidth]{Tests.png}
+\includegraphics[width=0.8\textwidth]{Images/Tests.png}
 \end{tabular}
 \centering
 \caption{\scriptsize Esquema de las pruebas estadísticas\footcite{Joel:StatisticalTest}.}
@@ -867,7 +865,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}
 \centering
 \begin{tabular}{c}
- \includegraphics[width=0.9\textwidth]{Parametros_Posicion_Distancia.pdf}   \\
+ \includegraphics[width=0.9\textwidth]{Images/Parametros_Posicion_Distancia.pdf}   \\
 \end{tabular}
 \caption{Variables de posición y distancia de los problemas WFG.}
 \end{figure}
@@ -916,8 +914,8 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}
 \centering
 \begin{tabular}{cc}
- \includegraphics[width=0.5\textwidth]{Average_DistanceParamsStateArt.eps} 
-\includegraphics[width=0.35\textwidth]{WFG1_analisis.eps} %\\
+ \includegraphics[width=0.5\textwidth]{Images/Average_DistanceParamsStateArt.eps} 
+\includegraphics[width=0.35\textwidth]{Images/WFG1_analisis.eps} %\\
 \end{tabular}
 \caption{Evolución de la diversidad y superficie de alcance al 50\%.}
 \label{fig:DiversityProposal}
@@ -994,7 +992,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}[H]
   \centering
   \begin{tabular}{c c}
-   \includegraphics[scale=0.6]{1.eps} 
+   \includegraphics[scale=0.6]{Images/1.eps} 
   \end{tabular}
   \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
 \end{figure}
@@ -1005,7 +1003,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}[H]
   \centering
   \begin{tabular}{c c}
-   \includegraphics[scale=0.6]{2.eps} 
+   \includegraphics[scale=0.6]{Images/2.eps} 
   \end{tabular}
   \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
 \end{figure}
@@ -1015,7 +1013,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}[H]
   \centering
   \begin{tabular}{c c}
-   \includegraphics[scale=0.6]{3.eps} 
+   \includegraphics[scale=0.6]{Images/3.eps} 
   \end{tabular}
   \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
 \end{figure}
@@ -1025,7 +1023,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}[H]
   \centering
   \begin{tabular}{c c}
-   \includegraphics[scale=0.6]{4.eps} 
+   \includegraphics[scale=0.6]{Images/4.eps} 
   \end{tabular}
   \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
 \end{figure}
@@ -1035,7 +1033,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}[H]
   \centering
   \begin{tabular}{c c}
-   \includegraphics[scale=0.6]{5.eps} 
+   \includegraphics[scale=0.6]{Images/5.eps} 
   \end{tabular}
   \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
 \end{figure}
@@ -1045,7 +1043,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}[H]
   \centering
   \begin{tabular}{c c}
-   \includegraphics[scale=0.6]{6.eps} 
+   \includegraphics[scale=0.6]{Images/6.eps} 
   \end{tabular}
   \caption{\scriptsize En color negro los candidatos, en rojo los seleccionados y en azul los penalizados.}
 \end{figure}
@@ -1077,7 +1075,7 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}
 \centering
 \begin{tabular}{c}
-\includegraphics[width=0.9\textwidth]{Evolution_Process.pdf}
+\includegraphics[width=0.9\textwidth]{Images/Evolution_Process.pdf}
 \end{tabular}
 \caption{Proceso realizado en cada generación.}
 \label{fig:DiversityProposal}
@@ -1095,8 +1093,8 @@ $d = \min_{a \in A} \sqrt{\sum_{i=1}^m (a_i - r_i)^2}$ & $d^+ = \min_{a \in A} \
 \begin{figure}
 \centering
 \begin{tabular}{cc}
-\includegraphics[width=0.35\textwidth]{Metodo_Penalizacion.pdf} \quad \quad \quad
-\includegraphics[width=0.6\textwidth]{Modelo.pdf}
+\includegraphics[width=0.35\textwidth]{Images/Metodo_Penalizacion.pdf} \quad \quad \quad
+\includegraphics[width=0.6\textwidth]{Images/Modelo.pdf}
 \end{tabular}
 \label{fig:DiversityProposal}
 \end{figure}
@@ -1192,8 +1190,7 @@ AWF_k (\vec{x}) = f_k(\vec{x}) + 10^{-4} \times  \sum_{j=1}^M f_j( \vec{x} )
 \begin{figure}[H]
 \centering
 \scriptsize
-\includegraphics[scale=0.35]
-{Atipico.pdf}
+\includegraphics[scale=0.35]{Images/Atipico.pdf}
 %\caption{ Análisis del procedimiento de selección propuesto, las soluciones de referencia están representadas con bordes de color rojo, las soluciones candidatas con bordes de color verde, el frente de Pareto está representado por una línea roja punteada.}
 \label{fig:Atipico}
 \end{figure}
@@ -1331,7 +1328,7 @@ criterion: short-term (first row), middle-term (second row) and long-term (third
 \end{itemize}
 \begin{figure}[t]
 \centering
-\includegraphics[scale=0.2]{deceptiva_wfg5.png} \\
+\includegraphics[scale=0.2]{Images/deceptiva_wfg5.png} \\
 %\caption{Mean of \HV{} values taking into account all the problems with several initial threshold values}\label{fig:Initial-distance-factor}
 \end{figure}
 \centering
@@ -1341,13 +1338,13 @@ criterion: short-term (first row), middle-term (second row) and long-term (third
 \begin{frame}{Trabajo en progreso}
 \begin{itemize}
 \scriptsize
-    \item Con el mismo principio se está desarrollando el algortimos multi-objetivo basado en descomposición.
+    \item Con el mismo principio se está desarrollando el algortimos multi-objetivo basado en descomposición VSD-MOEA/D.
     \item En este caso se consideran los operadores de evolución diferencial.
 \end{itemize}
 \begin{figure}
 \centering
 \begin{tabular}{cc}
-\includegraphics[scale=0.4]{general_mean_HV.eps} 
+\includegraphics[scale=0.4]{Images/general_mean_HV.eps} 
 \end{tabular}
 %\caption{Evolution of ADI for problems WFG1-WFG7 with two objectives considering only the distance variables}
 \end{figure}
@@ -1360,7 +1357,7 @@ criterion: short-term (first row), middle-term (second row) and long-term (third
 \begin{figure}
 \centering
 \begin{tabular}{cc}
-\includegraphics[scale=0.4]{factor_inicial.eps} 
+\includegraphics[scale=0.4]{Images/factor_inicial.eps} 
 \end{tabular}
 %\caption{Evolution of ADI for problems WFG1-WFG7 with two objectives considering only the distance variables}
 \end{figure}
@@ -1372,11 +1369,22 @@ criterion: short-term (first row), middle-term (second row) and long-term (third
 
 \section{Conclusiones y trabajo futuro}
 \begin{frame}{Conclusiones y trabajo futuro}
-    \begin{itemize}
+  \begin{itemize}  
+   \item \textbf{Conclusiones}
+      \begin{itemize}
+	\scriptsize
         \item Los algoritmos evolutivos que consideran la diversidad en el espacio de las variables de forma explícita y en función al criterio de parada ofrecen soluciones de calidad en esquemas de largo plazo. 
-        \item En el caso multi-objetivo, la cantidad de evaluaciones a función necesarias para mejorar al estado del arte es a partir de 2'500 generaciones.
+        \item En el caso multi-objetivo, la cantidad de evaluaciones a función necesarias para mejorar al estado del arte es a partir de $2'500$ generaciones.
         \item Con el fin de obtener un rendimiento superior en los algoritmos de optimización es necesario considerar el criterio de parada para tomar decisiones.
     \end{itemize}
+ \item \textbf{Trabajo futuro}
+  \begin{itemize}
+	\scriptsize
+	\item Desarrollar un algortimo multi-objetivo basado en indicadores y con el mismo operador de reemplazamiento.
+	\item Explorar el desarrollo de un algortimo memético para mejorar aún mas los resultados en cada paradigma.
+	\item Desarrollar un mecanismo en el cual se puedan ahorrar evaluaciones a función.
+   \end{itemize}
+\end{itemize}
 \end{frame}
 
 
