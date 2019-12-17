@@ -1,8 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\beamer@endinputifotherversion {3.24pt}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
+\babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Introducci\IeC {\'o}n y antecedentes}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
@@ -20,4 +17,4 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {8}{Propuesta de diversidad basada en dominancia}{60}{0}{8}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {9}{Conclusiones y trabajo futuro}{83}{0}{9}
+\beamer@sectionintoc {9}{Conclusiones y trabajo futuro}{82}{0}{9}

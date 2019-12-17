@@ -1208,7 +1208,7 @@ Principalmente, la fase de reemplazo se basa en un método de penalización que 
 \begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
 \begin{itemize}
 \scriptsize
-\item Seleccionar a los $m$-individuos ``extremos''.
+\item Penalizar a los individuos candidatos más cercanos de los individuos ya seleccionados.
 \end{itemize}
 \begin{figure}[H]
 \centering
@@ -1221,7 +1221,7 @@ Principalmente, la fase de reemplazo se basa en un método de penalización que 
 \begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
 \begin{itemize}
 \scriptsize
-\item Penalizar a los individuos candidatos más cercanos de los individuos ya seleccionados.
+\item De todos los candidatos no penalizados, seleccionar al individuo con mejor distancia de mejoría.
 \end{itemize}
 \begin{figure}[H]
 \centering
@@ -1234,7 +1234,7 @@ Principalmente, la fase de reemplazo se basa en un método de penalización que 
 \begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
 \begin{itemize}
 \scriptsize
-\item De todos los candidatos no penalizados, seleccionar al individuo con mejor distancia de mejoría.
+\item Penalizar a los individuos candidatos más cercanos de los individuos ya seleccionados.
 \end{itemize}
 
 \begin{figure}[H]
@@ -1248,25 +1248,12 @@ Principalmente, la fase de reemplazo se basa en un método de penalización que 
 \begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
 \begin{itemize}
 \scriptsize
-\item Penalizar a los individuos candidatos más cercanos de los individuos ya seleccionados.
+\item De todos los candidatos no penalizados, seleccionar al individuo con mejor distancia de mejoría.
 \end{itemize}
 
 \begin{figure}[H]
 \centering
 \input{reemplazo_6.tex}
-%\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
-%\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
-\end{figure}
-\end{frame}
-
-\begin{frame}{Ejemplo fase de reemplazo multi-objetivo}
-\begin{itemize}
-\scriptsize
-\item De todos los candidatos no penalizados, seleccionar al individuo con mejor distancia de mejoría.
-\end{itemize}
-\begin{figure}[H]
-\centering
-\input{reemplazo_7.tex}
 %\includegraphics[width=0.45\textwidth]{Images/Fase_Remplazo_2.eps}
 %\caption{\scriptsize Ejemplo de la distancia generacional y un conjunto de referencia.} 
 \end{figure}
